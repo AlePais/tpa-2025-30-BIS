@@ -6,16 +6,9 @@ import ar.edu.utn.frba.dds.hecho.EstadoSolicitud;
 
 import javax.persistence.*;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
-@NoArgsConstructor
-@Getter
 @Entity
 @Table(name = "SolitudEliminaciones")
 public class SolicitudEliminacion {
-  @Setter
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
@@ -24,6 +17,9 @@ public class SolicitudEliminacion {
   private String motivo;
   @Enumerated(EnumType.STRING)
   private EstadoSolicitud estado;
+
+  public SolicitudEliminacion() {
+  }
 
   public SolicitudEliminacion(String titulo, String motivo) {
     this.titulo = titulo;
@@ -77,6 +73,30 @@ public class SolicitudEliminacion {
     } else if (this.estado == SPAM) {
       this.estado = PENDIENTE;
     }
+  }
+
+  public Long getId() {
+    return id;
+  }
+
+  public void setId(Long id) {
+    this.id = id;
+  }
+
+  public String getTitulo() {
+    return titulo;
+  }
+
+  public void setTitulo(String titulo) {
+    this.titulo = titulo;
+  }
+
+  public String getMotivo() {
+    return motivo;
+  }
+
+  public EstadoSolicitud getEstado() {
+    return estado;
   }
 }
 

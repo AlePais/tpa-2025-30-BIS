@@ -33,19 +33,6 @@
       <version>5.9.2</version>
   <!--<scope>test</scope>-->
  </dependency>
- <!--para los getter y setter-->
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <version>1.18.38</version>
-      <scope>provided</scope>
-    </dependency>
-    <!--para leer csv con la biblioteca-->
-    <dependency>
-      <groupId>com.opencsv</groupId>
-      <artifactId>opencsv</artifactId>
-      <version>5.9</version>
-    </dependency>
     <!-- Para trabajar con JSON -->
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
@@ -103,13 +90,34 @@
       <version>5.6.12.Final</version>
     </dependency>
     <dependency>
+      <groupId>io.javalin</groupId>
+      <artifactId>javalin</artifactId>
+      <version>5.6.1</version>
+    </dependency>
+    <dependency>
+      <groupId>io.javalin</groupId>
+      <artifactId>javalin-rendering</artifactId>
+      <version>5.6.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.jknack</groupId>
+      <artifactId>handlebars</artifactId>
+      <version>4.3.1</version>
+    </dependency>
+    <!--para leer csv con la biblioteca-->
+    <dependency>
       <groupId>com.opencsv</groupId>
       <artifactId>opencsv</artifactId>
-      <version>5.7.1</version>
+      <version>5.9</version>
     </dependency>
   </dependencies>
   <build>
     <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.11.0</version>
+      </plugin>
       <!-- Para ejecutar los test -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -162,7 +170,7 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.8</version>
+        <version>0.8.11</version>
         <executions>
           <execution>
             <id>default-prepare-agent</id>
@@ -217,6 +225,14 @@
               <mainClass>crons.ActualizarHechosFuenteDemo</mainClass>
             </manifest>
           </archive>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.1.0</version>
+        <configuration>
+          <mainClass>ar.edu.utn.frba.dds.web.MetaMapaServer</mainClass>
         </configuration>
       </plugin>
       <!-- si hay mas plugin agregar aqui -->

@@ -1,0 +1,179 @@
+{{#*inline "pageTitle"}}{{coleccion.titulo}} · MetaMapa{{/inline}}
+{{#*inline "pageScripts"}}
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var mapElement = document.getElementById('map');
+    if (!mapElement || typeof L === 'undefined') {
+      return;
+    }
+    var markersData = [];
+    try {
+      markersData = JSON.parse(mapElement.dataset.marcadores || '[]');
+    } catch (e) {
+      markersData = [];
+    }
+    var initialView = [-34.6, -58.4];
+    var map = L.map(mapElement).setView(initialView, 4);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+    if (markersData.length === 0) {
+      return;
+    }
+    var points = markersData.map(function (marker) {
+      return [parseFloat(marker.latitud), parseFloat(marker.longitud)];
+    });
+    markersData.forEach(function (marker, index) {
+      var point = points[index];
+      if (Number.isFinite(point[0]) && Number.isFinite(point[1])) {
+        L.marker(point).addTo(map)
+          .bindPopup(marker.provincia ? marker.provincia : 'Hecho reportado');
+      }
+    });
+    var bounds = L.latLngBounds(points);
+    map.fitBounds(bounds.pad(0.2));
+  });
+</script>
+{{/inline}}
+{{#> layout}}
+<section class="row gy-4 align-items-start mb-4">
+  <div class="col-lg-7">
+    <h2 class="fw-bold text-primary mb-2">{{coleccion.titulo}}</h2>
+    <p class="text-muted mb-3">{{coleccion.descripcion}}</p>
+    <div class="d-flex flex-wrap gap-2">
+      <span class="badge text-bg-secondary">
+        <i class="fa-solid fa-scale-balanced me-1"></i>Criterio: {{coleccion.criterioConsenso}}
+      </span>
+      {{#coleccion.navegacionCurada}}
+      <span class="badge text-bg-success">
+        <i class="fa-solid fa-shield-heart me-1"></i>Modo curado activo
+      </span>
+      {{/coleccion.navegacionCurada}}
+      {{^coleccion.navegacionCurada}}
+      <span class="badge text-bg-info text-dark">
+        <i class="fa-solid fa-arrows-spin me-1"></i>Modo irrestricto
+      </span>
+      {{/coleccion.navegacionCurada}}
+    </div>
+  </div>
+  <div class="col-lg-5 text-lg-end">
+    <div class="card border-0 shadow-sm">
+      <div class="card-body">
+        <h3 class="h6 text-uppercase text-muted mb-3">Cambiar modo de navegación</h3>
+        <div class="btn-group" role="group" aria-label="Modo de navegación">
+          <a href="?modo=irrestricto" class="btn btn-outline-secondary btn-sm">
+            <i class="fa-solid fa-arrows-spin me-1"></i>Irrestricto
+          </a>
+          <a href="?modo=curado" class="btn btn-outline-success btn-sm">
+            <i class="fa-solid fa-shield-heart me-1"></i>Curado
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="row gy-4">
+  <div class="col-lg-4">
+    <div class="card border-0 shadow-sm h-100">
+      <div class="card-header bg-white">
+        <h3 class="h6 mb-0"><i class="fa-solid fa-filter me-2 text-primary"></i>Filtrar hechos</h3>
+      </div>
+      <div class="card-body">
+        <form method="get" class="row g-3">
+          <input type="hidden" name="modo" value="{{#coleccion.navegacionCurada}}curado{{/coleccion.navegacionCurada}}{{^coleccion.navegacionCurada}}irrestricto{{/coleccion.navegacionCurada}}">
+          <div class="col-12">
+            <label for="titulo" class="form-label">Título</label>
+            <input type="text" id="titulo" name="titulo" value="{{titulo}}" class="form-control" placeholder="Buscar por título">
+          </div>
+          <div class="col-12">
+            <label for="descripcion" class="form-label">Descripción</label>
+            <input type="text" id="descripcion" name="descripcion" value="{{descripcion}}" class="form-control" placeholder="Palabras clave">
+          </div>
+          <div class="col-12">
+            <label for="categoria" class="form-label">Categoría</label>
+            <input type="text" id="categoria" name="categoria" value="{{categoria}}" class="form-control" placeholder="Ambiental, salud...">
+          </div>
+          <div class="col-12">
+            <label for="textoLibre" class="form-label">Texto libre</label>
+            <input type="text" id="textoLibre" name="textoLibre" value="{{textoLibre}}" class="form-control" placeholder="Búsqueda full-text">
+          </div>
+          <div class="col-12">
+            <label for="fecha" class="form-label">Fecha del hecho</label>
+            <input type="date" id="fecha" name="fecha" value="{{fecha}}" class="form-control">
+          </div>
+          <div class="col-12">
+            <label for="consenso" class="form-label">Consenso requerido</label>
+            <select id="consenso" name="consenso" class="form-select">
+              {{#opcionesConsenso}}
+              <option value="{{valor}}" {{#seleccionado}}selected{{/seleccionado}}>{{texto}}</option>
+              {{/opcionesConsenso}}
+            </select>
+          </div>
+          <div class="col-12 d-grid gap-2">
+            <button type="submit" class="btn btn-primary">
+              <i class="fa-solid fa-magnifying-glass me-2"></i>Aplicar filtros
+            </button>
+            <a class="btn btn-outline-secondary" href="?">
+              <i class="fa-solid fa-rotate-left me-2"></i>Limpiar filtros
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-8">
+    <div class="card border-0 shadow-sm mb-4">
+      <div class="card-header bg-white">
+        <h3 class="h6 mb-0"><i class="fa-solid fa-map-location-dot me-2 text-primary"></i>Visualización geográfica</h3>
+      </div>
+      <div class="card-body">
+        <div id="map" class="map-container view hm-zoom" data-marcadores='{{{marcadoresJson}}}'></div>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="card border-0 shadow-sm mt-4">
+  <div class="card-header bg-white d-flex justify-content-between align-items-center">
+    <h3 class="h6 mb-0"><i class="fa-solid fa-list-check me-2 text-primary"></i>Hechos encontrados</h3>
+    <small class="text-muted">Resultados según filtros seleccionados</small>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-striped table-hover align-middle mb-0">
+      <thead class="table-light">
+        <tr>
+          <th scope="col">Título</th>
+          <th scope="col">Descripción</th>
+          <th scope="col">Categoría</th>
+          <th scope="col">Fecha</th>
+          <th scope="col">Provincia</th>
+          <th scope="col" class="text-center">Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+      {{#hechos}}
+        <tr>
+          <td class="fw-semibold">{{titulo}}</td>
+          <td class="text-muted">{{descripcion}}</td>
+          <td><span class="badge text-bg-secondary">{{categoria}}</span></td>
+          <td>{{fechaAcontecimiento}}</td>
+          <td>{{lugar.provincia}}</td>
+          <td class="text-center">
+            <a class="btn btn-outline-danger btn-sm" href="/solicitudes/nueva?titulo={{titulo}}">
+              <i class="fa-regular fa-flag me-1"></i>Solicitar eliminación
+            </a>
+          </td>
+        </tr>
+      {{/hechos}}
+      {{^hechos}}
+        <tr>
+          <td colspan="6" class="text-center py-4 text-muted">
+            <i class="fa-regular fa-compass me-2"></i>No se encontraron hechos con los filtros seleccionados.
+          </td>
+        </tr>
+      {{/hechos}}
+      </tbody>
+    </table>
+  </div>
+</section>
+{{/layout}}

@@ -28,6 +28,7 @@ public class FiltroPorDescripcion implements CriterioFiltrado {
   @Override
   public void agregarPredicados(CriteriaBuilder builder,
                                 Root<Hecho> root,
+                                JoinSupplier joinSupplier,
                                 List<Predicate> predicates) {
     if (descripcion == null || descripcion.isBlank()) {
       return;

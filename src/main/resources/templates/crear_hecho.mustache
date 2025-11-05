@@ -1,0 +1,38 @@
+{{>partials/header}}
+<section class="form-card">
+    <h1>Nuevo hecho dinámico</h1>
+    <form method="post" action="/hechos" class="stack">
+        <label for="coleccionId">Colección dinámica</label>
+       <select id="coleccionId" name="coleccionId" required>
+           <option value="" disabled selected>Seleccioná la colección</option>
+           {{#colecciones}}
+           <option value="{{id}}">{{titulo}}</option>
+           {{/colecciones}}
+       </select>
+        {{^colecciones}}
+        <p class="hint">Todavía no hay colecciones dinámicas disponibles. Creá una desde el panel de administración.</p>
+        {{/colecciones}}
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" name="titulo" required>
+        <label for="descripcion">Descripción</label>
+        <textarea id="descripcion" name="descripcion" required></textarea>
+        <label for="categoria">Categoría</label>
+        <input type="text" id="categoria" name="categoria" required>
+        <label for="fecha">Fecha del hecho (YYYY-MM-DDTHH:MM)</label>
+        <input type="datetime-local" id="fecha" name="fecha" required>
+        <div class="grid-2">
+            <div>
+                <label for="latitud">Latitud</label>
+                <input type="text" id="latitud" name="latitud" required>
+            </div>
+            <div>
+                <label for="longitud">Longitud</label>
+                <input type="text" id="longitud" name="longitud" required>
+            </div>
+        </div>
+        <label for="provincia">Provincia</label>
+        <input type="text" id="provincia" name="provincia">
+        <button type="submit" class="primary">Enviar para revisión</button>
+    </form>
+</section>
+{{>partials/footer}}

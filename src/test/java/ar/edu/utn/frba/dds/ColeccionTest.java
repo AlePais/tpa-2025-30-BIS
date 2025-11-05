@@ -66,7 +66,7 @@ class ColeccionTest {
     Fuente fuente = new FuenteFake(List.of(a1,a2,b1));
     ParametroFiltro parametroFiltro = new ParametroFiltro(AtributoFiltro.CATEGORIA, "CatA");
 
-    Coleccion coleccion = new Coleccion("Coleccion1","Descripcion","coleccion1",fuente,
+    Coleccion coleccion = new Coleccion("Coleccion1","Descripcion",fuente,
         null);
 
     coleccion.agregarCriterioPertenencia(parametroFiltro);
@@ -109,7 +109,7 @@ class ColeccionTest {
 
     ParametroFiltro parametroFiltro = new ParametroFiltro(AtributoFiltro.CATEGORIA, "CategoriaA");
 
-    Coleccion coleccion = new Coleccion("Coleccion1","Descripcion","coleccion1",fuente,
+    Coleccion coleccion = new Coleccion("Coleccion1","Descripcion",fuente,
         null);
 
     coleccion.agregarCriterioPertenencia(parametroFiltro);

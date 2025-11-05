@@ -6,11 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
-@Getter
 @Table(name = "Lugares")
 @Entity
 public class Lugar {
@@ -21,9 +17,44 @@ public class Lugar {
   private String longitud;
   private String provincia;
 
+  public Lugar() {
+  }
+
   public Lugar(String latitud, String longitud, String provincia) {
     this.latitud = latitud;
     this.longitud = longitud;
+    this.provincia = provincia;
+  }
+
+  public Long getId() {
+    return id;
+  }
+
+  public void setId(Long id) {
+    this.id = id;
+  }
+
+  public String getLatitud() {
+    return latitud;
+  }
+
+  public void setLatitud(String latitud) {
+    this.latitud = latitud;
+  }
+
+  public String getLongitud() {
+    return longitud;
+  }
+
+  public void setLongitud(String longitud) {
+    this.longitud = longitud;
+  }
+
+  public String getProvincia() {
+    return provincia;
+  }
+
+  public void setProvincia(String provincia) {
     this.provincia = provincia;
   }
   @Override

@@ -1,0 +1,41 @@
+{{#*inline "pageTitle"}}Registro de contribuyentes · MetaMapa{{/inline}}
+{{#> layout}}
+<section class="row justify-content-center">
+  <div class="col-lg-6 col-md-8">
+    <div class="card shadow-sm border-0">
+      <div class="card-header bg-primary text-white py-3">
+        <h2 class="h5 mb-0"><i class="fa-solid fa-user-plus me-2"></i>Creá tu cuenta</h2>
+      </div>
+      <div class="card-body p-4">
+        <form method="post" action="/registro" class="row g-3">
+          <div class="col-12">
+            <label for="nombre" class="form-label">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Tu nombre" required>
+          </div>
+          <div class="col-12">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="persona@metamapa.org" required>
+          </div>
+          <div class="col-12">
+            <label for="password" class="form-label">Contraseña</label>
+            <input type="password" id="password" name="password" class="form-control" minlength="6" placeholder="Mínimo 6 caracteres" required>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="admin" name="admin">
+              <label class="form-check-label" for="admin">
+                Registrar como persona administradora
+              </label>
+            </div>
+          </div>
+          <div class="col-12 d-grid">
+            <button type="submit" class="btn btn-primary">
+              <i class="fa-solid fa-user-check me-2"></i>Registrarme
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{{/layout}}

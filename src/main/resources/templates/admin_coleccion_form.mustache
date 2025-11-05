@@ -1,0 +1,33 @@
+{{>partials/header}}
+<section class="form-card">
+    <h1>Nueva colección</h1>
+    <form method="post" action="/admin/colecciones" class="stack">
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" name="titulo" required>
+        <label for="descripcion">Descripción</label>
+        <textarea id="descripcion" name="descripcion" required></textarea>
+        <label for="handle">Handle</label>
+        <input type="text" id="handle" name="handle" pattern="[A-Za-z0-9]+" required>
+        <label for="tipoFuente">Tipo de fuente</label>
+        <select id="tipoFuente" name="tipoFuente" required>
+            <option value="" disabled selected>Seleccionar tipo</option>
+            <option value="ESTATICA">Estática (CSV)</option>
+            <option value="DINAMICA">Dinámica</option>
+            <option value="DEMO">Proxy Demo</option>
+            <option value="AGREGADOR">Agregador</option>
+        </select>
+        <div class="hint">Para fuentes estáticas indicá el path del CSV; para Demo, la URL base.</div>
+        <label for="path">Ruta CSV</label>
+        <input type="text" id="path" name="path" placeholder="datasets/hechos.csv">
+        <label for="url">URL servicio</label>
+        <input type="text" id="url" name="url" placeholder="https://demo.metamapa.org/api">
+        <label for="criterioConsenso">Criterio de consenso</label>
+        <select id="criterioConsenso" name="criterioConsenso">
+            {{#criteriosConsenso}}
+            <option value="{{.}}">{{.}}</option>
+            {{/criteriosConsenso}}
+        </select>
+        <button type="submit" class="primary">Crear colección</button>
+    </form>
+</section>
+{{>partials/footer}}

@@ -1,11 +1,8 @@
 package ar.edu.utn.frba.dds.filtros.criterioFiltrado;
 
 import ar.edu.utn.frba.dds.hecho.Hecho;
-import ar.edu.utn.frba.dds.hecho.Lugar;
-
 import java.util.List;
 import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.Join;
 import javax.persistence.criteria.JoinType;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
@@ -33,21 +30,12 @@ public class FiltroPorLatitud implements CriterioFiltrado {
   @Override
   public void agregarPredicados(CriteriaBuilder builder,
                                 Root<Hecho> root,
+                                JoinSupplier joinSupplier,
                                 List<Predicate> predicates) {
-
     if (latitud == null || latitud.isBlank()) {
       return;
     }
-
-    // JOIN directo con Lugar
-    Join<Hecho, Lugar> joinLugar = root.join("lugar", JoinType.INNER);
-
-    // Filtramos por igualdad de latitud
-    predicates.add(
-        builder.equal(
-            joinLugar.get("latitud"),
-            latitud
-        )
-    );
+    predicates.add(builder.equal(
+        joinSupplier.join("lugar", JoinType.INNER).get("latitud"), latitud));
   }
 }

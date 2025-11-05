@@ -6,15 +6,13 @@ import ar.edu.utn.frba.dds.hecho.Hecho;
 import ar.edu.utn.frba.dds.fuente.Fuente;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.EnumSet;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import lombok.Getter;
-import lombok.Setter;
 import javax.persistence.*;
 
-@Getter
-@Setter
 @Entity
 @DiscriminatorValue("AGREGADOR")
 public class FuenteAgregador extends Fuente{
@@ -51,6 +49,30 @@ public class FuenteAgregador extends Fuente{
     this.fuentes.add(fuente);
   }
 
+  public List<Fuente> getFuentes() {
+    return fuentes;
+  }
+
+  public void setFuentes(List<Fuente> fuentes) {
+    this.fuentes = fuentes;
+  }
+
+  public RepositorioHechos getRepoHechos() {
+    return repoHechos;
+  }
+
+  public void setRepoHechos(RepositorioHechos repoHechos) {
+    this.repoHechos = repoHechos;
+  }
+
+  public Consensuador getConsensuador() {
+    return consensuador;
+  }
+
+  public void setConsensuador(Consensuador consensuador) {
+    this.consensuador = consensuador;
+  }
+
   /* CRON */
   public void consultarFuentes(){
     List<Hecho> hechos = this.fuentes.stream().flatMap(fuente -> fuente.obtenerHechos().stream()).toList();
@@ -59,8 +81,16 @@ public class FuenteAgregador extends Fuente{
 
   /* CRON */
   public void calcularConsensos(){
-    Map<String, Set<CriterioConsenso>> consensos =
-        (Map<String, Set<CriterioConsenso>>) consensuador.procesarConsensos(repoHechos.obtenerHechosParaConsenso(), fuentes.size());
-    repoHechos.registrarConsensos(consensos);
+    Map<String, EnumSet<CriterioConsenso>> consensosCalculados =
+        consensuador.procesarConsensos(repoHechos.obtenerHechosParaConsenso(), fuentes.size());
+    Map<String, Set<CriterioConsenso>> consensosNormalizados = new HashMap<>();
+    consensosCalculados.forEach((clave, valores) -> {
+      Set<CriterioConsenso> copia =
+          valores == null || valores.isEmpty()
+              ? EnumSet.noneOf(CriterioConsenso.class)
+              : EnumSet.copyOf(valores);
+      consensosNormalizados.put(clave, copia);
+    });
+    repoHechos.registrarConsensos(consensosNormalizados);
   }
 }

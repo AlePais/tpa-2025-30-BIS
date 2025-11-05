@@ -27,6 +27,7 @@ public class FiltroPorCategoria implements CriterioFiltrado {
   @Override
   public void agregarPredicados(CriteriaBuilder builder,
                                 Root<Hecho> root,
+                                JoinSupplier joinSupplier,
                                 List<Predicate> predicates) {
     if (categoria == null || categoria.isBlank()) {
       return;

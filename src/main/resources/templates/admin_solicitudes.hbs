@@ -1,0 +1,52 @@
+{{#*inline "pageTitle"}}Solicitudes de eliminación · MetaMapa{{/inline}}
+{{#> layout}}
+<section class="mb-4">
+  <h2 class="fw-bold text-primary mb-1">Solicitudes de eliminación pendientes</h2>
+  <p class="text-muted mb-0">Revisá cada solicitud y definí si corresponde aprobarla o rechazarla.</p>
+</section>
+<section class="card border-0 shadow-sm">
+  <div class="card-header bg-white">
+    <h3 class="h6 mb-0"><i class="fa-solid fa-inbox me-2 text-warning"></i>Bandeja de solicitudes</h3>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-striped table-hover align-middle mb-0">
+      <thead class="table-light">
+        <tr>
+          <th scope="col">Título</th>
+          <th scope="col">Motivo</th>
+          <th scope="col" class="text-center">Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+      {{#solicitudes}}
+        <tr>
+          <td class="fw-semibold">{{titulo}}</td>
+          <td class="text-muted">{{motivo}}</td>
+          <td class="text-center">
+            <div class="d-flex justify-content-center gap-2">
+              <form method="post" action="/admin/solicitudes/{{id}}/aprobar">
+                <button type="submit" class="btn btn-success btn-sm">
+                  <i class="fa-solid fa-check me-1"></i>Aprobar
+                </button>
+              </form>
+              <form method="post" action="/admin/solicitudes/{{id}}/rechazar">
+                <button type="submit" class="btn btn-outline-danger btn-sm">
+                  <i class="fa-solid fa-xmark me-1"></i>Rechazar
+                </button>
+              </form>
+            </div>
+          </td>
+        </tr>
+      {{/solicitudes}}
+      {{^solicitudes}}
+        <tr>
+          <td colspan="3" class="text-center py-4 text-muted">
+            <i class="fa-solid fa-sun me-2"></i>No hay solicitudes pendientes.
+          </td>
+        </tr>
+      {{/solicitudes}}
+      </tbody>
+    </table>
+  </div>
+</section>
+{{/layout}}

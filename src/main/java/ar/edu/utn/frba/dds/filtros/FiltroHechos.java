@@ -1,18 +1,30 @@
 package ar.edu.utn.frba.dds.filtros;
 
 import ar.edu.utn.frba.dds.consensuador.CriterioConsenso;
-import ar.edu.utn.frba.dds.filtros.criterioFiltrado.*;
+import ar.edu.utn.frba.dds.filtros.criterioFiltrado.CriterioFiltrado;
+import ar.edu.utn.frba.dds.filtros.criterioFiltrado.FiltroPorCategoria;
+import ar.edu.utn.frba.dds.filtros.criterioFiltrado.FiltroPorCriterioConsenso;
+import ar.edu.utn.frba.dds.filtros.criterioFiltrado.FiltroPorDescripcion;
+import ar.edu.utn.frba.dds.filtros.criterioFiltrado.FiltroPorFechaHecho;
+import ar.edu.utn.frba.dds.filtros.criterioFiltrado.FiltroPorLatitud;
+import ar.edu.utn.frba.dds.filtros.criterioFiltrado.FiltroPorLongitud;
+import ar.edu.utn.frba.dds.filtros.criterioFiltrado.FiltroPorTitulo;
+import ar.edu.utn.frba.dds.filtros.criterioFiltrado.FiltroTextoLibre;
+import ar.edu.utn.frba.dds.filtros.criterioFiltrado.JoinSupplier;
 import ar.edu.utn.frba.dds.hecho.Hecho;
 import io.github.flbulgarelli.jpa.extras.simple.WithSimplePersistenceUnit;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Join;
+import javax.persistence.criteria.JoinType;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
@@ -37,10 +49,11 @@ public class FiltroHechos implements WithSimplePersistenceUnit {
     query.select(root).distinct(true);
 
     List<Predicate> predicates = new ArrayList<>();
+    RootJoinSupplier joinSupplier = new RootJoinSupplier(root);
     List<CriterioFiltrado> criteriosParaQuery = new ArrayList<>(criteriosEstaticos);
     criteriosParaQuery.addAll(criteriosSoloDinamicos);
     for (CriterioFiltrado criterio : criteriosParaQuery) {
-      criterio.agregarPredicados(builder, root, predicates);
+      criterio.agregarPredicados(builder, root, joinSupplier, predicates);
     }
 
     if (!predicates.isEmpty()) {
@@ -149,6 +162,7 @@ public class FiltroHechos implements WithSimplePersistenceUnit {
           case LATITUD -> registrarFiltroDoble(new FiltroPorLatitud(valor));
           case LONGITUD -> registrarFiltroDoble(new FiltroPorLongitud(valor));
           case TITULO -> registrarFiltroDoble(new FiltroPorTitulo(valor));
+          case TEXTO_LIBRE -> registrarFiltroDoble(new FiltroTextoLibre(valor));
           default -> throw new RuntimeException("No existe tipo de criterio");
         }
       }
@@ -156,5 +170,21 @@ public class FiltroHechos implements WithSimplePersistenceUnit {
           new ArrayList<>(this.criteriosSoloDinamicos));
     }
 
+  }
+
+  private static class RootJoinSupplier implements JoinSupplier {
+    private final Root<Hecho> root;
+    private final Map<String, Join<Hecho, ?>> joins = new HashMap<>();
+
+    private RootJoinSupplier(Root<Hecho> root) {
+      this.root = root;
+    }
+
+    @Override
+    @SuppressWarnings("unchecked")
+    public <Y> Join<Hecho, Y> join(String attributeName, JoinType joinType) {
+      return (Join<Hecho, Y>) joins.computeIfAbsent(attributeName,
+          key -> root.join(key, joinType));
+    }
   }
 }

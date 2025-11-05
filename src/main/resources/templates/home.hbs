@@ -1,0 +1,64 @@
+{{#*inline "pageTitle"}}Colecciones disponibles · MetaMapa{{/inline}}
+{{#> layout}}
+<section class="row align-items-center mb-4">
+  <div class="col-lg-7">
+    <h2 class="fw-bold text-primary mb-2">Explorá las colecciones colaborativas</h2>
+    <p class="text-muted mb-0">Navegá consensos, fuentes y visualizaciones curadas por la comunidad MetaMapa.</p>
+  </div>
+  <div class="col-lg-5 text-lg-end mt-3 mt-lg-0">
+    <span class="badge rounded-pill text-bg-primary py-2 px-3">
+      <i class="fa-solid fa-database me-2"></i>{{totalColecciones}} colecciones publicadas
+    </span>
+  </div>
+</section>
+<section class="card border-0 shadow-sm">
+  <div class="card-header bg-white d-flex align-items-center justify-content-between">
+    <h3 class="h5 mb-0"><i class="fa-solid fa-layer-group me-2 text-primary"></i>Colecciones disponibles</h3>
+    <small class="text-muted">Seleccioná una para ver sus hechos</small>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-striped table-hover align-middle mb-0">
+      <thead class="table-light">
+        <tr>
+          <th scope="col">Título</th>
+          <th scope="col">Descripción</th>
+          <th scope="col" class="text-center">Criterio consenso</th>
+          <th scope="col" class="text-center">Modo curado</th>
+          <th scope="col" class="text-center">Hechos</th>
+          <th scope="col" class="text-center">Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+      {{#colecciones}}
+        <tr>
+          <td class="fw-semibold">{{titulo}}</td>
+          <td class="text-muted">{{descripcion}}</td>
+          <td class="text-center"><span class="badge text-bg-secondary">{{criterioConsenso}}</span></td>
+          <td class="text-center">
+            {{#navegacionCurada}}
+            <span class="badge text-bg-success"><i class="fa-solid fa-shield-heart me-1"></i>Curado</span>
+            {{/navegacionCurada}}
+            {{^navegacionCurada}}
+            <span class="badge text-bg-info"><i class="fa-solid fa-arrows-spin me-1"></i>Irrestricto</span>
+            {{/navegacionCurada}}
+          </td>
+          <td class="text-center">{{cantidadHechos}}</td>
+          <td class="text-center">
+            <a class="btn btn-primary btn-sm" href="/colecciones/{{id}}">
+              <i class="fa-solid fa-eye me-1"></i>Ver hechos
+            </a>
+          </td>
+        </tr>
+      {{/colecciones}}
+      {{^colecciones}}
+        <tr>
+          <td colspan="6" class="text-center py-4 text-muted">
+            <i class="fa-regular fa-face-meh-blank me-2"></i>No hay colecciones cargadas todavía.
+          </td>
+        </tr>
+      {{/colecciones}}
+      </tbody>
+    </table>
+  </div>
+</section>
+{{/layout}}

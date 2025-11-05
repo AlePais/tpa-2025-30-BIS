@@ -7,5 +7,6 @@ public enum AtributoFiltro {
   FECHA_HECHO,
   LATITUD,
   LONGITUD,
-  TITULO
+  TITULO,
+  TEXTO_LIBRE
 }

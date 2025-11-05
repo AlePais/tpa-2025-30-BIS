@@ -1,0 +1,73 @@
+{{#*inline "pageTitle"}}Panel de administración · MetaMapa{{/inline}}
+{{#> layout}}
+<section class="row align-items-center mb-4">
+  <div class="col-lg-8">
+    <h2 class="fw-bold text-primary mb-1">Panel de administración</h2>
+    <p class="text-muted mb-0">Gestioná colecciones, fuentes, consensos y solicitudes de eliminación.</p>
+  </div>
+  <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+    <a class="btn btn-primary" href="/admin/colecciones/nueva">
+      <i class="fa-solid fa-circle-plus me-2"></i>Nueva colección
+    </a>
+  </div>
+</section>
+<section class="row g-4">
+  <div class="col-md-4">
+    <div class="card border-0 shadow-sm h-100">
+      <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="icon-circle bg-primary text-white me-3">
+            <i class="fa-solid fa-layer-group"></i>
+          </div>
+          <div>
+            <h3 class="h6 text-muted text-uppercase mb-0">Colecciones</h3>
+            <p class="display-6 mb-0">{{totalColecciones}}</p>
+          </div>
+        </div>
+        <p class="text-muted">Administrá fuentes estáticas, dinámicas y proxy desde un único lugar.</p>
+        <a class="btn btn-outline-primary btn-sm" href="/admin/colecciones/nueva">
+          <i class="fa-solid fa-wand-magic-sparkles me-1"></i>Crear colección
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card border-0 shadow-sm h-100">
+      <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="icon-circle bg-warning text-dark me-3">
+            <i class="fa-solid fa-envelope-open-text"></i>
+          </div>
+          <div>
+            <h3 class="h6 text-muted text-uppercase mb-0">Solicitudes</h3>
+            <p class="display-6 mb-0">{{totalSolicitudes}}</p>
+          </div>
+        </div>
+        <p class="text-muted">Revisá y resolvé pedidos de eliminación en pocos clics.</p>
+        <a class="btn btn-outline-warning btn-sm" href="/admin/solicitudes">
+          <i class="fa-solid fa-inbox me-1"></i>Revisar solicitudes
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card border-0 shadow-sm h-100">
+      <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="icon-circle bg-success text-white me-3">
+            <i class="fa-solid fa-chart-pie"></i>
+          </div>
+          <div>
+            <h3 class="h6 text-muted text-uppercase mb-0">Estadísticas</h3>
+            <p class="display-6 mb-0"><i class="fa-solid fa-arrow-trend-up"></i></p>
+          </div>
+        </div>
+        <p class="text-muted">Analizá reportes periódicos y exportá resultados para compartir.</p>
+        <a class="btn btn-outline-success btn-sm" href="/admin/estadisticas">
+          <i class="fa-solid fa-chart-line me-1"></i>Ver estadísticas
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{{/layout}}

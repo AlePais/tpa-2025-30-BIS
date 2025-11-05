@@ -1,0 +1,177 @@
+body {
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+  background: #f5f7fb;
+  color: #1f2933;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  color: #415a77;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #0d6efd;
+}
+
+.icon-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  box-shadow: 0 8px 16px rgba(17, 24, 39, 0.08);
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.card-header {
+  border-bottom: none;
+  border-radius: 1rem 1rem 0 0 !important;
+}
+
+.card-body {
+  color: #334155;
+}
+
+.badge {
+  font-weight: 600;
+}
+
+.table > :not(caption) > * > * {
+  vertical-align: middle;
+}
+
+.table thead th {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: #64748b;
+}
+
+.btn-outline-secondary,
+.btn-outline-primary,
+.btn-outline-success,
+.btn-outline-warning,
+.btn-outline-danger {
+  border-width: 2px;
+}
+
+.btn-primary,
+.btn-success,
+.btn-danger {
+  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.18);
+}
+
+.alert {
+  border-radius: 0.85rem;
+  border: none;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.map-container {
+  width: 100%;
+  height: 420px;
+  border-radius: 0.85rem;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+.hm-zoom {
+  position: relative;
+  overflow: hidden;
+}
+
+.hm-zoom::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(13, 110, 253, 0.15), rgba(13, 110, 253, 0));
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.hm-zoom:hover::after {
+  opacity: 1;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+footer .text-muted {
+  color: #6c757d !important;
+}
+
+.form-text {
+  font-size: 0.85rem;
+}
+
+textarea.form-control {
+  min-height: 120px;
+}
+
+.badge.text-bg-info {
+  background: #cff4fc;
+  color: #055160;
+}
+
+.badge.text-bg-success {
+  background: #d1f7d6;
+  color: #1b5e20;
+}
+
+.badge.text-bg-secondary {
+  background: #e2e8f0;
+  color: #1f2937;
+}
+
+.badge.text-bg-primary {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.badge.text-bg-warning {
+  background: #fff4ce;
+  color: #9a6700;
+}
+
+.badge.text-bg-danger {
+  background: #ffe2e6;
+  color: #b42318;
+}
+
+.btn-outline-warning:hover,
+.btn-outline-warning:focus {
+  color: #fff;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  color: #fff;
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:focus {
+  color: #fff;
+}
+
+.btn-outline-danger:hover,
+.btn-outline-danger:focus {
+  color: #fff;
+}
+
+textarea {
+  resize: vertical;
+}

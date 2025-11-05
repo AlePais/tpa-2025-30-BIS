@@ -11,5 +11,6 @@ public interface CriterioFiltrado {
 
   void agregarPredicados(CriteriaBuilder builder,
                          Root<Hecho> root,
+                         JoinSupplier joinSupplier,
                          List<Predicate> predicates);
 }

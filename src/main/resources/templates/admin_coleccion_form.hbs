@@ -1,0 +1,64 @@
+{{#*inline "pageTitle"}}Nueva colección · MetaMapa{{/inline}}
+{{#> layout}}
+<section class="row justify-content-center">
+  <div class="col-xl-8 col-lg-9">
+    <div class="card border-0 shadow-sm">
+      <div class="card-header bg-primary text-white py-3">
+        <h2 class="h5 mb-0"><i class="fa-solid fa-layer-group me-2"></i>Crear nueva colección</h2>
+      </div>
+      <div class="card-body p-4">
+        <form method="post" action="/admin/colecciones" class="row g-3">
+          <div class="col-md-6">
+            <label for="titulo" class="form-label">Título</label>
+            <input type="text" id="titulo" name="titulo" class="form-control" placeholder="Nombre de la colección" required>
+          </div>
+          <div class="col-md-6">
+            <label for="tipoFuente" class="form-label">Tipo de fuente</label>
+            <select id="tipoFuente" name="tipoFuente" class="form-select" required>
+              <option value="" disabled selected>Seleccionar tipo</option>
+              <option value="ESTATICA">Estática (CSV)</option>
+              <option value="DINAMICA">Dinámica</option>
+              <option value="DEMO">Proxy Demo</option>
+              <option value="AGREGADOR">Agregador</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <label for="descripcion" class="form-label">Descripción</label>
+            <textarea id="descripcion" name="descripcion" class="form-control" rows="3" placeholder="Descripción visible de la colección" required></textarea>
+          </div>
+          <div class="col-md-6">
+            <label for="path" class="form-label">Ruta de archivo CSV</label>
+            <input type="text" id="path" name="path" class="form-control" placeholder="datasets/hechos.csv">
+            <div class="form-text">Obligatorio para fuentes estáticas.</div>
+          </div>
+          <div class="col-md-6">
+            <label for="url" class="form-label">URL del servicio</label>
+            <input type="text" id="url" name="url" class="form-control" placeholder="https://demo.metamapa.org/api">
+            <div class="form-text">Usá esta URL para fuentes proxy.</div>
+          </div>
+          <div class="col-md-6">
+            <label for="criterioConsenso" class="form-label">Criterio de consenso</label>
+            <select id="criterioConsenso" name="criterioConsenso" class="form-select">
+              {{#criteriosConsenso}}
+              <option value="{{.}}">{{.}}</option>
+              {{/criteriosConsenso}}
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="navegacionCurada" class="form-label">Modo de navegación inicial</label>
+            <select id="navegacionCurada" name="navegacionCurada" class="form-select">
+              <option value="false">Irrestricto (todos los hechos)</option>
+              <option value="true">Curado (solo consensuados)</option>
+            </select>
+          </div>
+          <div class="col-12 d-grid">
+            <button type="submit" class="btn btn-primary">
+              <i class="fa-solid fa-floppy-disk me-2"></i>Crear colección
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{{/layout}}

@@ -2,10 +2,8 @@ package ar.edu.utn.frba.dds.filtros.criterioFiltrado;
 
 import ar.edu.utn.frba.dds.consensuador.CriterioConsenso;
 import ar.edu.utn.frba.dds.hecho.Hecho;
-
 import java.util.List;
 import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.Join;
 import javax.persistence.criteria.JoinType;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
@@ -29,17 +27,12 @@ public class FiltroPorCriterioConsenso implements CriterioFiltrado {
   @Override
   public void agregarPredicados(CriteriaBuilder builder,
                                 Root<Hecho> root,
+                                JoinSupplier joinSupplier,
                                 List<Predicate> predicates) {
-
     if (criterioConsenso == null) {
       return;
     }
-
-    // De esta forma se resuelve el join entre hechos y los criterios que cumplen
-    Join<Hecho, CriterioConsenso> join = root.join("criteriosConsenso", JoinType.INNER);
-
-    predicates.add(
-        builder.equal(join, criterioConsenso)
-    );
+    predicates.add(builder.equal(
+        joinSupplier.join("criteriosConsenso", JoinType.INNER), criterioConsenso));
   }
 }

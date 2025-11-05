@@ -28,12 +28,11 @@ public class FiltroPorFechaHecho implements CriterioFiltrado {
   @Override
   public void agregarPredicados(CriteriaBuilder builder,
                                 Root<Hecho> root,
+                                JoinSupplier joinSupplier,
                                 List<Predicate> predicates) {
     if (fechaHecho == null) {
       return;
     }
-
-    //De esta forma compatibilizo el hecho de que campo sea localdatetime
     LocalDateTime desde = fechaHecho.atStartOfDay();
     LocalDateTime hasta = fechaHecho.plusDays(1).atStartOfDay();
     predicates.add(builder.greaterThanOrEqualTo(root.get("fechaAcontecimiento"), desde));

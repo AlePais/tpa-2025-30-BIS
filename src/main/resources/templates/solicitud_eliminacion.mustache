@@ -1,0 +1,12 @@
+{{>partials/header}}
+<section class="form-card">
+    <h1>Solicitud de eliminación</h1>
+    <form method="post" action="/solicitudes" class="stack">
+        <label for="titulo">Título del hecho</label>
+        <input type="text" id="titulo" name="titulo" value="{{titulo}}" {{#titulo}}readonly{{/titulo}} required>
+        <label for="motivo">Motivo (mínimo 500 caracteres)</label>
+        <textarea id="motivo" name="motivo" minlength="500" required></textarea>
+        <button type="submit" class="primary">Enviar solicitud</button>
+    </form>
+</section>
+{{>partials/footer}}

@@ -8,9 +8,6 @@ import java.time.LocalDateTime;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.Table;
-import lombok.Getter;
-
-@Getter
 @Entity
 @Table(name = "Estadisticas")
 public class Estadistica {
@@ -34,5 +31,41 @@ public class Estadistica {
     this.clave = clave;
     this.valor = valor;
     this.fechaCalculo = LocalDateTime.now();
+  }
+
+  public Long getId() {
+    return id;
+  }
+
+  public TipoEstadistica getTipo() {
+    return tipo;
+  }
+
+  public void setTipo(TipoEstadistica tipo) {
+    this.tipo = tipo;
+  }
+
+  public String getClave() {
+    return clave;
+  }
+
+  public void setClave(String clave) {
+    this.clave = clave;
+  }
+
+  public Long getValor() {
+    return valor;
+  }
+
+  public void setValor(Long valor) {
+    this.valor = valor;
+  }
+
+  public LocalDateTime getFechaCalculo() {
+    return fechaCalculo;
+  }
+
+  public void setFechaCalculo(LocalDateTime fechaCalculo) {
+    this.fechaCalculo = fechaCalculo;
   }
 }

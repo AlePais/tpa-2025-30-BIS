@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 import java.util.Set;
 import javax.persistence.Column;
+import javax.persistence.CollectionTable;
 import javax.persistence.DiscriminatorColumn;
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.CollectionTable;
@@ -21,13 +22,7 @@ import javax.persistence.InheritanceType;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@NoArgsConstructor
-@Setter
-@Getter
 @Table(name = "Hechos")
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
@@ -54,6 +49,9 @@ public class Hecho {
   @Column(name = "criterio")
   private Set<CriterioConsenso> criteriosConsenso = new java.util.HashSet<>();
 
+  public Hecho() {
+  }
+
   protected Hecho(Builder builder) {
     this.titulo              = builder.titulo;
     this.descripcion         = builder.descripcion;
@@ -68,11 +66,87 @@ public class Hecho {
   }
 
   public String getLatitud() {
-    return lugar.getLatitud();
+    return lugar != null ? lugar.getLatitud() : null;
   }
 
   public String getLongitud() {
-    return lugar.getLongitud();
+    return lugar != null ? lugar.getLongitud() : null;
+  }
+
+  public Long getId() {
+    return id;
+  }
+
+  public void setId(Long id) {
+    this.id = id;
+  }
+
+  public String getTitulo() {
+    return titulo;
+  }
+
+  public void setTitulo(String titulo) {
+    this.titulo = titulo;
+  }
+
+  public String getDescripcion() {
+    return descripcion;
+  }
+
+  public void setDescripcion(String descripcion) {
+    this.descripcion = descripcion;
+  }
+
+  public String getCategoria() {
+    return categoria;
+  }
+
+  public void setCategoria(String categoria) {
+    this.categoria = categoria;
+  }
+
+  public String getMultimedia() {
+    return multimedia;
+  }
+
+  public void setMultimedia(String multimedia) {
+    this.multimedia = multimedia;
+  }
+
+  public Lugar getLugar() {
+    return lugar;
+  }
+
+  public void setLugar(Lugar lugar) {
+    this.lugar = lugar;
+  }
+
+  public LocalDateTime getFechaAcontecimiento() {
+    return fechaAcontecimiento;
+  }
+
+  public void setFechaAcontecimiento(LocalDateTime fechaAcontecimiento) {
+    this.fechaAcontecimiento = fechaAcontecimiento;
+  }
+
+  public LocalDateTime getFechaCarga() {
+    return fechaCarga;
+  }
+
+  public void setFechaCarga(LocalDateTime fechaCarga) {
+    this.fechaCarga = fechaCarga;
+  }
+
+  public OrigenHecho getOrigen() {
+    return origen;
+  }
+
+  public void setOrigen(OrigenHecho origen) {
+    this.origen = origen;
+  }
+
+  public Set<CriterioConsenso> getCriteriosConsenso() {
+    return criteriosConsenso;
   }
 
   public void agregarCriterioConsenso(CriterioConsenso criterio) {

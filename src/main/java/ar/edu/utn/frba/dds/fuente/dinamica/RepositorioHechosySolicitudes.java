@@ -2,13 +2,15 @@ package ar.edu.utn.frba.dds.fuente.dinamica;
 import ar.edu.utn.frba.dds.fuente.dinamica.hechos_dinamicos.EstadoHechoDinamico;
 import ar.edu.utn.frba.dds.fuente.dinamica.hechos_dinamicos.HechoDinamico;
 import io.github.flbulgarelli.jpa.extras.simple.WithSimplePersistenceUnit;
-import lombok.Getter;
 
 import java.util.List;
 
 public class RepositorioHechosySolicitudes implements WithSimplePersistenceUnit{
-  @Getter
-  private static final RepositorioHechosySolicitudes instancia = new RepositorioHechosySolicitudes();
+  private static final RepositorioHechosySolicitudes INSTANCIA = new RepositorioHechosySolicitudes();
+
+  public static RepositorioHechosySolicitudes getInstancia() {
+    return INSTANCIA;
+  }
 
   public void agregarHecho(HechoDinamico hecho){// toma hecho y hechoDinamico
     if (hecho == null) {

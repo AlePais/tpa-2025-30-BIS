@@ -10,9 +10,7 @@ import javax.persistence.Enumerated;
 import ar.edu.utn.frba.dds.hecho.Hecho;
 import ar.edu.utn.frba.dds.hecho.Lugar;
 import ar.edu.utn.frba.dds.hecho.OrigenHecho;
-import lombok.Getter;
 
-@Getter
 @Entity
 @DiscriminatorValue("DINAMICO")
 public class HechoDinamico extends Hecho {
@@ -125,4 +123,15 @@ public class HechoDinamico extends Hecho {
     this.estado = estado;
   }
 
+  public String getUsuario() {
+    return usuario;
+  }
+
+  public String getSugerenciaDeCambio() {
+    return sugerenciaDeCambio;
+  }
+
+  public EstadoHechoDinamico getEstado() {
+    return estado;
+  }
 }

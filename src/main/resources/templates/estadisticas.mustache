@@ -1,0 +1,28 @@
+{{>partials/header}}
+<section class="detail">
+    <h1>Estadísticas</h1>
+    <p>Última corrida generada automáticamente y acceso por tipo.</p>
+</section>
+<section class="stack">
+    <h2>Última corrida</h2>
+    {{#ultimaCorrida}}
+    <article class="card">
+        <h3>{{tipo}}</h3>
+        <p><strong>Clave:</strong> {{clave}}</p>
+        <p><strong>Valor:</strong> {{valor}}</p>
+        <p class="small">Actualizado: {{fechaCalculo}}</p>
+    </article>
+    {{/ultimaCorrida}}
+    {{^ultimaCorrida}}
+    <p>No hay estadísticas registradas todavía.</p>
+    {{/ultimaCorrida}}
+</section>
+<section class="grid">
+    {{#estadisticasPorTipo}}
+    <article class="card">
+        <h3>{{.}}</h3>
+        <a class="button" href="/admin/estadisticas/{{.}}">Ver detalle</a>
+    </article>
+    {{/estadisticasPorTipo}}
+</section>
+{{>partials/footer}}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MetaMapa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-sA+4Z1cdq9VHtLt6wDkK06qvaChtwHf7T2v+3Ck0aoQ=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-o9N1j7kGStNQ8gKa5r0bK7kCkQOoFd0zEtnxRPj0I0o=" crossorigin=""></script>
+</head>
+<body>
+<header class="topbar">
+    <div class="brand">
+        <a href="/">MetaMapa</a>
+    </div>
+    <nav class="topbar-nav">
+        <a href="/">Colecciones</a>
+        {{#usuario}}
+        <a href="/hechos/nuevo">Crear hecho</a>
+        <a href="/solicitudes/nueva">Solicitar eliminación</a>
+        {{/usuario}}
+        {{#esAdmin}}
+        <a href="/admin">Panel admin</a>
+        {{/esAdmin}}
+    </nav>
+    <div class="topbar-auth">
+        {{#usuario}}
+        <span>Hola, {{nombre}}</span>
+        <form method="post" action="/logout" class="logout-form">
+            <button type="submit">Cerrar sesión</button>
+        </form>
+        {{/usuario}}
+        {{^usuario}}
+        <a href="/login">Ingresar</a>
+        <a href="/registro" class="primary">Registrarme</a>
+        {{/usuario}}
+    </div>
+</header>
+<main class="container">
+    {{#flash}}
+    <div class="alert success">{{.}}</div>
+    {{/flash}}
+    {{#error}}
+    <div class="alert danger">{{.}}</div>
+    {{/error}}

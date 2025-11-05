@@ -15,11 +15,7 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import java.net.URLEncoder;
 import javax.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
 
-@Getter
-@Setter
 @Entity
 @DiscriminatorValue("METAMAPA")
 public class AdaptadorMetaMapa extends Fuente {
@@ -49,6 +45,55 @@ public class AdaptadorMetaMapa extends Fuente {
     this.coleccion = coleccion;
     this.filtro = filtro;
     this.initTransientes();
+  }
+
+  public HttpClient getClienteHttp() {
+    return clienteHttp;
+  }
+
+  public void setClienteHttp(HttpClient clienteHttp) {
+    this.clienteHttp = clienteHttp;
+  }
+
+  public ObjectMapper getMapper() {
+    return mapper;
+  }
+
+  public void setMapper(ObjectMapper mapper) {
+    this.mapper = mapper;
+  }
+
+  public URL getUrl() {
+    return url;
+  }
+
+  public void setUrl(URL url) {
+    this.url = url;
+    this.urlString = url != null ? url.toString() : null;
+  }
+
+  public String getUrlString() {
+    return urlString;
+  }
+
+  public void setUrlString(String urlString) {
+    this.urlString = urlString;
+  }
+
+  public String getColeccion() {
+    return coleccion;
+  }
+
+  public void setColeccion(String coleccion) {
+    this.coleccion = coleccion;
+  }
+
+  public Map<String, String> getFiltro() {
+    return filtro;
+  }
+
+  public void setFiltro(Map<String, String> filtro) {
+    this.filtro = filtro;
   }
 
   @PostLoad

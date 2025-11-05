@@ -35,7 +35,7 @@ public class RepositorioHechos {
   }
 
   /**
-    Obtiene todos los hechos agregados, incluyendo duplicados, para el cálculo de consensos.
+    Expone todos los hechos agregados, incluyendo duplicados, para el cálculo de consensos.
   */
   public List<Hecho> obtenerHechosParaConsenso() {
     return hechosPorTitulo.values().stream()
@@ -44,7 +44,8 @@ public class RepositorioHechos {
   }
 
   /**
-    Actualiza hechos con los consensos que cumple.
+    Actualiza el repositorio con la sincronización más reciente de fuentes.
+    Preserva las marcas de consenso para cada título cuando corresponda.
   */
   public void actualizarHechos(List<Hecho> hechosNuevos) {
     hechosPorTitulo.clear();
@@ -80,9 +81,9 @@ public class RepositorioHechos {
   }
 
   /**
-    Registra los resultados de consenso.
+    Registra los resultados de consenso calculados de forma asíncrona y los refleja en los hechos navegables.
   */
-  public void registrarConsensos(Map<String, Set<CriterioConsenso>> consensosCalculados) {
+  public void registrarConsensos(Map<String, ? extends Set<CriterioConsenso>> consensosCalculados) {
     consensosPorTitulo.clear();
     if (consensosCalculados != null) {
       consensosCalculados.forEach((clave, valores) ->

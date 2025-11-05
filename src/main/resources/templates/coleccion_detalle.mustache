@@ -1,0 +1,100 @@
+{{>partials/header}}
+<section class="detail">
+    <h1>{{coleccion.titulo}}</h1>
+    <p class="lead">{{coleccion.descripcion}}</p>
+    <div class="detail-meta">
+        <span><strong>Handle:</strong> {{coleccion.handle}}</span>
+        <span><strong>Criterio:</strong> {{coleccion.criterioConsenso}}</span>
+    </div>
+</section>
+<section class="filters">
+    <form method="get" class="form-grid">
+        <input type="hidden" name="modo" value="{{#coleccion.navegacionCurada}}curado{{/coleccion.navegacionCurada}}{{^coleccion.navegacionCurada}}irrestricto{{/coleccion.navegacionCurada}}">
+        <div>
+            <label for="titulo">Título</label>
+            <input type="text" id="titulo" name="titulo" value="{{titulo}}" placeholder="Buscar por título">
+        </div>
+        <div>
+            <label for="descripcion">Descripción</label>
+            <input type="text" id="descripcion" name="descripcion" value="{{descripcion}}" placeholder="Palabras clave">
+        </div>
+        <div>
+            <label for="categoria">Categoría</label>
+            <input type="text" id="categoria" name="categoria" value="{{categoria}}">
+        </div>
+        <div>
+            <label for="textoLibre">Texto libre</label>
+            <input type="text" id="textoLibre" name="textoLibre" value="{{textoLibre}}" placeholder="Búsqueda full text">
+        </div>
+        <div>
+            <label for="fecha">Fecha (YYYY-MM-DD)</label>
+            <input type="text" id="fecha" name="fecha" value="{{fecha}}">
+        </div>
+        <div>
+            <label for="consenso">Consenso</label>
+            <select id="consenso" name="consenso">
+                {{#opcionesConsenso}}
+                <option value="{{valor}}" {{#seleccionado}}selected{{/seleccionado}}>{{texto}}</option>
+                {{/opcionesConsenso}}
+            </select>
+        </div>
+        <div class="actions">
+            <button type="submit" class="primary">Aplicar filtros</button>
+            <a class="button" href="?">Limpiar</a>
+        </div>
+    </form>
+    <div class="toggle">
+        <a href="?modo=irrestricto" class="button">Modo irrestricto</a>
+        <a href="?modo=curado" class="button">Modo curado</a>
+    </div>
+</section>
+<section class="map-section">
+    <div id="map" data-marcadores='{{{marcadoresJson}}}'></div>
+</section>
+<section class="hechos">
+    <h2>Hechos encontrados</h2>
+    {{#hechos}}
+    <article class="hecho">
+        <header>
+            <h3>{{titulo}}</h3>
+            <span class="categoria">{{categoria}}</span>
+        </header>
+        <p>{{descripcion}}</p>
+        <ul class="meta">
+            <li><strong>Fecha del hecho:</strong> {{fechaAcontecimiento}}</li>
+            <li><strong>Provincia:</strong> {{lugar.provincia}}</li>
+        </ul>
+        <div class="actions">
+            <a class="button" href="/solicitudes/nueva?titulo={{titulo}}">Solicitar eliminación</a>
+        </div>
+    </article>
+    {{/hechos}}
+    {{^hechos}}
+    <p>No se encontraron hechos con los filtros seleccionados.</p>
+    {{/hechos}}
+</section>
+<script>
+    (function() {
+        const mapElement = document.getElementById('map');
+        if (!mapElement) return;
+        const markersData = JSON.parse(mapElement.dataset.marcadores || '[]');
+        const map = L.map('map');
+        if (markersData.length > 0) {
+            const points = markersData.map(m => [parseFloat(m.latitud), parseFloat(m.longitud)]);
+            map.setView(points[0], 6);
+            points.forEach((point, index) => {
+                const marker = markersData[index];
+                L.marker(point).addTo(map).bindPopup(marker.provincia || 'Hecho reportado');
+            });
+            const bounds = L.latLngBounds(points);
+            map.fitBounds(bounds.pad(0.2));
+        } else {
+            map.setView([-34.6, -58.4], 4);
+        }
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+    })();
+</script>
+{{>partials/footer}}

@@ -10,6 +10,7 @@ import io.github.flbulgarelli.jpa.extras.simple.WithSimplePersistenceUnit;
 import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -21,14 +22,9 @@ import javax.persistence.OneToMany;
 import javax.persistence.PostLoad;
 import javax.persistence.Table;
 import javax.persistence.Transient;
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
 @Entity
 @Table(name = "Colecciones")
-public class Coleccion implements WithSimplePersistenceUnit {
+public class Coleccion {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -36,6 +32,8 @@ public class Coleccion implements WithSimplePersistenceUnit {
 
   private String titulo;
   private String descripcion;
+  @Column(name = "handle", nullable = false, unique = true, length = 64)
+  private String handle;
   @Transient
   private Fuente fuente;
   private Boolean navegacionCurada = false;
@@ -60,12 +58,13 @@ public class Coleccion implements WithSimplePersistenceUnit {
     this.descripcion      = descripcion;
     this.fuente           = fuente;
     this.criterioConsenso = criterioConsenso;
-    this.getGestor();
   }
 
+
+
   @PostLoad
-  private void getGestor() {
-    this.gestor = GestorSolicitudesEliminacion.getInstancia();
+  private void initializeGestor() {
+    getGestorInternal();
   }
 
   public void agregarCriterioPertenencia(ParametroFiltro criterio) {
@@ -74,6 +73,81 @@ public class Coleccion implements WithSimplePersistenceUnit {
 
   public void agregarCriterioFiltrado(ParametroFiltro criterio){
     this.criteriosFiltrado.add(criterio);
+  }
+
+  public Long getId() {
+    return id;
+  }
+
+  public void setId(Long id) {
+    this.id = id;
+  }
+
+  public String getTitulo() {
+    return titulo;
+  }
+
+  public void setTitulo(String titulo) {
+    this.titulo = titulo;
+  }
+
+  public String getDescripcion() {
+    return descripcion;
+  }
+
+  public void setDescripcion(String descripcion) {
+    this.descripcion = descripcion;
+  }
+
+  public Fuente getFuente() {
+    return fuente;
+  }
+
+  public void setFuente(Fuente fuente) {
+    this.fuente = fuente;
+  }
+
+  public Boolean getNavegacionCurada() {
+    return navegacionCurada;
+  }
+
+  public void setNavegacionCurada(Boolean navegacionCurada) {
+    this.navegacionCurada = navegacionCurada;
+  }
+
+  public CriterioConsenso getCriterioConsenso() {
+    return criterioConsenso;
+  }
+
+  public void setCriterioConsenso(CriterioConsenso criterioConsenso) {
+    this.criterioConsenso = criterioConsenso;
+  }
+
+  public GestorSolicitudesEliminacion getGestor() {
+    if (this.gestor == null) {
+      getGestorInternal();
+    }
+    return this.gestor;
+  }
+
+  public void setGestor(GestorSolicitudesEliminacion gestor) {
+    this.gestor = gestor;
+  }
+
+  public List<ParametroFiltro> getCriteriosPertenencia() {
+    return criteriosPertenencia;
+  }
+
+  public void setCriteriosPertenencia(List<ParametroFiltro> criteriosPertenencia) {
+    this.criteriosPertenencia = criteriosPertenencia;
+  }
+
+  public List<ParametroFiltro> getCriteriosFiltrado() {
+    return criteriosFiltrado;
+  }
+
+  public void setCriteriosFiltrado(List<ParametroFiltro> criteriosFiltrado) {
+    this.criteriosFiltrado = criteriosFiltrado;
   }
 
   public List<Hecho> obtenerHechos() {
@@ -96,11 +170,14 @@ public class Coleccion implements WithSimplePersistenceUnit {
 
   private List<Hecho> quitarEliminados(List<Hecho> hechos){
     if (gestor == null) {
-      getGestor();
+      getGestorInternal();
     }
     return hechos.stream()
         .filter(hecho -> !gestor.siEstaEliminado(hecho.getTitulo()))
         .toList();
   }
 
+  private void getGestorInternal() {
+    this.gestor = GestorSolicitudesEliminacion.getInstancia();
+  }
 }

@@ -1,0 +1,30 @@
+{{#*inline "pageTitle"}}Solicitud de eliminación · MetaMapa{{/inline}}
+{{#> layout}}
+<section class="row justify-content-center">
+  <div class="col-lg-7 col-md-9">
+    <div class="card border-0 shadow-sm">
+      <div class="card-header bg-danger text-white py-3">
+        <h2 class="h5 mb-0"><i class="fa-regular fa-flag me-2"></i>Solicitar eliminación de un hecho</h2>
+      </div>
+      <div class="card-body p-4">
+        <form method="post" action="/solicitudes" class="row g-3">
+          <div class="col-12">
+            <label for="titulo" class="form-label">Título del hecho</label>
+            <input type="text" id="titulo" name="titulo" value="{{titulo}}" class="form-control" placeholder="Título del hecho" {{#titulo}}readonly{{/titulo}} required>
+            <div class="form-text">Completá el título tal como figura en la colección.</div>
+          </div>
+          <div class="col-12">
+            <label for="motivo" class="form-label">Motivo detallado (mínimo 500 caracteres)</label>
+            <textarea id="motivo" name="motivo" class="form-control" rows="6" minlength="500" placeholder="Explicá por qué corresponde la eliminación" required></textarea>
+          </div>
+          <div class="col-12 d-grid">
+            <button type="submit" class="btn btn-danger">
+              <i class="fa-solid fa-paper-plane me-2"></i>Enviar solicitud
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{{/layout}}

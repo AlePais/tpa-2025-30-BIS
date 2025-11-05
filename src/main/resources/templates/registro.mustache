@@ -1,0 +1,18 @@
+{{>partials/header}}
+<section class="form-card">
+    <h1>Crear cuenta</h1>
+    <form method="post" action="/registro" class="stack">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" minlength="6" required>
+        <label class="checkbox">
+            <input type="checkbox" name="admin">
+            Registrar como persona administradora
+        </label>
+        <button type="submit" class="primary">Registrarme</button>
+    </form>
+</section>
+{{>partials/footer}}

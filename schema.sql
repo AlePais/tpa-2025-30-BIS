@@ -1,9 +1,10 @@
--- Agrego SQL a mano para hacer fulltext la busqueda en campos de texto de hecho
+-- Manual DDL executed after Hibernate creates the base schema.
+-- Ensures full-text search support over the main textual columns of Hechos.
 
-ALTER TABLE Hechos
-  DROP INDEX IF EXISTS idx_hechos_fulltext,
-  ADD FULLTEXT INDEX idx_hechos_fulltext (titulo, descripcion, categoria);
+DROP INDEX IF EXISTS idx_hechos_fulltext ON Hechos;
+CREATE FULLTEXT INDEX idx_hechos_fulltext
+  ON Hechos (titulo, descripcion, categoria);
 
-ALTER TABLE Lugares
-  DROP INDEX IF EXISTS idx_lugares_provincia_fulltext,
-  ADD FULLTEXT INDEX idx_lugares_provincia_fulltext (provincia);
+DROP INDEX IF EXISTS idx_lugares_provincia_fulltext ON Lugares;
+CREATE FULLTEXT INDEX idx_lugares_provincia_fulltext
+  ON Lugares (provincia);
