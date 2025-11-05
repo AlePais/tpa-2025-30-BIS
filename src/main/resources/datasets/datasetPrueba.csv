@@ -1,0 +1,2001 @@
+Titulo,Descripcion,Categoria,Latitud,Longitud,fecha
+13075,Colisión vehículo-vehículo,Camioneta,-39,-68,2017-01-05
+13076,Colisión vehículo-vehículo,Motocicleta,-39,-68,2017-01-27
+13077,Vuelco-despistes,Camión,-39,-69,2017-01-20
+13078,Caída del ocupante,Colectivo,-39,-69,2017-01-24
+13088,Colisión vehículo-vehículo,Automóvil,-25,-65,2017-01-05
+13089,Colisión vehículo-persona,Sin vehiculo,-25,-65,2017-01-02
+13090,Colisión vehículo-vehículo,Automóvil,-26,-65,2017-01-10
+13092,Colisión vehículo-vehículo,Automóvil,-23,-64,2017-01-15
+40137,Colisión vehículo-vehículo,Motocicleta,-28,-62,2022-05-07
+40138,Vuelco-despistes,Motocicleta,-28,-64,2022-05-08
+40148,Colisión vehículo-persona,Sin vehiculo,-37,-64,2022-11-20
+40150,Vuelco-despistes,Motocicleta,-28,-65,2022-06-28
+40151,Vuelco-despistes,Automóvil,-30,-64,2022-06-18
+40153,Colisión vehículo-persona,Sin vehiculo,-28,-64,2022-06-23
+40154,Colisión vehículo-vehículo,Automóvil,-27,-65,2022-06-22
+40161,Vuelco-despistes,Motocicleta,-28,-64,2022-06-04
+40163,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-06-08
+40165,Vuelco-despistes,Motocicleta,-24,-65,2022-07-03
+40166,Colisión vehículo-vehículo,Motocicleta,-24,-65,2022-07-04
+40168,Colisión vehículo-vehículo,Motocicleta,-25,-65,2022-09-23
+40169,Colisión vehículo-persona,Sin vehiculo,-26,-66,2022-09-25
+40173,Colisión vehículo-vehículo,Automóvil,-26,-65,2022-10-01
+40174,Colisión vehículo-vehículo,Motocicleta,-23,-63,2022-10-02
+40179,Vuelco-despistes,Automóvil,-28,-65,2022-07-03
+40180,Vuelco-despistes,Motocicleta,-28,-62,2022-07-07
+40182,Colisión vehículo-persona,Sin vehiculo,-28,-64,2022-07-09
+40183,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-07-09
+40184,Vuelco-despistes,Tractor,-27,-64,2022-07-09
+40186,Colisión vehículo-vehículo,Motocicleta,-26,-63,2022-07-10
+40187,Colisión vehículo-vehículo,Motocicleta,-27,-64,2022-07-10
+40192,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-07-15
+40193,Colisión vehículo-persona,Motocicleta,-28,-64,2022-07-16
+40194,Vuelco-despistes,Motocicleta,-28,-64,2022-07-17
+40195,Vuelco-despistes,Motocicleta,-28,-64,2022-07-18
+40196,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-07-20
+40197,Vuelco-despistes,Automóvil,-26,-63,2022-07-22
+40198,Colisión vehículo-vehículo,Automóvil,-27,-64,2022-07-23
+40198,Colisión vehículo-vehículo,Automóvil,-27,-64,2022-07-23
+40209,Colisión vehículo-vehículo,Motocicleta,-33,-66,2022-03-05
+40210,Colisión vehículo-vehículo,Motocicleta,-34,-65,2022-03-05
+40214,Colisión vehículo-vehículo,Automóvil,-35,-68,2022-01-05
+40214,Colisión vehículo-vehículo,Automóvil,-35,-68,2022-01-05
+40214,Colisión vehículo-vehículo,Automóvil,-35,-68,2022-01-05
+40215,Colisión vehículo-vehículo,Automóvil,-33,-69,2022-01-15
+40216,Colisión vehículo-vehículo,Automóvil,-33,-69,2022-01-16
+40218,Colisión vehículo-objeto,Bicicleta,-34,-69,2022-01-20
+40219,Vuelco-despistes,Camioneta,-33,-68,2022-01-24
+40220,Colisión vehículo-persona,Sin vehiculo,-33,-69,2022-01-30
+40221,Colisión vehículo-vehículo,Bicicleta,-33,-69,2022-02-11
+40223,Vuelco-despistes,Camioneta,-33,-69,2022-02-14
+40224,Vuelco-despistes,Camioneta,-33,-68,2022-02-16
+40225,Colisión vehículo-persona,Sin vehiculo,-33,-68,2022-02-19
+40226,Vuelco-despistes,Camioneta,-33,-68,2022-02-20
+40228,Colisión vehículo-persona,Sin vehiculo,-33,-69,2022-03-08
+40230,Vuelco-despistes,Camión,-33,-68,2022-03-17
+40231,Vuelco-despistes,Automóvil,-33,-69,2022-03-19
+40232,Colisión vehículo-vehículo,Bicicleta,-35,-68,2022-03-20
+40233,Colisión vehículo-persona,Sin vehiculo,-33,-69,2022-03-22
+40233,Colisión vehículo-persona,Sin vehiculo,-33,-69,2022-03-22
+40234,Vuelco-despistes,Camión,-33,-69,2022-03-22
+40236,Vuelco-despistes,Automóvil,-33,-69,2022-03-28
+40237,Colisión vehículo-persona,Sin vehiculo,-33,-69,2022-03-14
+40243,Colisión vehículo-vehículo,Bicicleta,-35,-68,2022-04-02
+40244,Colisión vehículo-persona,Sin vehiculo,-33,-69,2022-04-04
+40245,Colisión vehículo-objeto,Automóvil,-33,-69,2022-04-04
+40245,Colisión vehículo-objeto,Automóvil,-33,-69,2022-04-04
+40246,Vuelco-despistes,Camioneta,-33,-69,2022-04-07
+40247,Colisión vehículo-vehículo,Automóvil,-34,-69,2022-04-09
+40248,Colisión vehículo-vehículo,Bicicleta,-33,-69,2022-04-13
+40249,Colisión vehículo-vehículo,Automóvil,-33,-69,2022-04-13
+40250,Colisión vehículo-vehículo,Automóvil,-33,-69,2022-04-19
+40251,Colisión vehículo-vehículo,Automóvil,-35,-68,2022-04-18
+40251,Colisión vehículo-vehículo,Automóvil,-35,-68,2022-04-18
+40252,Colisión vehículo-vehículo,Bicicleta,-34,-69,2022-04-25
+40258,Colisión vehículo-persona,Sin vehiculo,-33,-69,2022-05-02
+40260,Vuelco-despistes,Automóvil,-33,-68,2022-05-04
+40263,Vuelco-despistes,Bicicleta,-33,-69,2022-05-21
+40264,Colisión vehículo-persona,Sin vehiculo,-33,-69,2022-05-26
+40265,Vuelco-despistes,Automóvil,-33,-69,2022-05-28
+40266,Vuelco-despistes,Automóvil,-33,-69,2022-05-29
+40273,Colisión vehículo-objeto,Automóvil,-33,-69,2022-06-04
+40274,Colisión vehículo-vehículo,Bicicleta,-35,-68,2022-06-04
+40275,Colisión vehículo-objeto,Automóvil,-33,-69,2022-06-05
+40277,Colisión vehículo-vehículo,Bicicleta,-33,-69,2022-06-06
+40278,Colisión vehículo-vehículo,Bicicleta,-33,-69,2022-06-08
+40279,Colisión vehículo-vehículo,Bicicleta,-33,-68,2022-06-09
+40280,Colisión vehículo-vehículo,Automóvil,-33,-69,2022-06-11
+40281,Vuelco-despistes,Camioneta,-33,-68,2022-06-17
+40282,Vuelco-despistes,Bicicleta,-33,-69,2022-06-19
+40284,Colisión vehículo-objeto,Automóvil,-33,-68,2022-06-28
+40285,Colisión vehículo-persona,Sin vehiculo,-33,-69,2022-06-15
+40289,Colisión vehículo-vehículo,Motocicleta,-33,-69,2022-07-05
+40291,Colisión vehículo-vehículo,Motocicleta,-33,-69,2022-07-08
+40292,Colisión vehículo-vehículo,Motocicleta,-33,-69,2022-07-08
+40293,Colisión vehículo-vehículo,Motocicleta,-33,-69,2022-07-10
+40293,Colisión vehículo-vehículo,Motocicleta,-33,-69,2022-07-10
+40295,Colisión vehículo-vehículo,Motocicleta,-33,-68,2022-07-16
+40297,Colisión vehículo-vehículo,Motocicleta,-33,-68,2022-07-22
+40298,Colisión vehículo-vehículo,Motocicleta,-33,-69,2022-07-27
+40299,Colisión vehículo-persona,Camioneta,-33,-69,2022-07-28
+40300,Vuelco-despistes,Sin vehiculo,-33,-69,2022-07-31
+40303,Colisión vehículo-persona,Sin vehiculo,-34,-69,2022-08-03
+40304,Colisión vehículo-vehículo,Motocicleta,-35,-68,2022-08-08
+40307,Vuelco-despistes,Camioneta,-33,-69,2022-08-14
+40308,Colisión vehículo-vehículo,Automóvil,-33,-68,2022-08-14
+40310,Colisión vehículo-vehículo,Motocicleta,-35,-68,2022-08-19
+40312,Colisión vehículo-objeto,Automóvil,-33,-68,2022-08-28
+40313,Colisión vehículo-vehículo,Bicicleta,-35,-68,2022-08-30
+40318,Colisión vehículo-vehículo,Camioneta,-35,-68,2022-09-05
+40319,Colisión vehículo-objeto,Motocicleta,-33,-69,2022-09-10
+40320,Vuelco-despistes,Automóvil,-33,-69,2022-09-11
+40322,Colisión vehículo-vehículo,Camioneta,-33,-69,2022-09-13
+40323,Vuelco-despistes,Colectivo,-33,-68,2022-09-28
+40324,Colisión vehículo-objeto,Motocicleta,-33,-69,2022-09-30
+40325,Colisión vehículo-vehículo,Bicicleta,-34,-69,2022-10-03
+40326,Vuelco-despistes,Motocicleta,-33,-69,2022-10-06
+40327,Colisión vehículo-vehículo,Camioneta,-35,-68,2022-10-23
+40328,Colisión vehículo-vehículo,Automóvil,-33,-69,2022-10-23
+40328,Colisión vehículo-vehículo,Automóvil,-33,-69,2022-10-23
+40328,Colisión vehículo-vehículo,Automóvil,-33,-69,2022-10-23
+40328,Colisión vehículo-vehículo,Automóvil,-33,-69,2022-10-23
+40328,Colisión vehículo-vehículo,Automóvil,-33,-69,2022-10-23
+40329,Colisión vehículo-vehículo,Motocicleta,-33,-69,2022-10-28
+40330,Colisión vehículo-vehículo,Motocicleta,-33,-68,2022-10-31
+40331,Colisión vehículo-vehículo,Motocicleta,-35,-68,2022-10-31
+40332,Colisión vehículo-vehículo,Motocicleta,-33,-69,2022-11-06
+40335,Colisión vehículo-objeto,Automóvil,-33,-69,2022-11-17
+40336,Colisión vehículo-objeto,Automóvil,-33,-69,2022-11-20
+40337,Colisión vehículo-vehículo,Motocicleta,-33,-69,2022-11-26
+40340,Colisión vehículo-objeto,Motocicleta,-25,-65,2022-10-09
+40341,Colisión vehículo-objeto,Automóvil,-25,-65,2022-10-10
+40342,Colisión vehículo-persona,Sin vehiculo,-25,-66,2022-10-11
+40351,Colisión vehículo-vehículo,Camioneta,-24,-65,2022-07-02
+40351,Colisión vehículo-vehículo,Motocicleta,-24,-65,2022-07-02
+40353,Colisión vehículo-vehículo,Motocicleta,-28,-66,2022-09-05
+40354,Colisión vehículo-vehículo,Motocicleta,-29,-65,2022-08-25
+40357,Colisión vehículo-persona,Bicicleta,-28,-64,2022-08-28
+40358,Vuelco-despistes,Motocicleta,-28,-64,2022-08-28
+40360,Colisión vehículo-persona,Sin vehiculo,-28,-64,2022-08-26
+40369,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-08-03
+40373,Vuelco-despistes,Automóvil,-28,-64,2022-08-31
+40386,Colisión vehículo-vehículo,Motocicleta,-28,-66,2022-07-04
+40387,Colisión vehículo-objeto,Automóvil,-32,-58,2022-11-18
+40390,Vuelco-despistes,Automóvil,-31,-58,2022-11-24
+40391,Colisión vehículo-vehículo,Motocicleta,-33,-59,2022-11-27
+40392,Colisión vehículo-vehículo,Camioneta,-33,-59,2022-11-06
+40392,Colisión vehículo-vehículo,Camioneta,-33,-59,2022-11-06
+40393,Colisión vehículo-persona,Sin vehiculo,-32,-61,2022-11-13
+40394,Colisión vehículo-vehículo,Motocicleta,-32,-60,2022-11-14
+40395,Colisión vehículo-vehículo,Motocicleta,-32,-58,2022-11-19
+40395,Colisión vehículo-vehículo,Motocicleta,-32,-58,2022-11-19
+40396,Colisión vehículo-vehículo,Motocicleta,-32,-59,2022-11-25
+40406,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-09-03
+40407,Vuelco-despistes,Motocicleta,-26,-63,2022-09-17
+40413,Colisión vehículo-objeto,Motocicleta,-28,-64,2022-09-04
+40414,Vuelco-despistes,Motocicleta,-26,-63,2022-09-03
+40419,Colisión vehículo-vehículo,Motocicleta,-32,-61,2022-11-12
+40420,Colisión vehículo-vehículo,Motocicleta,-32,-61,2022-11-26
+40422,Colisión vehículo-objeto,Motocicleta,-33,-61,2022-11-04
+40423,Colisión vehículo-vehículo,Bicicleta,-33,-61,2022-11-15
+40424,Colisión vehículo-persona,Sin vehiculo,-33,-61,2022-11-19
+40426,Colisión vehículo-vehículo,Motocicleta,-33,-61,2022-11-01
+40428,Colisión vehículo-vehículo,Motocicleta,-33,-61,2022-11-24
+40431,Colisión vehículo-vehículo,Bicicleta,-31,-62,2022-11-07
+40432,Colisión vehículo-vehículo,Motocicleta,-31,-62,2022-11-09
+40433,Colisión vehículo-objeto,Motocicleta,-31,-61,2022-11-19
+40434,Colisión vehículo-objeto,Camioneta,-34,-61,2022-11-25
+40436,Colisión vehículo-vehículo,Ciclomotor,-31,-60,2022-11-06
+40437,Colisión vehículo-vehículo,Motocicleta,-34,-62,2022-11-13
+40449,Colisión vehículo-vehículo,Motocicleta,-32,-61,2022-11-08
+40452,Colisión vehículo-persona,Sin vehiculo,-29,-60,2022-11-26
+40488,Vuelco-despistes,Motocicleta,-29,-59,2022-09-18
+40491,Colisión vehículo-objeto,Automóvil,-29,-58,2022-11-05
+40493,Colisión vehículo-vehículo,Motocicleta,-29,-59,2022-03-27
+40499,Colisión vehículo-vehículo,Motocicleta,-30,-58,2022-06-26
+40501,Colisión vehículo-vehículo,Motocicleta,-29,-59,2022-04-12
+40510,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-10-23
+40512,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-10-07
+40513,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-10-16
+40514,Vuelco-despistes,Camioneta,-29,-63,2022-10-11
+40517,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-10-03
+40521,Vuelco-despistes,Camioneta,-28,-62,2022-10-02
+40522,Vuelco-despistes,Motocicleta,-29,-65,2022-10-30
+40537,Colisión vehículo-vehículo,Motocicleta,-29,-65,2022-01-08
+40538,Colisión vehículo-persona,Sin vehiculo,-29,-65,2022-02-08
+40543,Colisión vehículo-objeto,Automóvil,-28,-66,2022-08-07
+40544,Vuelco-despistes,Camioneta,-50,-69,2022-11-19
+40546,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-11-26
+40548,Colisión vehículo-vehículo,Motocicleta,-29,-63,2022-11-19
+40548,Colisión vehículo-vehículo,Motocicleta,-29,-63,2022-11-19
+40550,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-11-17
+40551,Vuelco-despistes,Camioneta,-26,-63,2022-11-22
+40552,Colisión vehículo-vehículo,Automóvil,-28,-64,2022-11-16
+40554,Vuelco-despistes,Motocicleta,-28,-64,2022-11-09
+40558,Colisión vehículo-persona,Automóvil,-27,-64,2022-11-12
+40559,Vuelco-despistes,Motocicleta,-27,-65,2022-11-10
+40560,Colisión vehículo-objeto,Motocicleta,-28,-64,2022-11-07
+40561,Colisión vehículo-objeto,Motocicleta,-28,-64,2022-11-06
+40562,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-11-05
+40578,Vuelco-despistes,Motocicleta,-27,-54,2022-08-22
+40579,Colisión vehículo-vehículo,Motocicleta,-33,-68,2022-12-03
+40580,Colisión vehículo-persona,Sin vehiculo,-33,-69,2022-12-09
+40581,Colisión vehículo-vehículo,Motocicleta,-33,-69,2022-12-16
+40582,Vuelco-despistes,Automóvil,-35,-68,2022-12-16
+40583,Colisión vehículo-vehículo,Automóvil,-35,-68,2022-12-18
+40584,Colisión vehículo-persona,Sin vehiculo,-33,-69,2022-12-20
+40585,Colisión vehículo-objeto,Camioneta,-35,-68,2022-12-24
+40586,Colisión vehículo-vehículo,Automóvil,-33,-69,2022-12-29
+40594,Colisión vehículo-vehículo,Automóvil,-43,-65,2022-08-15
+40596,Colisión vehículo-persona,Sin vehiculo,-43,-65,2022-10-23
+40598,Colisión vehículo-vehículo,Automóvil,-28,-56,2022-12-23
+40599,Colisión vehículo-vehículo,Motocicleta,-46,-68,2022-12-19
+40604,Colisión vehículo-vehículo,Automóvil,-25,-65,2022-11-09
+40605,Colisión vehículo-vehículo,Automóvil,-25,-65,2022-11-12
+40606,Colisión vehículo-vehículo,Automóvil,-22,-64,2022-11-13
+40612,Colisión vehículo-vehículo,Automóvil,-40,-70,2022-11-25
+40612,Colisión vehículo-vehículo,Automóvil,-40,-70,2022-11-25
+40616,Vuelco-despistes,Automóvil,-26,-54,2022-06-28
+40618,Vuelco-despistes,Automóvil,-27,-54,2022-07-19
+40622,Colisión vehículo-vehículo,Motocicleta,-27,-54,2022-10-22
+40623,Vuelco-despistes,Motocicleta,-25,-58,2022-12-16
+40625,Vuelco-despistes,Motocicleta,-26,-58,2022-12-26
+40627,Colisión vehículo-objeto,Motocicleta,-39,-68,2022-12-11
+40628,Colisión vehículo-vehículo,Motocicleta,-39,-68,2022-12-10
+40630,Colisión vehículo-vehículo,Automóvil,-39,-68,2022-12-23
+40630,Colisión vehículo-vehículo,Automóvil,-39,-68,2022-12-23
+40631,Colisión vehículo-vehículo,Motocicleta,-39,-68,2022-12-23
+40632,Vuelco-despistes,Camión,-40,-70,2022-12-05
+40634,Vuelco-despistes,Automóvil,-25,-64,2022-07-16
+40635,Vuelco-despistes,Automóvil,-52,-72,2022-12-18
+40640,Colisión vehículo-vehículo,Bicicleta,-27,-66,2022-05-06
+40643,Colisión vehículo-persona,Sin vehiculo,-27,-55,2022-12-06
+40645,Colisión vehículo-vehículo,Sin vehiculo,-25,-65,2022-11-20
+40646,Colisión vehículo-vehículo,Sin determinar,-25,-65,2022-11-21
+40650,Colisión vehículo-persona,Motocicleta,-23,-64,2022-11-27
+40652,Colisión vehículo-vehículo,Motocicleta,-23,-64,2022-12-04
+40653,Colisión vehículo-objeto,Camioneta,-31,-58,2022-12-16
+40653,Colisión vehículo-objeto,Camioneta,-31,-58,2022-12-16
+40654,Vuelco-despistes,Motocicleta,-31,-58,2022-12-30
+40655,Vuelco-despistes,Automóvil,-33,-59,2022-12-27
+40656,Vuelco-despistes,Motocicleta,-32,-60,2022-12-17
+40657,Colisión vehículo-vehículo,Motocicleta,-32,-60,2022-12-17
+40658,Colisión vehículo-vehículo,Bicicleta,-32,-61,2022-12-29
+40660,Colisión vehículo-vehículo,Automóvil,-32,-59,2022-12-10
+40661,Colisión vehículo-vehículo,Motocicleta,-33,-60,2022-12-09
+40662,Colisión vehículo-vehículo,Automóvil,-33,-60,2022-12-28
+40668,Colisión vehículo-vehículo,Camioneta,-26,-54,2022-12-19
+40675,Colisión vehículo-vehículo,Camioneta,-25,-65,2022-12-18
+40675,Colisión vehículo-vehículo,Camioneta,-25,-65,2022-12-18
+40677,Colisión vehículo-objeto,Motocicleta,-27,-66,2022-12-11
+40679,Colisión vehículo-vehículo,Camioneta,-25,-65,2022-12-18
+40681,Colisión vehículo-vehículo,Camioneta,-25,-65,2022-12-23
+40681,Colisión vehículo-vehículo,Camioneta,-25,-65,2022-12-23
+40683,Caída del ocupante,Motocicleta,-25,-64,2022-12-25
+40684,Colisión vehículo-vehículo,Motocicleta,-25,-65,2022-12-24
+40685,Vuelco-despistes,Camión,-29,-65,2022-03-08
+40686,Colisión vehículo-vehículo,Motocicleta,-29,-65,2022-04-03
+40688,Vuelco-despistes,Automóvil,-29,-65,2022-06-05
+40688,Vuelco-despistes,Automóvil,-29,-65,2022-06-05
+40693,Colisión vehículo-vehículo,Motocicleta,-27,-54,2022-11-13
+40696,Vuelco-despistes,Camioneta,-24,-66,2022-07-23
+40696,Vuelco-despistes,Camioneta,-24,-66,2022-07-23
+40698,Vuelco-despistes,Automóvil,-23,-66,2022-03-19
+40700,Colisión vehículo-persona,Sin vehiculo,-24,-65,2022-08-06
+40701,Colisión vehículo-vehículo,Automóvil,-24,-65,2022-08-22
+40703,Colisión vehículo-vehículo,Bicicleta,-24,-65,2022-08-29
+40704,Colisión vehículo-vehículo,Motocicleta,-24,-65,2022-08-13
+40705,Colisión vehículo-vehículo,Motocicleta,-26,-55,2022-10-01
+40708,Vuelco-despistes,Automóvil,-47,-69,2022-12-28
+40709,Vuelco-despistes,Motocicleta,-26,-55,2022-12-14
+40712,Colisión vehículo-vehículo,Motocicleta,-26,-63,2022-01-30
+40714,Colisión vehículo-vehículo,Automóvil,-29,-63,2022-01-25
+40714,Colisión vehículo-vehículo,Automóvil,-29,-63,2022-01-25
+40717,Colisión vehículo-vehículo,Camioneta,-28,-63,2022-01-20
+40719,Vuelco-despistes,Motocicleta,-28,-64,2022-01-01
+40720,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-01-11
+40721,Vuelco-despistes,Motocicleta,-28,-64,2022-01-15
+40725,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-01-03
+40726,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-01-01
+40726,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-01-01
+40727,Vuelco-despistes,Motocicleta,-28,-64,2022-01-28
+40729,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-01-31
+40741,Vuelco-despistes,Camión,-32,-62,2022-12-22
+40741,Vuelco-despistes,Camión,-32,-62,2022-12-22
+40743,Vuelco-despistes,Motocicleta,-29,-62,2022-12-20
+40747,Colisión vehículo-vehículo,Motocicleta,-32,-62,2022-12-01
+40749,Colisión vehículo-vehículo,Automóvil,-33,-61,2022-12-15
+40751,Colisión vehículo-vehículo,Automóvil,-33,-61,2022-12-28
+40752,Vuelco-despistes,Camioneta,-30,-60,2022-12-18
+40755,Colisión vehículo-objeto,Motocicleta,-33,-61,2022-12-01
+40756,Colisión vehículo-vehículo,Grúa,-33,-61,2022-12-03
+40757,Vuelco-despistes,Automóvil,-33,-61,2022-12-04
+40758,Colisión vehículo-persona,Sin vehiculo,-33,-61,2022-12-05
+40759,Vuelco-despistes,Automóvil,-33,-61,2022-12-11
+40759,Vuelco-despistes,Automóvil,-33,-61,2022-12-11
+40760,Colisión vehículo-vehículo,Bicicleta,-33,-61,2022-12-11
+40762,Colisión vehículo-vehículo,Motocicleta,-33,-61,2022-12-18
+40763,Colisión vehículo-vehículo,Automóvil,-33,-61,2022-12-21
+40764,Colisión vehículo-objeto,Automóvil,-32,-61,2022-12-08
+40765,Vuelco-despistes,Motocicleta,-32,-61,2022-12-15
+40767,Vuelco-despistes,Automóvil,-32,-61,2022-12-25
+40768,Colisión vehículo-objeto,Motocicleta,-31,-62,2022-12-30
+40772,Colisión vehículo-vehículo,Motocicleta,-33,-61,2022-12-18
+40773,Colisión vehículo-vehículo,Motocicleta,-33,-61,2022-12-22
+40806,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-03-02
+40811,Colisión vehículo-vehículo,Motocicleta,-23,-65,2022-10-02
+40812,Colisión vehículo-vehículo,Automóvil,-24,-65,2022-11-02
+40814,Colisión vehículo-persona,Sin vehiculo,-23,-66,2022-10-02
+40815,Vuelco-despistes,Motocicleta,-24,-65,2022-11-27
+40818,Vuelco-despistes,Camioneta,-24,-65,2022-11-27
+40820,Vuelco-despistes,Automóvil,-24,-65,2022-10-09
+40822,Colisión vehículo-persona,Sin vehiculo,-24,-65,2022-10-17
+40823,Colisión vehículo-vehículo,Motocicleta,-24,-65,2022-10-06
+40827,Colisión vehículo-vehículo,Motocicleta,-24,-65,2022-09-18
+40828,Vuelco-despistes,Motocicleta,-23,-67,2022-09-18
+40829,Vuelco-despistes,Automóvil,-24,-65,2022-09-13
+40831,Colisión vehículo-objeto,Motocicleta,-24,-65,2022-09-04
+40858,Colisión vehículo-vehículo,Motocicleta,-41,-63,2022-05-07
+40859,Vuelco-despistes,Automóvil,-42,-65,2022-05-14
+40877,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-12-22
+40877,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-12-22
+40880,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-12-15
+40881,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-12-25
+40882,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-12-30
+40883,Colisión vehículo-vehículo,Automóvil,-26,-63,2022-12-03
+40887,Vuelco-despistes,Motocicleta,-28,-64,2022-12-25
+40888,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-12-06
+40889,Vuelco-despistes,Camioneta,-27,-65,2022-12-03
+40890,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-12-20
+40894,Colisión vehículo-objeto,Motocicleta,-28,-66,2022-12-05
+40895,Colisión vehículo-vehículo,Motocicleta,-28,-66,2022-12-20
+40903,Colisión vehículo-vehículo,Motocicleta,-28,-64,2022-01-26
+40911,Colisión vehículo-persona,Sin determinar,-23,-65,2022-12-26
+40945,Colisión vehículo-vehículo,Motocicleta,-30,-69,2022-12-07
+40946,Colisión vehículo-vehículo,Motocicleta,-32,-59,2022-11-13
+40949,Sin determinar,Automóvil,-43,-65,2022-12-13
+40950,Colisión vehículo-vehículo,Motocicleta,-43,-65,2022-10-05
+40951,Colisión vehículo-persona,Sin vehiculo,-24,-65,2022-01-22
+40952,Vuelco-despistes,Motocicleta,-24,-65,2022-01-23
+40971,Colisión vehículo-vehículo,Motocicleta,-34,-65,2022-04-02
+40975,Vuelco-despistes,Automóvil,-41,-65,2022-06-23
+40977,Colisión vehículo-vehículo,Camioneta,-39,-67,2022-06-09
+40981,Colisión vehículo-vehículo,Motocicleta,-41,-63,2022-07-27
+40982,Colisión vehículo-vehículo,Motocicleta,-39,-68,2022-07-17
+40983,Colisión vehículo-persona,Sin vehiculo,-39,-68,2022-07-10
+40984,Colisión vehículo-persona,Automóvil,-39,-68,2022-07-21
+40991,Vuelco-despistes,Motocicleta,-33,-66,2022-05-21
+40992,Vuelco-despistes,Automóvil,-33,-66,2022-05-25
+40996,Colisión vehículo-vehículo,Motocicleta,-33,-66,2022-06-10
+41002,Colisión vehículo-persona,Sin vehiculo,-24,-65,2022-09-12
+41003,Colisión vehículo-vehículo,Automóvil,-46,-68,2022-12-17
+41004,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-01-19
+41008,Colisión vehículo-vehículo,Motocicleta,-26,-61,2022-01-05
+41011,Vuelco-despistes,Automóvil,-27,-59,2022-01-30
+41012,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-01-31
+41013,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-01-21
+41016,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-01-14
+41017,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-01-21
+41018,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-01-07
+41020,Colisión vehículo-vehículo,Motocicleta,-27,-61,2022-02-20
+41021,Colisión vehículo-vehículo,Bicicleta,-26,-60,2022-02-11
+41022,Colisión vehículo-animal,Motocicleta,-26,-60,2022-02-19
+41024,Colisión vehículo-vehículo,Motocicleta,-28,-61,2022-02-07
+41027,Vuelco-despistes,Motocicleta,-27,-59,2022-02-12
+41028,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-02-02
+41029,Colisión vehículo-vehículo,Motocicleta,-28,-62,2022-02-18
+41029,Colisión vehículo-vehículo,Motocicleta,-28,-62,2022-02-18
+41034,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-03-12
+41035,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-03-27
+41036,Colisión vehículo-vehículo,Camioneta,-27,-60,2022-03-14
+41037,Colisión vehículo-vehículo,Motocicleta,-27,-61,2022-03-13
+41038,Colisión vehículo-persona,Sin vehiculo,-27,-59,2022-03-22
+41039,Colisión vehículo-vehículo,Motocicleta,-27,-60,2022-03-18
+41040,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-03-08
+41041,Colisión vehículo-vehículo,Camioneta,-26,-61,2022-03-23
+41041,Colisión vehículo-vehículo,Camioneta,-26,-61,2022-03-23
+41042,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-03-23
+41068,Colisión vehículo-vehículo,Automóvil,-38,-68,2022-08-06
+41068,Colisión vehículo-vehículo,Automóvil,-38,-68,2022-08-06
+41070,Colisión vehículo-persona,Sin vehiculo,-40,-66,2022-08-13
+41071,Colisión vehículo-vehículo,Motocicleta,-41,-68,2022-08-04
+41072,Colisión vehículo-vehículo,Camioneta,-39,-68,2022-08-14
+41073,Colisión vehículo-vehículo,Motocicleta,-38,-68,2022-08-05
+41073,Colisión vehículo-vehículo,Motocicleta,-38,-68,2022-08-05
+41077,Vuelco-despistes,Automóvil,-43,-71,2022-11-14
+41112,Colisión vehículo-vehículo,Motocicleta,-29,-67,2022-08-01
+41118,Caída del ocupante,Motocicleta,-29,-67,2022-09-11
+41121,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-09-12
+41123,Colisión vehículo-vehículo,Bicicleta,-27,-59,2022-09-23
+41124,Colisión vehículo-vehículo,Motocicleta,-27,-61,2022-09-14
+41135,Colisión vehículo-persona,Sin vehiculo,-27,-61,2022-10-21
+41136,Vuelco-despistes,Automóvil,-27,-61,2022-10-22
+41138,Colisión vehículo-vehículo,Motocicleta,-26,-61,2022-10-12
+41138,Colisión vehículo-vehículo,Camión,-26,-61,2022-10-12
+41139,Colisión vehículo-animal,Motocicleta,-26,-63,2022-10-09
+41141,Colisión vehículo-vehículo,Motocicleta,-27,-60,2022-10-16
+41144,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-10-22
+41145,Colisión vehículo-Tracción a sangre,Motocicleta,-27,-60,2022-10-18
+41146,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-10-05
+41147,Vuelco-despistes,Motocicleta,-27,-59,2022-10-01
+41148,Colisión vehículo-vehículo,Motocicleta,-27,-61,2022-10-21
+41151,Vuelco-despistes,Motocicleta,-27,-59,2022-10-02
+41152,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-10-28
+41153,Vuelco-despistes,Motocicleta,-27,-59,2022-10-31
+41154,Vuelco-despistes,Motocicleta,-27,-59,2022-10-10
+41154,Vuelco-despistes,Motocicleta,-27,-59,2022-10-10
+41167,Colisión vehículo-objeto,Camioneta,-39,-68,2022-09-18
+41168,Colisión vehículo-vehículo,Automóvil,-39,-68,2022-09-11
+41169,Vuelco-despistes,Automóvil,-39,-68,2022-09-26
+41170,Colisión vehículo-vehículo,Automóvil,-39,-68,2022-09-15
+41171,Colisión vehículo-vehículo,Motocicleta,-39,-67,2022-09-25
+41174,Vuelco-despistes,Automóvil,-41,-65,2022-10-23
+41175,Colisión vehículo-objeto,Motocicleta,-39,-67,2022-10-16
+41176,Colisión vehículo-vehículo,Camioneta,-41,-69,2022-10-21
+41181,Colisión vehículo-vehículo,Motocicleta,-39,-66,2022-11-24
+41182,Colisión vehículo-vehículo,Motocicleta,-39,-68,2022-11-30
+41183,Colisión vehículo-vehículo,Motocicleta,-39,-68,2022-11-24
+41184,Vuelco-despistes,Camioneta,-39,-68,2022-11-03
+41185,Colisión vehículo-persona,Sin vehiculo,-39,-65,2022-11-05
+41186,Colisión vehículo-vehículo,Motocicleta,-39,-64,2022-11-01
+41187,Colisión vehículo-vehículo,Motocicleta,-42,-72,2022-11-18
+41189,Colisión vehículo-vehículo,Automóvil,-39,-68,2022-12-14
+41189,Colisión vehículo-vehículo,Automóvil,-39,-68,2022-12-14
+41189,Colisión vehículo-vehículo,Automóvil,-39,-68,2022-12-14
+41190,Colisión vehículo-vehículo,Automóvil,-41,-63,2022-12-19
+41195,Caída del ocupante,Motocicleta,-29,-67,2022-09-13
+41196,Colisión vehículo-vehículo,Motocicleta,-30,-66,2022-10-04
+41199,Colisión vehículo-objeto,Motocicleta,-29,-67,2022-10-16
+41200,Caída del ocupante,Motocicleta,-29,-67,2022-10-16
+41201,Colisión vehículo-vehículo,Motocicleta,-29,-67,2022-10-17
+41234,Colisión vehículo-vehículo,Motocicleta,-31,-67,2022-10-31
+41235,Vuelco-despistes,Automóvil,-27,-59,2022-11-27
+41237,Vuelco-despistes,Motocicleta,-27,-59,2022-11-05
+41238,Colisión vehículo-vehículo,Motocicleta,-26,-61,2022-11-10
+41239,Vuelco-despistes,Motocicleta,-27,-59,2022-11-25
+41242,Colisión vehículo-vehículo,Motocicleta,-27,-60,2022-11-20
+41242,Colisión vehículo-vehículo,Motocicleta,-27,-60,2022-11-20
+41244,Colisión vehículo-vehículo,Motocicleta,-27,-60,2022-11-07
+41245,Colisión vehículo-animal,Motocicleta,-28,-59,2022-11-08
+41251,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-12-10
+41252,Colisión vehículo-vehículo,Motocicleta,-27,-61,2022-12-06
+41254,Colisión vehículo-vehículo,Camioneta,-27,-61,2022-12-18
+41255,Colisión vehículo-vehículo,Motocicleta,-27,-60,2022-12-20
+41257,Colisión vehículo-vehículo,Micro larga distancia,-27,-60,2022-12-03
+41257,Colisión vehículo-vehículo,Camión,-27,-60,2022-12-03
+41257,Colisión vehículo-vehículo,Micro larga distancia,-27,-60,2022-12-03
+41260,Colisión vehículo-vehículo,Bicicleta,-27,-59,2022-12-09
+41261,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-12-10
+41263,Vuelco-despistes,Motocicleta,-27,-60,2022-12-02
+41264,Colisión vehículo-persona,Sin vehiculo,-27,-61,2022-12-18
+41265,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-12-11
+41269,Colisión vehículo-vehículo,Motocicleta,-27,-59,2022-12-31
+41270,Colisión vehículo-vehículo,Motocicleta,-27,-60,2022-12-28
+41271,Colisión vehículo-vehículo,Motocicleta,-27,-60,2022-12-18
+41272,Vuelco-despistes,Camioneta,-27,-61,2022-12-28
+41282,Colisión vehículo-vehículo,Camioneta,-27,-54,2022-01-04
+41283,Colisión vehículo-persona,Sin vehiculo,-27,-54,2022-01-30
+41291,Colisión vehículo-objeto,Camioneta,-32,-68,2022-05-11
+41295,Colisión vehículo-vehículo,Automóvil,-32,-69,2022-07-22
+41299,Colisión vehículo-objeto,Motocicleta,-32,-69,2022-08-16
+41301,Colisión vehículo-vehículo,Automóvil,-32,-69,2022-08-30
+41302,Colisión vehículo-vehículo,Motocicleta,-32,-68,2022-08-05
+41307,Colisión vehículo-vehículo,Motocicleta,-32,-68,2022-10-23
+41308,Colisión vehículo-vehículo,Tracción a sangre,-32,-68,2022-10-17
+41310,Vuelco-despistes,Automóvil,-32,-68,2022-10-08
+41311,Colisión vehículo-vehículo,Motocicleta,-32,-68,2022-10-26
+41312,Vuelco-despistes,Motocicleta,-32,-69,2022-10-01
+41314,Vuelco-despistes,Motocicleta,-32,-69,2022-10-16
+41315,Vuelco-despistes,Automóvil,-32,-69,2022-10-11
+41321,Colisión vehículo-vehículo,Motocicleta,-32,-69,2022-11-19
+41322,Vuelco-despistes,Automóvil,-31,-67,2022-11-09
+41322,Vuelco-despistes,Automóvil,-31,-67,2022-11-09
+41325,Colisión vehículo-objeto,Motocicleta,-33,-68,2022-11-20
+41331,Vuelco-despistes,Motocicleta,-34,-65,2022-09-11
+41340,Colisión vehículo-objeto,Automóvil,-34,-66,2022-08-20
+41341,Colisión vehículo-persona,Sin vehiculo,-34,-65,2022-08-07
+41348,Colisión vehículo-objeto,Motocicleta,-34,-65,2022-07-16
+41349,Colisión vehículo-vehículo,Camioneta,-35,-59,2022-02-26
+41350,Colisión vehículo-vehículo,Ciclomotor,-35,-58,2022-02-25
+41351,Vuelco-despistes,Automóvil,-37,-63,2022-02-13
+41352,Sin determinar,Motocicleta,-35,-59,2022-02-20
+41353,Sin determinar,Sin determinar,-35,-59,2022-02-17
+41354,Colisión vehículo-vehículo,Motocicleta,-35,-60,2022-02-24
+41355,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-02-04
+41355,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-02-04
+41356,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-02-02
+41358,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-02-14
+41359,Colisión vehículo-vehículo,Automóvil,-34,-59,2022-02-10
+41360,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-02-23
+41361,Sin determinar,Automóvil,-35,-59,2022-02-06
+41362,Colisión vehículo-vehículo,Motocicleta,-35,-63,2022-02-20
+41364,Sin determinar,Camión,-36,-59,2022-02-08
+41365,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-02-08
+41366,Colisión vehículo-vehículo,Motocicleta,-34,-61,2022-02-17
+41367,Colisión vehículo-vehículo,Motocicleta,-35,-61,2022-02-19
+41368,Colisión vehículo-vehículo,Motocicleta,-39,-62,2022-02-16
+41369,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-02-22
+41370,Sin determinar,Motocicleta,-35,-58,2022-02-25
+41371,Sin determinar,Motocicleta,-35,-58,2022-02-28
+41374,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-02-28
+41375,Sin determinar,Sin determinar,-34,-59,2022-02-22
+41376,Colisión vehículo-vehículo,Camión,-35,-58,2022-02-19
+41377,Colisión vehículo-persona,Sin vehiculo,-33,-60,2022-02-22
+41378,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-02-21
+41381,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-02-08
+41382,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-02-24
+41383,Colisión vehículo-vehículo,Ciclomotor,-35,-58,2022-02-27
+41384,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-02-07
+41385,Sin determinar,Sin determinar,-35,-59,2022-02-17
+41387,Colisión vehículo-vehículo,Ciclomotor,-35,-59,2022-02-05
+41388,Sin determinar,Motocicleta,-34,-61,2022-02-05
+41390,Colisión vehículo-persona,Sin vehiculo,-34,-59,2022-02-14
+41391,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-02-22
+41392,Colisión vehículo-persona,Sin vehiculo,-35,-60,2022-02-18
+41395,Sin determinar,Automóvil,-38,-60,2022-02-28
+41396,Sin determinar,Sin determinar,-35,-58,2022-02-04
+41397,Sin determinar,Automóvil,-35,-59,2022-02-14
+41398,Colisión vehículo-vehículo,Automóvil,-33,-60,2022-02-23
+41399,Sin determinar,Ciclomotor,-34,-61,2022-02-05
+41400,Colisión vehículo-persona,Sin vehiculo,-38,-58,2022-02-23
+41401,Sin determinar,Motocicleta,-34,-60,2022-02-14
+41402,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-02-23
+41404,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-02-26
+41405,Sin determinar,Automóvil,-34,-60,2022-02-02
+41406,Colisión vehículo-vehículo,Automóvil,-35,-59,2022-02-02
+41408,Sin determinar,Automóvil,-36,-58,2022-02-20
+41408,Sin determinar,Automóvil,-36,-58,2022-02-20
+41408,Sin determinar,Automóvil,-36,-58,2022-02-20
+41408,Sin determinar,Automóvil,-36,-58,2022-02-20
+41409,Sin determinar,Motocicleta,-34,-59,2022-02-26
+41410,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-02-20
+41412,Sin determinar,Automóvil,-35,-59,2022-02-11
+41413,Colisión vehículo-vehículo,Automóvil,-34,-59,2022-02-06
+41414,Sin determinar,Tren,-35,-58,2022-02-14
+41416,Colisión vehículo-vehículo,Ciclomotor,-35,-61,2022-02-16
+41417,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-02-24
+41418,Colisión vehículo-vehículo,Motocicleta,-36,-57,2022-02-23
+41419,Vuelco-despistes,Motocicleta,-34,-59,2022-02-21
+41420,Sin determinar,Motocicleta,-35,-58,2022-02-19
+41421,Colisión vehículo-vehículo,Automóvil,-33,-60,2022-02-05
+41424,Colisión vehículo-vehículo,Automóvil,-34,-59,2022-02-07
+41424,Colisión vehículo-vehículo,Automóvil,-34,-59,2022-02-07
+41424,Colisión vehículo-vehículo,Automóvil,-34,-59,2022-02-07
+41425,Colisión vehículo-vehículo,Automóvil,-35,-58,2022-02-25
+41426,Colisión vehículo-objeto,Automóvil,-35,-59,2022-02-19
+41427,Colisión vehículo-vehículo,Ciclomotor,-35,-58,2022-02-24
+41429,Sin determinar,Camioneta,-37,-58,2022-02-19
+41432,Colisión vehículo-vehículo,Camioneta,-35,-59,2022-02-06
+41434,Colisión vehículo-vehículo,Motocicleta,-35,-62,2022-02-22
+41436,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-02-18
+41439,Colisión vehículo-vehículo,Automóvil,-35,-61,2022-02-24
+41476,Colisión vehículo-persona,Sin vehiculo,-34,-59,2022-06-07
+41477,Vuelco-despistes,Tren,-34,-59,2022-06-15
+41478,Sin determinar,Sin determinar,-35,-58,2022-06-05
+41479,Colisión vehículo-vehículo,Camioneta,-35,-59,2022-06-24
+41480,Colisión vehículo-vehículo,Camión,-37,-62,2022-06-02
+41481,Colisión vehículo-vehículo,Automóvil,-37,-60,2022-06-25
+41481,Colisión vehículo-vehículo,Automóvil,-37,-60,2022-06-25
+41482,Colisión vehículo-vehículo,Automóvil,-34,-59,2022-06-02
+41483,Vuelco-despistes,Camioneta,-38,-58,2022-06-07
+41484,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-06-19
+41485,Colisión vehículo-vehículo,Motocicleta,-36,-62,2022-06-02
+41486,Colisión vehículo-vehículo,Ciclomotor,-38,-58,2022-06-12
+41488,Colisión vehículo-vehículo,Ciclomotor,-35,-58,2022-06-03
+41489,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-06-19
+41491,Colisión vehículo-objeto,Automóvil,-35,-58,2022-06-13
+41492,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-06-25
+41493,Colisión vehículo-vehículo,Ciclomotor,-37,-59,2022-06-19
+41494,Vuelco-despistes,Automóvil,-37,-58,2022-06-25
+41496,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-06-23
+41497,Colisión vehículo-vehículo,Tren,-34,-59,2022-06-07
+41498,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-06-03
+41499,Colisión vehículo-vehículo,Automóvil,-34,-59,2022-06-02
+41501,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-06-29
+41502,Colisión vehículo-vehículo,Automóvil,-35,-59,2022-06-04
+41503,Vuelco-despistes,Sin determinar,-35,-59,2022-06-08
+41504,Vuelco-despistes,Motocicleta,-35,-59,2022-06-16
+41505,Colisión vehículo-vehículo,Colectivo,-35,-59,2022-06-22
+41506,Colisión vehículo-vehículo,Motocicleta,-36,-60,2022-06-12
+41507,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-06-28
+41508,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-06-10
+41509,Vuelco-despistes,Camión,-34,-59,2022-06-18
+41511,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-06-01
+41512,Colisión vehículo-vehículo,Motocicleta,-39,-62,2022-06-04
+41513,Colisión vehículo-vehículo,Automóvil,-35,-58,2022-06-25
+41514,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-06-03
+41516,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-06-11
+41519,Colisión vehículo-vehículo,Motocicleta,-35,-63,2022-06-13
+41520,Colisión vehículo-vehículo,Camioneta,-37,-57,2022-06-28
+41520,Colisión vehículo-vehículo,Camioneta,-37,-57,2022-06-28
+41521,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-06-11
+41522,Colisión vehículo-vehículo,Automóvil,-34,-60,2022-06-30
+41523,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-06-26
+41524,Colisión vehículo-vehículo,Automóvil,-37,-62,2022-06-03
+41525,Vuelco-despistes,Motocicleta,-35,-58,2022-06-11
+41526,Vuelco-despistes,Sin determinar,-35,-61,2022-06-04
+41529,Colisión vehículo-vehículo,Automóvil,-35,-59,2022-06-05
+41531,Colisión vehículo-vehículo,Motocicleta,-33,-60,2022-06-26
+41532,Colisión vehículo-vehículo,Camioneta,-34,-59,2022-06-02
+41535,Vuelco-despistes,Ciclomotor,-35,-61,2022-06-11
+41536,Colisión vehículo-vehículo,Automóvil,-39,-62,2022-06-05
+41536,Colisión vehículo-vehículo,Automóvil,-39,-62,2022-06-05
+41538,Colisión vehículo-vehículo,Camioneta,-35,-58,2022-06-22
+41539,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-06-02
+41540,Colisión vehículo-persona,Sin vehiculo,-34,-59,2022-06-23
+41541,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-06-13
+41542,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-06-25
+41543,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-06-08
+41545,Colisión vehículo-persona,Sin vehiculo,-34,-61,2022-06-23
+41546,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-06-23
+41603,Colisión vehículo-vehículo,Automóvil,-35,-61,2022-07-17
+41604,Vuelco-despistes,Automóvil,-38,-62,2022-07-18
+41605,Colisión vehículo-vehículo,Camión,-37,-60,2022-07-21
+41606,Colisión vehículo-vehículo,Camioneta,-34,-61,2022-07-08
+41607,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-07-27
+41608,Vuelco-despistes,Automóvil,-34,-60,2022-07-24
+41610,Sin determinar,Sin determinar,-37,-59,2022-07-02
+41611,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-07-24
+41612,Colisión vehículo-persona,Camioneta,-34,-59,2022-07-07
+41613,Sin determinar,Sin determinar,-35,-58,2022-07-25
+41614,Colisión vehículo-vehículo,Sin determinar,-34,-59,2022-07-13
+41615,Colisión vehículo-vehículo,Camión,-36,-60,2022-07-27
+41615,Colisión vehículo-vehículo,Sin determinar,-36,-60,2022-07-27
+41616,Sin determinar,Camioneta,-34,-59,2022-07-08
+41617,Colisión vehículo-persona,Tren,-34,-59,2022-07-07
+41618,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-07-07
+41620,Colisión vehículo-vehículo,Motocicleta,-40,-63,2022-07-05
+41621,Colisión vehículo-persona,Sin vehiculo,-34,-59,2022-07-06
+41623,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-07-31
+41625,Vuelco-despistes,Ciclomotor,-36,-57,2022-07-17
+41628,Colisión vehículo-vehículo,Sin determinar,-36,-59,2022-07-26
+41629,Colisión vehículo-persona,Tren,-35,-59,2022-07-27
+41631,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-07-17
+41632,Sin determinar,Sin determinar,-35,-58,2022-07-25
+41633,Colisión vehículo-vehículo,Sin determinar,-35,-59,2022-07-04
+41634,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-07-03
+41635,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-07-30
+41636,Colisión vehículo-vehículo,Sin determinar,-34,-59,2022-07-06
+41636,Colisión vehículo-vehículo,Automóvil,-34,-59,2022-07-06
+41637,Colisión vehículo-vehículo,Sin determinar,-34,-59,2022-07-13
+41638,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-07-13
+41639,Colisión vehículo-vehículo,Automóvil,-39,-62,2022-07-17
+41639,Colisión vehículo-vehículo,Automóvil,-39,-62,2022-07-17
+41640,Colisión vehículo-vehículo,Automóvil,-35,-58,2022-07-27
+41641,Colisión vehículo-vehículo,Automóvil,-36,-62,2022-07-05
+41642,Vuelco-despistes,Sin determinar,-34,-59,2022-07-16
+41643,Sin determinar,Motocicleta,-34,-59,2022-07-07
+41644,Colisión vehículo-vehículo,Camión,-37,-59,2022-07-25
+41645,Sin determinar,Sin determinar,-35,-58,2022-07-21
+41646,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-07-28
+41647,Colisión vehículo-persona,Sin vehiculo,-34,-61,2022-07-01
+41648,Colisión vehículo-vehículo,Camión,-35,-59,2022-07-25
+41649,Colisión vehículo-objeto,Motocicleta,-35,-60,2022-07-03
+41651,Colisión vehículo-vehículo,Sin determinar,-35,-59,2022-07-09
+41652,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-07-02
+41653,Vuelco-despistes,Automóvil,-35,-59,2022-07-02
+41654,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-07-05
+41654,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-07-05
+41655,Vuelco-despistes,Ciclomotor,-34,-59,2022-07-31
+41657,Colisión vehículo-vehículo,Camioneta,-34,-59,2022-07-08
+41658,Sin determinar,Sin determinar,-38,-60,2022-07-08
+41659,Colisión vehículo-vehículo,Motocicleta,-37,-59,2022-07-30
+41660,Sin determinar,Sin determinar,-34,-62,2022-07-08
+41661,Colisión vehículo-vehículo,Sin determinar,-34,-60,2022-07-17
+41662,Colisión vehículo-vehículo,Automóvil,-35,-61,2022-07-08
+41665,Sin determinar,Sin determinar,-35,-58,2022-07-06
+41666,Sin determinar,Sin determinar,-38,-58,2022-07-27
+41667,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-07-11
+41668,Sin determinar,Sin determinar,-34,-59,2022-07-03
+41669,Sin determinar,Sin determinar,-39,-61,2022-07-25
+41670,Vuelco-despistes,Camioneta,-34,-60,2022-07-10
+41672,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-07-24
+41672,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-07-24
+41674,Colisión vehículo-vehículo,Automóvil,-36,-58,2022-07-23
+41675,Colisión vehículo-vehículo,Automóvil,-34,-61,2022-07-18
+41676,Vuelco-despistes,Automóvil,-37,-60,2022-07-22
+41676,Vuelco-despistes,Automóvil,-37,-60,2022-07-22
+41679,Colisión vehículo-persona,Tren,-35,-59,2022-07-02
+41730,Sin determinar,Sin determinar,-35,-58,2022-08-02
+41731,Sin determinar,Sin determinar,-38,-58,2022-08-06
+41732,Colisión vehículo-vehículo,Motocicleta,-37,-57,2022-08-04
+41733,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-08-12
+41734,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-08-09
+41735,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-08-28
+41736,Vuelco-despistes,Automóvil,-36,-58,2022-08-18
+41737,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-08-05
+41739,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-08-01
+41740,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-08-03
+41742,Colisión vehículo-vehículo,Sin determinar,-34,-59,2022-08-27
+41743,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-08-28
+41744,Colisión vehículo-persona,Sin vehiculo,-34,-59,2022-08-09
+41745,Sin determinar,Sin determinar,-39,-62,2022-08-08
+41746,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-08-31
+41747,Colisión vehículo-persona,Motocicleta,-35,-59,2022-08-18
+41748,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-08-01
+41749,Colisión vehículo-persona,Sin vehiculo,-35,-60,2022-08-17
+41750,Colisión vehículo-objeto,Automóvil,-35,-59,2022-08-22
+41752,Colisión vehículo-persona,Sin vehiculo,-35,-60,2022-08-19
+41754,Vuelco-despistes,Sin determinar,-37,-57,2022-08-01
+41755,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-08-02
+41756,Colisión vehículo-vehículo,Sin determinar,-34,-59,2022-08-07
+41757,Colisión vehículo-vehículo,Sin determinar,-35,-59,2022-08-27
+41758,Colisión vehículo-vehículo,Tren,-35,-58,2022-08-26
+41759,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-08-09
+41760,Vuelco-despistes,Automóvil,-35,-58,2022-08-23
+41761,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-08-25
+41762,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-08-16
+41763,Colisión vehículo-vehículo,Camión,-35,-58,2022-08-20
+41765,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-08-20
+41766,Sin determinar,Sin determinar,-34,-59,2022-08-10
+41767,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-08-25
+41768,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-08-23
+41769,Colisión vehículo-vehículo,Automóvil,-35,-60,2022-08-19
+41769,Colisión vehículo-vehículo,Automóvil,-35,-60,2022-08-19
+41770,Colisión vehículo-vehículo,Automóvil,-35,-58,2022-08-01
+41771,Sin determinar,Sin determinar,-35,-58,2022-08-16
+41772,Colisión vehículo-vehículo,Sin determinar,-37,-57,2022-08-23
+41773,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-08-25
+41774,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-08-23
+41775,Colisión vehículo-vehículo,Automóvil,-35,-59,2022-08-27
+41775,Colisión vehículo-vehículo,Sin determinar,-35,-59,2022-08-27
+41777,Colisión vehículo-vehículo,Motocicleta,-34,-62,2022-08-28
+41779,Colisión vehículo-objeto,Motocicleta,-35,-59,2022-08-06
+41780,Colisión vehículo-vehículo,Automóvil,-38,-58,2022-08-09
+41781,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-08-25
+41782,Colisión vehículo-vehículo,Motocicleta,-37,-57,2022-08-07
+41782,Colisión vehículo-vehículo,Sin determinar,-37,-57,2022-08-07
+41784,Colisión vehículo-vehículo,Sin determinar,-36,-58,2022-08-13
+41785,Colisión vehículo-persona,Sin vehiculo,-34,-59,2022-08-03
+41786,Sin determinar,Sin determinar,-35,-58,2022-08-01
+41788,Colisión vehículo-vehículo,Camioneta,-35,-58,2022-08-27
+41790,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-08-01
+41791,Colisión vehículo-vehículo,Motocicleta,-34,-61,2022-08-04
+41792,Vuelco-despistes,Sin determinar,-36,-58,2022-08-15
+41793,Colisión vehículo-vehículo,Ciclomotor,-34,-59,2022-08-20
+41794,Sin determinar,Motocicleta,-35,-59,2022-08-24
+41796,Vuelco-despistes,Sin determinar,-37,-58,2022-08-03
+41798,Vuelco-despistes,Sin determinar,-35,-58,2022-08-28
+41799,Colisión vehículo-persona,Sin vehiculo,-34,-59,2022-08-31
+41801,Colisión vehículo-vehículo,Motocicleta,-36,-58,2022-08-31
+41802,Colisión vehículo-vehículo,Sin determinar,-34,-59,2022-08-20
+41803,Colisión vehículo-persona,Sin vehiculo,-38,-58,2022-08-09
+41804,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-08-18
+41805,Colisión vehículo-vehículo,Sin determinar,-38,-60,2022-08-11
+41807,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-08-15
+41808,Vuelco-despistes,Sin determinar,-37,-60,2022-08-27
+41809,Vuelco-despistes,Camión,-35,-61,2022-08-27
+41810,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-08-20
+41811,Sin determinar,Sin determinar,-35,-58,2022-08-01
+41812,Colisión vehículo-vehículo,Automóvil,-36,-58,2022-08-13
+41814,Vuelco-despistes,Sin determinar,-35,-58,2022-08-12
+41815,Sin determinar,Sin determinar,-35,-58,2022-08-12
+41817,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-08-19
+41818,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-08-14
+41857,Colisión vehículo-vehículo,Sin determinar,-39,-62,2022-09-12
+41858,Sin determinar,Sin determinar,-34,-59,2022-09-03
+41860,Colisión vehículo-vehículo,Sin determinar,-34,-59,2022-09-20
+41861,Vuelco-despistes,Sin determinar,-37,-58,2022-09-04
+41861,Vuelco-despistes,Automóvil,-37,-58,2022-09-04
+41861,Vuelco-despistes,Sin determinar,-37,-58,2022-09-04
+41862,Colisión vehículo-vehículo,Automóvil,-35,-59,2022-09-11
+41863,Vuelco-despistes,Motocicleta,-35,-58,2022-09-22
+41864,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-09-10
+41865,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-09-25
+41866,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-09-16
+41867,Colisión vehículo-vehículo,Sin determinar,-35,-60,2022-09-19
+41868,Colisión vehículo-vehículo,Motocicleta,-35,-60,2022-09-04
+41869,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-09-20
+41870,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-09-05
+41871,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-09-15
+41872,Colisión vehículo-vehículo,Bicicleta,-34,-61,2022-09-17
+41873,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-09-11
+41874,Colisión vehículo-vehículo,Motocicleta,-36,-62,2022-09-06
+41875,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-09-20
+41876,Vuelco-despistes,Sin determinar,-35,-60,2022-09-26
+41877,Sin determinar,Sin determinar,-35,-59,2022-09-29
+41878,Colisión vehículo-vehículo,Sin determinar,-36,-59,2022-09-28
+41879,Colisión vehículo-vehículo,Motocicleta,-35,-61,2022-09-16
+41880,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-09-19
+41881,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-09-12
+41882,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-09-06
+41884,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-09-09
+41885,Vuelco-despistes,Sin determinar,-36,-60,2022-09-22
+41886,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-09-27
+41888,Colisión vehículo-persona,Sin vehiculo,-33,-60,2022-09-02
+41890,Vuelco-despistes,Sin determinar,-38,-58,2022-09-18
+41892,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-09-24
+41894,Vuelco-despistes,Sin determinar,-37,-58,2022-09-05
+41894,Vuelco-despistes,Automóvil,-37,-58,2022-09-05
+41894,Vuelco-despistes,Sin determinar,-37,-58,2022-09-05
+41895,Vuelco-despistes,Motocicleta,-35,-58,2022-09-08
+41896,Sin determinar,Motocicleta,-35,-58,2022-09-03
+41897,Colisión vehículo-vehículo,Motocicleta,-38,-58,2022-09-12
+41900,Sin determinar,Motocicleta,-35,-58,2022-09-24
+41901,Vuelco-despistes,Sin determinar,-35,-58,2022-09-07
+41902,Colisión vehículo-persona,Sin vehiculo,-38,-58,2022-09-11
+41903,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-09-05
+41904,Colisión vehículo-vehículo,Automóvil,-35,-59,2022-09-18
+41907,Vuelco-despistes,Sin determinar,-35,-58,2022-09-30
+41908,Vuelco-despistes,Sin determinar,-35,-59,2022-09-10
+41912,Colisión vehículo-persona,Sin vehiculo,-39,-59,2022-09-22
+41913,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-09-08
+41914,Colisión vehículo-persona,Sin vehiculo,-38,-58,2022-09-10
+41917,Colisión vehículo-vehículo,Automóvil,-35,-58,2022-09-25
+41918,Vuelco-despistes,Automóvil,-35,-61,2022-09-04
+41921,Colisión vehículo-vehículo,Camioneta,-34,-61,2022-09-01
+41923,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-09-03
+41925,Colisión vehículo-vehículo,Sin determinar,-35,-59,2022-09-21
+41926,Colisión vehículo-objeto,Sin determinar,-35,-62,2022-09-22
+41927,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-09-21
+41928,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-09-26
+41929,Vuelco-despistes,Sin determinar,-35,-59,2022-09-03
+41930,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-09-17
+41931,Colisión vehículo-vehículo,Motocicleta,-35,-61,2022-09-21
+41932,Colisión vehículo-vehículo,Automóvil,-35,-59,2022-09-18
+41933,Colisión vehículo-vehículo,Automóvil,-35,-58,2022-09-30
+41934,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-09-20
+41935,Colisión vehículo-persona,Sin vehiculo,-37,-57,2022-09-02
+41936,Vuelco-despistes,Automóvil,-36,-60,2022-09-22
+41937,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-09-23
+41938,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-09-29
+41939,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-09-28
+41940,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-09-25
+41941,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-09-27
+41985,Colisión vehículo-vehículo,Automóvil,-37,-63,2022-10-24
+41986,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-10-07
+41987,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-10-12
+41988,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-10-08
+41989,Colisión vehículo-vehículo,Motocicleta,-35,-60,2022-10-14
+41989,Colisión vehículo-vehículo,Motocicleta,-35,-60,2022-10-14
+41990,Vuelco-despistes,Motocicleta,-35,-59,2022-10-04
+41990,Vuelco-despistes,Motocicleta,-35,-59,2022-10-04
+41991,Colisión vehículo-persona,Sin vehiculo,-34,-59,2022-10-15
+41992,Colisión vehículo-vehículo,Motocicleta,-37,-60,2022-10-14
+41993,Sin determinar,Tren,-35,-59,2022-10-03
+41994,Sin determinar,Motocicleta,-35,-59,2022-10-21
+41995,Colisión vehículo-persona,Sin vehiculo,-36,-58,2022-10-10
+41996,Sin determinar,Sin determinar,-35,-58,2022-10-12
+41997,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-10-20
+41998,Colisión vehículo-vehículo,Automóvil,-34,-60,2022-10-30
+41999,Vuelco-despistes,Sin determinar,-35,-58,2022-10-02
+42000,Vuelco-despistes,Sin determinar,-35,-63,2022-10-29
+42001,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-10-06
+42002,Vuelco-despistes,Sin determinar,-38,-58,2022-10-26
+42003,Colisión vehículo-vehículo,Motocicleta,-34,-61,2022-10-27
+42005,Colisión vehículo-vehículo,Automóvil,-34,-59,2022-10-03
+42006,Colisión vehículo-persona,Sin vehiculo,-34,-59,2022-10-26
+42007,Sin determinar,Sin determinar,-35,-59,2022-10-03
+42008,Colisión vehículo-vehículo,Bicicleta,-35,-58,2022-10-20
+42009,Sin determinar,Automóvil,-35,-59,2022-10-10
+42010,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-10-21
+42011,Sin determinar,Sin determinar,-35,-59,2022-10-20
+42012,Vuelco-despistes,Sin determinar,-36,-58,2022-10-24
+42013,Colisión vehículo-vehículo,Sin determinar,-37,-58,2022-10-01
+42014,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-10-29
+42015,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-10-12
+42019,Sin determinar,Sin determinar,-37,-58,2022-10-08
+42020,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-10-13
+42022,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-10-03
+42023,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-10-25
+42026,Vuelco-despistes,Motocicleta,-35,-59,2022-10-23
+42028,Sin determinar,Sin determinar,-35,-58,2022-10-04
+42029,Vuelco-despistes,Automóvil,-34,-60,2022-10-03
+42030,Vuelco-despistes,Automóvil,-34,-59,2022-10-08
+42032,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-10-12
+42033,Colisión vehículo-vehículo,Sin determinar,-34,-61,2022-10-14
+42036,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-10-20
+42037,Colisión vehículo-vehículo,Automóvil,-35,-59,2022-10-24
+42039,Colisión vehículo-vehículo,Camión,-33,-60,2022-10-12
+42041,Colisión vehículo-vehículo,Sin determinar,-38,-58,2022-10-03
+42042,Sin determinar,Sin determinar,-35,-63,2022-10-22
+42043,Vuelco-despistes,Motocicleta,-35,-59,2022-10-22
+42044,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-10-21
+42045,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-10-01
+42046,Colisión vehículo-vehículo,Sin determinar,-34,-59,2022-10-30
+42046,Colisión vehículo-vehículo,Automóvil,-34,-59,2022-10-30
+42047,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-10-22
+42048,Vuelco-despistes,Camión,-38,-62,2022-10-05
+42050,Vuelco-despistes,Sin determinar,-35,-58,2022-10-08
+42051,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-10-04
+42052,Colisión vehículo-vehículo,Sin determinar,-36,-63,2022-10-05
+42053,Vuelco-despistes,Sin determinar,-35,-59,2022-10-06
+42054,Colisión vehículo-vehículo,Ciclomotor,-35,-58,2022-10-06
+42055,Colisión vehículo-vehículo,Motocicleta,-37,-62,2022-10-09
+42056,Sin determinar,Motocicleta,-35,-59,2022-10-06
+42058,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-10-12
+42059,Vuelco-despistes,Ciclomotor,-35,-58,2022-10-04
+42060,Sin determinar,Automóvil,-34,-60,2022-10-09
+42061,Vuelco-despistes,Motocicleta,-35,-60,2022-10-02
+42062,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-10-23
+42063,Sin determinar,Motocicleta,-35,-58,2022-10-08
+42065,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-10-03
+42066,Colisión vehículo-vehículo,Automóvil,-35,-59,2022-10-08
+42067,Sin determinar,Sin determinar,-35,-59,2022-10-11
+42068,Sin determinar,Sin determinar,-35,-58,2022-10-20
+42113,Vuelco-despistes,Sin determinar,-38,-57,2022-11-13
+42114,Vuelco-despistes,Motocicleta,-35,-59,2022-11-20
+42115,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-11-19
+42117,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-11-14
+42118,Colisión vehículo-vehículo,Motocicleta,-37,-57,2022-11-03
+42120,Sin determinar,Sin determinar,-35,-58,2022-11-19
+42120,Sin determinar,Sin determinar,-35,-58,2022-11-19
+42122,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-11-05
+42123,Colisión vehículo-vehículo,Sin determinar,-35,-59,2022-11-05
+42126,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-11-19
+42128,Colisión vehículo-vehículo,Automóvil,-35,-59,2022-11-18
+42129,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-11-25
+42130,Colisión vehículo-vehículo,Sin determinar,-36,-58,2022-11-12
+42133,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-11-05
+42135,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-11-05
+42136,Colisión vehículo-vehículo,Sin determinar,-37,-60,2022-11-17
+42138,Vuelco-despistes,Sin determinar,-35,-59,2022-11-20
+42139,Colisión vehículo-vehículo,Sin determinar,-36,-62,2022-11-04
+42140,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-11-27
+42144,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-11-11
+42145,Colisión vehículo-vehículo,Camioneta,-34,-59,2022-11-19
+42146,Colisión vehículo-persona,Sin vehiculo,-38,-58,2022-11-14
+42147,Sin determinar,Automóvil,-35,-57,2022-11-07
+42148,Vuelco-despistes,Camioneta,-34,-59,2022-11-18
+42149,Vuelco-despistes,Sin determinar,-34,-59,2022-11-04
+42150,Sin determinar,Motocicleta,-35,-59,2022-11-11
+42153,Vuelco-despistes,Sin determinar,-36,-60,2022-11-19
+42154,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-11-15
+42156,Sin determinar,Motocicleta,-35,-58,2022-11-20
+42158,Colisión vehículo-vehículo,Bicicleta,-35,-59,2022-11-06
+42159,Colisión vehículo-vehículo,Sin determinar,-36,-63,2022-11-13
+42161,Colisión vehículo-persona,Sin vehiculo,-34,-59,2022-11-20
+42161,Colisión vehículo-persona,Sin vehiculo,-34,-59,2022-11-20
+42163,Vuelco-despistes,Sin determinar,-35,-62,2022-11-26
+42164,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-11-10
+42165,Vuelco-despistes,Sin determinar,-35,-58,2022-11-18
+42166,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-11-22
+42168,Colisión vehículo-vehículo,Sin determinar,-35,-59,2022-11-16
+42169,Vuelco-despistes,Sin determinar,-35,-59,2022-11-04
+42170,Colisión vehículo-vehículo,Motocicleta,-37,-60,2022-11-11
+42171,Colisión vehículo-vehículo,Sin determinar,-34,-61,2022-11-27
+42173,Sin determinar,Sin determinar,-33,-60,2022-11-19
+42174,Colisión vehículo-objeto,Camioneta,-35,-59,2022-11-14
+42175,Colisión vehículo-vehículo,Sin determinar,-38,-58,2022-11-21
+42176,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-11-27
+42177,Colisión vehículo-vehículo,Automóvil,-39,-60,2022-11-27
+42177,Colisión vehículo-vehículo,Automóvil,-39,-60,2022-11-27
+42178,Colisión vehículo-vehículo,Motocicleta,-39,-62,2022-11-05
+42179,Colisión vehículo-vehículo,Sin determinar,-34,-59,2022-11-01
+42180,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-11-05
+42183,Colisión vehículo-vehículo,Camión,-33,-60,2022-11-10
+42184,Colisión vehículo-persona,Sin vehiculo,-38,-58,2022-11-18
+42186,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-11-06
+42187,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-11-25
+42188,Colisión vehículo-vehículo,Sin determinar,-35,-59,2022-11-11
+42190,Vuelco-despistes,Sin determinar,-39,-59,2022-11-30
+42192,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-11-22
+42195,Colisión vehículo-objeto,Automóvil,-35,-59,2022-11-12
+42196,Vuelco-despistes,Motocicleta,-35,-58,2022-11-12
+42198,Vuelco-despistes,Sin determinar,-38,-60,2022-11-26
+42200,Sin determinar,Sin determinar,-35,-58,2022-11-04
+42201,Colisión vehículo-vehículo,Sin determinar,-39,-62,2022-11-04
+42242,Colisión vehículo-vehículo,Automóvil,-35,-63,2022-12-07
+42244,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-12-22
+42244,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-12-22
+42245,Sin determinar,Motocicleta,-35,-58,2022-12-06
+42246,Vuelco-despistes,Sin determinar,-37,-59,2022-12-05
+42247,Colisión vehículo-vehículo,Camioneta,-35,-59,2022-12-03
+42248,Colisión vehículo-vehículo,Camioneta,-37,-62,2022-12-29
+42249,Colisión vehículo-objeto,Camión,-33,-60,2022-12-03
+42250,Colisión vehículo-vehículo,Automóvil,-34,-59,2022-12-08
+42251,Colisión vehículo-vehículo,Automóvil,-34,-59,2022-12-03
+42252,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-12-07
+42253,Colisión vehículo-vehículo,Motocicleta,-37,-60,2022-12-18
+42254,Vuelco-despistes,Automóvil,-35,-63,2022-12-25
+42255,Sin determinar,Sin determinar,-35,-58,2022-12-12
+42256,Colisión vehículo-vehículo,Motocicleta,-37,-60,2022-12-28
+42259,Vuelco-despistes,Sin determinar,-35,-59,2022-12-25
+42260,Colisión vehículo-vehículo,Sin determinar,-37,-57,2022-12-03
+42261,Colisión vehículo-vehículo,Camioneta,-35,-59,2022-12-14
+42262,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-12-27
+42263,Colisión vehículo-vehículo,Sin determinar,-38,-58,2022-12-26
+42264,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-12-03
+42265,Colisión vehículo-objeto,Automóvil,-35,-58,2022-12-12
+42266,Colisión vehículo-vehículo,Sin determinar,-37,-57,2022-12-10
+42267,Sin determinar,Motocicleta,-34,-59,2022-12-22
+42268,Sin determinar,Sin determinar,-35,-59,2022-12-01
+42269,Colisión vehículo-vehículo,Automóvil,-35,-60,2022-12-23
+42270,Colisión vehículo-vehículo,Sin determinar,-35,-60,2022-12-15
+42273,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-12-07
+42274,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-12-18
+42275,Vuelco-despistes,Sin determinar,-35,-61,2022-12-12
+42276,Colisión vehículo-vehículo,Sin determinar,-34,-60,2022-12-30
+42277,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-12-19
+42278,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-12-28
+42279,Sin determinar,Motocicleta,-35,-59,2022-12-05
+42280,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-12-24
+42281,Sin determinar,Sin determinar,-34,-61,2022-12-25
+42283,Vuelco-despistes,Sin determinar,-37,-59,2022-12-27
+42284,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-12-05
+42285,Vuelco-despistes,Camioneta,-37,-59,2022-12-23
+42286,Colisión vehículo-persona,Sin vehiculo,-38,-58,2022-12-15
+42287,Colisión vehículo-vehículo,Motocicleta,-34,-60,2022-12-21
+42288,Colisión vehículo-vehículo,Camioneta,-34,-60,2022-12-30
+42289,Colisión vehículo-vehículo,Automóvil,-35,-62,2022-12-21
+42290,Vuelco-despistes,Automóvil,-35,-61,2022-12-21
+42291,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-12-04
+42292,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-12-22
+42294,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-12-13
+42295,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-12-17
+42296,Vuelco-despistes,Automóvil,-34,-61,2022-12-08
+42297,Colisión vehículo-vehículo,Sin determinar,-37,-59,2022-12-15
+42298,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-12-04
+42299,Colisión vehículo-persona,Sin vehiculo,-38,-58,2022-12-07
+42300,Vuelco-despistes,Automóvil,-38,-62,2022-12-26
+42302,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-12-04
+42303,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-12-20
+42304,Vuelco-despistes,Sin determinar,-35,-58,2022-12-18
+42305,Colisión vehículo-vehículo,Motocicleta,-34,-60,2022-12-17
+42306,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-12-02
+42308,Colisión vehículo-persona,Sin vehiculo,-35,-62,2022-12-04
+42309,Vuelco-despistes,Motocicleta,-35,-58,2022-12-25
+42312,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-12-13
+42313,Vuelco-despistes,Sin determinar,-35,-61,2022-12-12
+42314,Vuelco-despistes,Automóvil,-35,-59,2022-12-21
+42316,Colisión vehículo-objeto,Motocicleta,-35,-61,2022-12-03
+42317,Colisión vehículo-vehículo,Motocicleta,-37,-60,2022-12-09
+42320,Vuelco-despistes,Motocicleta,-35,-58,2022-12-18
+42321,Colisión vehículo-vehículo,Automóvil,-33,-60,2022-12-28
+42322,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-12-23
+42325,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-12-24
+42326,Colisión vehículo-objeto,Automóvil,-35,-58,2022-12-22
+42327,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-12-19
+42334,Colisión vehículo-vehículo,Automóvil,-35,-58,2022-12-18
+42338,Colisión vehículo-vehículo,Sin determinar,-38,-57,2022-12-29
+42339,Colisión vehículo-vehículo,Automóvil,-35,-62,2022-12-18
+42339,Colisión vehículo-vehículo,Sin determinar,-35,-62,2022-12-18
+42340,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-12-30
+42368,Colisión vehículo-vehículo,Motocicleta,-32,-69,2022-12-13
+42369,Colisión vehículo-persona,Sin vehiculo,-32,-68,2022-12-31
+42374,Colisión vehículo-vehículo,Bicicleta,-32,-69,2022-12-17
+42375,Colisión vehículo-vehículo,Motocicleta,-32,-68,2022-12-11
+42383,Vuelco-despistes,Motocicleta,-32,-68,2022-09-20
+42384,Vuelco-despistes,Motocicleta,-32,-69,2022-09-26
+42386,Colisión vehículo-vehículo,Automóvil,-32,-69,2022-09-09
+42386,Colisión vehículo-vehículo,Camioneta,-32,-69,2022-09-09
+42386,Colisión vehículo-vehículo,Automóvil,-32,-69,2022-09-09
+42387,Colisión vehículo-vehículo,Motocicleta,-32,-69,2022-09-26
+42390,Colisión vehículo-vehículo,Bicicleta,-32,-62,2022-11-28
+42410,Caída del ocupante,Motocicleta,-29,-67,2022-10-10
+42414,Colisión vehículo-vehículo,Motocicleta,-33,-66,2022-10-08
+42415,Colisión vehículo-vehículo,Bicicleta,-33,-66,2022-10-17
+42416,Colisión vehículo-objeto,Automóvil,-33,-66,2022-10-22
+42424,Colisión vehículo-objeto,Automóvil,-33,-66,2022-11-11
+42425,Colisión vehículo-objeto,Motocicleta,-33,-66,2022-11-05
+42427,Colisión vehículo-objeto,Camioneta,-33,-65,2022-11-24
+42437,Vuelco-despistes,Motocicleta,-27,-55,2022-11-06
+42581,Colisión vehículo-objeto,Motocicleta,-33,-66,2022-12-31
+42582,Colisión vehículo-vehículo,Motocicleta,-33,-66,2022-12-09
+42583,Vuelco-despistes,Motocicleta,-34,-65,2022-12-18
+42735,Vuelco-despistes,Motocicleta,-26,-55,2022-10-30
+43116,Sin determinar,Camioneta,-35,-59,2022-03-09
+43117,Sin determinar,Ciclomotor,-34,-59,2022-03-15
+43118,Sin determinar,Sin determinar,-35,-58,2022-03-19
+43119,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-03-01
+43120,Sin determinar,Sin determinar,-33,-60,2022-03-26
+43121,Colisión vehículo-vehículo,Ciclomotor,-39,-62,2022-03-01
+43122,Sin determinar,Sin determinar,-35,-58,2022-03-14
+43122,Sin determinar,Sin determinar,-35,-58,2022-03-14
+43123,Colisión vehículo-objeto,Sin determinar,-35,-59,2022-03-28
+43124,Sin determinar,Tren,-34,-59,2022-03-12
+43125,Sin determinar,Automóvil,-38,-59,2022-03-20
+43126,Colisión vehículo-vehículo,Ciclomotor,-35,-59,2022-03-18
+43127,Colisión vehículo-vehículo,Motocicleta,-37,-60,2022-03-05
+43128,Colisión vehículo-persona,Sin vehiculo,-34,-59,2022-03-16
+43131,Colisión vehículo-vehículo,Sin determinar,-35,-59,2022-03-12
+43132,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-03-13
+43133,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-03-10
+43134,Colisión vehículo-vehículo,Ciclomotor,-35,-58,2022-03-18
+43135,Vuelco-despistes,Automóvil,-38,-58,2022-03-15
+43137,Vuelco-despistes,Motocicleta,-34,-61,2022-03-13
+43138,Colisión vehículo-vehículo,Camioneta,-36,-62,2022-03-19
+43139,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-03-28
+43141,Sin determinar,Sin determinar,-35,-58,2022-03-27
+43143,Colisión vehículo-vehículo,Motocicleta,-37,-60,2022-03-05
+43144,Sin determinar,Automóvil,-35,-62,2022-03-08
+43145,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-03-30
+43146,Sin determinar,Camioneta,-35,-62,2022-03-08
+43147,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-03-27
+43148,Colisión vehículo-vehículo,Ciclomotor,-35,-58,2022-03-01
+43149,Sin determinar,Sin determinar,-34,-59,2022-03-09
+43150,Sin determinar,Motocicleta,-35,-59,2022-03-11
+43156,Vuelco-despistes,Ciclomotor,-35,-61,2022-03-27
+43157,Colisión vehículo-vehículo,Camioneta,-35,-62,2022-03-08
+43157,Colisión vehículo-vehículo,Camioneta,-35,-62,2022-03-08
+43157,Colisión vehículo-vehículo,Sin determinar,-35,-62,2022-03-08
+43157,Colisión vehículo-vehículo,Camioneta,-35,-62,2022-03-08
+43157,Colisión vehículo-vehículo,Sin determinar,-35,-62,2022-03-08
+43158,Sin determinar,Sin determinar,-35,-60,2022-03-09
+43159,Colisión vehículo-vehículo,Ciclomotor,-35,-59,2022-03-22
+43160,Sin determinar,Camión,-35,-59,2022-03-25
+43161,Sin determinar,Sin determinar,-35,-59,2022-03-15
+43163,Vuelco-despistes,Automóvil,-37,-62,2022-03-07
+43164,Colisión vehículo-vehículo,Automóvil,-37,-62,2022-03-06
+43165,Colisión vehículo-vehículo,Ciclomotor,-35,-59,2022-03-02
+43166,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-03-27
+43168,Colisión vehículo-vehículo,Motocicleta,-35,-60,2022-03-07
+43169,Sin determinar,Tren,-35,-58,2022-03-20
+43170,Colisión vehículo-vehículo,Automóvil,-35,-60,2022-03-31
+43170,Colisión vehículo-vehículo,Automóvil,-35,-60,2022-03-31
+43171,Colisión vehículo-vehículo,Automóvil,-38,-59,2022-03-20
+43172,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-03-26
+43173,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-03-19
+43174,Colisión vehículo-persona,Sin vehiculo,-37,-58,2022-03-17
+43175,Sin determinar,Motocicleta,-35,-58,2022-03-17
+43178,Sin determinar,Motocicleta,-35,-58,2022-03-18
+43179,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-03-25
+43183,Colisión vehículo-vehículo,Automóvil,-35,-59,2022-03-17
+43184,Sin determinar,Sin determinar,-35,-59,2022-03-25
+43185,Colisión vehículo-persona,Sin vehiculo,-36,-63,2022-03-09
+43186,Colisión vehículo-objeto,Automóvil,-35,-59,2022-03-03
+43187,Colisión vehículo-vehículo,Camión,-35,-58,2022-03-11
+43188,Colisión vehículo-vehículo,Ciclomotor,-36,-61,2022-03-25
+43190,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-03-31
+43192,Colisión vehículo-persona,Sin vehiculo,-34,-59,2022-03-27
+43193,Colisión vehículo-vehículo,Automóvil,-36,-58,2022-03-03
+43195,Colisión vehículo-vehículo,Motocicleta,-36,-62,2022-03-12
+43196,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-03-26
+43197,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-03-01
+43198,Sin determinar,Motocicleta,-35,-58,2022-03-07
+43199,Colisión vehículo-vehículo,Motocicleta,-39,-62,2022-03-28
+43200,Vuelco-despistes,Automóvil,-35,-58,2022-03-27
+43201,Colisión vehículo-vehículo,Camioneta,-35,-58,2022-03-26
+43202,Sin determinar,Sin determinar,-35,-61,2022-03-03
+43204,Sin determinar,Sin determinar,-35,-59,2022-03-22
+43205,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-03-07
+43206,Sin determinar,Sin determinar,-35,-58,2022-03-11
+43207,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-03-28
+43211,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-03-31
+43212,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-03-22
+43213,Colisión vehículo-vehículo,Automóvil,-35,-58,2022-03-14
+43215,Colisión vehículo-vehículo,Motocicleta,-39,-62,2022-03-21
+43216,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-03-19
+43217,Colisión vehículo-vehículo,Motocicleta,-35,-58,2022-03-28
+43218,Sin determinar,Sin determinar,-35,-60,2022-03-23
+43219,Colisión vehículo-persona,Sin vehiculo,-37,-59,2022-03-09
+43220,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-03-27
+43223,Colisión vehículo-vehículo,Automóvil,-34,-59,2022-03-14
+43224,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-03-05
+43225,Colisión vehículo-persona,Sin vehiculo,-35,-58,2022-03-15
+43226,Sin determinar,Sin determinar,-35,-59,2022-03-18
+43227,Colisión vehículo-persona,Sin vehiculo,-35,-61,2022-03-04
+43558,Colisión vehículo-vehículo,Ciclomotor,-34,-59,2022-04-24
+43561,Colisión vehículo-vehículo,Bicicleta,-39,-62,2022-04-04
+43562,Colisión vehículo-vehículo,Sin determinar,-38,-58,2022-04-13
+43563,Colisión vehículo-vehículo,Camión,-34,-59,2022-04-25
+43564,Colisión vehículo-persona,Sin vehiculo,-41,-63,2022-04-21
+43566,Colisión vehículo-vehículo,Camión,-33,-60,2022-04-21
+43567,Colisión vehículo-vehículo,Automóvil,-35,-59,2022-04-18
+43568,Sin determinar,Sin vehiculo,-35,-58,2022-04-04
+43569,Vuelco-despistes,Ciclomotor,-35,-59,2022-04-02
+43570,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-04-08
+43571,Colisión vehículo-vehículo,Bicicleta,-39,-62,2022-04-05
+43573,Colisión vehículo-objeto,Bicicleta,-35,-58,2022-04-01
+43574,Sin determinar,Sin vehiculo,-35,-59,2022-04-26
+43575,Colisión vehículo-persona,Sin vehiculo,-38,-58,2022-04-29
+43576,Vuelco-despistes,Automóvil,-36,-58,2022-04-02
+43577,Colisión vehículo-vehículo,Automóvil,-35,-58,2022-04-30
+43579,Sin determinar,Sin determinar,-35,-58,2022-04-07
+43580,Sin determinar,Sin vehiculo,-35,-58,2022-04-10
+43582,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-04-27
+43584,Colisión vehículo-vehículo,Ciclomotor,-36,-59,2022-04-09
+43585,Colisión vehículo-vehículo,Sin determinar,-35,-58,2022-04-01
+43586,Vuelco-despistes,Automóvil,-34,-61,2022-04-21
+43588,Sin determinar,Sin determinar,-35,-58,2022-04-06
+43589,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-04-06
+43590,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-04-16
+43591,Vuelco-despistes,Ciclomotor,-36,-60,2022-04-17
+43592,Colisión vehículo-vehículo,Motocicleta,-35,-60,2022-04-22
+43593,Colisión vehículo-persona,Sin vehiculo,-35,-59,2022-04-07
+43594,Colisión vehículo-vehículo,Ciclomotor,-34,-59,2022-04-24
+43595,Colisión vehículo-vehículo,Bicicleta,-39,-62,2022-04-13
+43596,Sin determinar,Sin vehiculo,-35,-59,2022-04-09
+43597,Colisión vehículo-vehículo,Motocicleta,-34,-59,2022-04-06
+43598,Sin determinar,Sin vehiculo,-35,-58,2022-04-29
+43599,Colisión vehículo-vehículo,Automóvil,-35,-58,2022-04-06
+43600,Colisión vehículo-vehículo,Ciclomotor,-36,-61,2022-04-17
+43601,Colisión vehículo-vehículo,Motocicleta,-37,-60,2022-04-09
+43602,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-04-14
+43604,Colisión vehículo-vehículo,Sin determinar,-35,-59,2022-04-01
+43605,Colisión vehículo-vehículo,Camión,-39,-59,2022-04-06
+43607,Sin determinar,Sin determinar,-35,-59,2022-04-27
+43608,Colisión vehículo-vehículo,Motocicleta,-34,-60,2022-04-28
+43609,Vuelco-despistes,Automóvil,-35,-59,2022-04-18
+43610,Vuelco-despistes,Automóvil,-36,-58,2022-04-01
+43611,Colisión vehículo-vehículo,Motocicleta,-35,-59,2022-04-19
+43612,Colisión vehículo-vehículo,Automóvil,-38,-57,2022-04-18
+43612,Colisión vehículo-vehículo,Automóvil,-38,-57,2022-04-18
+43613,Colisión vehículo-vehículo,Automóvil,-35,-58,2022-04-30
+43614,Colisión vehículo-vehículo,Automóvil,-35,-58,2022-04-03
+43615,Colisión vehículo-vehículo,Motocicleta,-34,-61,2022-04-01
+38370,Colisión vehículo-vehículo,Automóvil,-39,-68,2022-04-24
+38370,Colisión vehículo-vehículo,Automóvil,-39,-68,2022-04-24
+38372,Sin determinar,Motocicleta,-35,-60,2021-06-05
+38373,Colisión vehículo-vehículo,Motocicleta,-39,-62,2021-06-04
+38374,Colisión vehículo-vehículo,Automóvil,-39,-62,2021-06-27
+38374,Colisión vehículo-vehículo,Automóvil,-39,-62,2021-06-27
+38375,Sin determinar,Motocicleta,-35,-58,2021-06-11
+38376,Sin determinar,Sin determinar,-35,-58,2021-06-29
+38377,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-06-01
+38378,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-06-14
+38379,Colisión vehículo-vehículo,Colectivo,-35,-58,2021-06-30
+38380,Sin determinar,Camioneta,-35,-60,2021-06-06
+38381,Colisión vehículo-vehículo,Camioneta,-34,-59,2021-06-04
+38381,Colisión vehículo-vehículo,Camioneta,-34,-59,2021-06-04
+38382,Sin determinar,Camioneta,-36,-58,2021-06-26
+38385,Vuelco-despistes,Camión,-35,-60,2021-06-10
+38386,Sin determinar,Automóvil,-35,-60,2021-06-29
+38387,Vuelco-despistes,Automóvil,-36,-58,2021-06-29
+38387,Vuelco-despistes,Automóvil,-36,-58,2021-06-29
+38388,Colisión vehículo-vehículo,Automóvil,-35,-60,2021-06-13
+38388,Colisión vehículo-vehículo,Automóvil,-35,-60,2021-06-13
+38389,Sin determinar,Sin determinar,-34,-59,2021-06-18
+38390,Colisión vehículo-vehículo,Motocicleta,-35,-62,2021-06-21
+38391,Colisión vehículo-vehículo,Motocicleta,-38,-58,2021-06-13
+38392,Sin determinar,Sin determinar,-38,-58,2021-06-21
+38393,Colisión vehículo-objeto,Sin determinar,-35,-59,2021-06-06
+38394,Colisión vehículo-vehículo,Bicicleta,-35,-59,2021-06-24
+38395,Colisión vehículo-vehículo,Motocicleta,-35,-63,2021-06-01
+38396,Colisión vehículo-vehículo,Automóvil,-37,-63,2021-06-06
+38398,Sin determinar,Sin determinar,-34,-59,2021-06-29
+38399,Colisión vehículo-vehículo,Motocicleta,-37,-57,2021-06-19
+38400,Sin determinar,Sin determinar,-35,-59,2021-06-27
+38401,Sin determinar,Sin determinar,-35,-58,2021-06-08
+38402,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-06-12
+38403,Vuelco-despistes,Automóvil,-35,-58,2021-06-12
+38404,Sin determinar,Sin determinar,-35,-58,2021-06-19
+38405,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-06-23
+38406,Vuelco-despistes,Automóvil,-35,-58,2021-06-12
+38407,Sin determinar,Ciclomotor,-35,-58,2021-06-23
+38408,Colisión vehículo-vehículo,Motocicleta,-35,-62,2021-06-12
+38409,Colisión vehículo-vehículo,Camioneta,-38,-59,2021-06-24
+38412,Sin determinar,Tren,-34,-59,2021-06-07
+38414,Sin determinar,Tren,-34,-59,2021-06-25
+38417,Sin determinar,Motocicleta,-35,-59,2021-06-15
+38418,Sin determinar,Motocicleta,-35,-59,2021-06-20
+38419,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-06-06
+38420,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-06-28
+38421,Sin determinar,Sin determinar,-35,-59,2021-06-05
+38422,Sin determinar,Sin determinar,-35,-59,2021-06-15
+38423,Colisión vehículo-persona,Sin vehiculo,-34,-61,2021-06-25
+38424,Sin determinar,Sin determinar,-34,-59,2021-06-03
+38425,Colisión vehículo-vehículo,Automóvil,-34,-59,2021-06-28
+38425,Colisión vehículo-vehículo,Automóvil,-34,-59,2021-06-28
+38428,Colisión vehículo-vehículo,Motocicleta,-34,-59,2021-06-20
+38429,Colisión vehículo-vehículo,Automóvil,-34,-59,2021-06-10
+38430,Sin determinar,Sin determinar,-34,-59,2021-06-19
+38431,Sin determinar,Sin determinar,-35,-59,2021-06-13
+38432,Sin determinar,Sin determinar,-35,-59,2021-06-12
+38433,Sin determinar,Sin determinar,-35,-59,2021-06-16
+38434,Colisión vehículo-persona,Sin determinar,-35,-59,2021-06-16
+38435,Colisión vehículo-persona,Sin determinar,-35,-59,2021-06-16
+38437,Colisión vehículo-vehículo,Ciclomotor,-37,-59,2021-06-25
+38439,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-06-01
+38440,Sin determinar,Sin determinar,-35,-58,2021-06-24
+38499,Colisión vehículo-vehículo,Automóvil,-26,-55,2022-05-16
+38501,Colisión vehículo-vehículo,Motocicleta,-27,-55,2022-05-21
+38504,Colisión vehículo-vehículo,Automóvil,-32,-61,2022-05-27
+38508,Colisión vehículo-vehículo,Motocicleta,-31,-61,2022-05-14
+38511,Colisión vehículo-objeto,Motocicleta,-32,-62,2022-05-14
+38518,Vuelco-despistes,Camión,-33,-61,2022-05-09
+38520,Colisión vehículo-vehículo,Motocicleta,-33,-61,2022-05-14
+38521,Vuelco-despistes,Motocicleta,-33,-61,2022-05-17
+38536,Vuelco-despistes,Automóvil,-28,-56,2022-06-19
+38536,Vuelco-despistes,Automóvil,-28,-56,2022-06-19
+38538,Colisión vehículo-vehículo,Motocicleta,-28,-64,2021-11-22
+38541,Vuelco-despistes,Motocicleta,-28,-66,2022-01-28
+38545,Colisión vehículo-animal,Motocicleta,-27,-59,2021-07-27
+38546,Colisión vehículo-vehículo,Motocicleta,-27,-59,2021-10-31
+38553,Vuelco-despistes,Camión,-35,-65,2022-06-25
+38554,Colisión vehículo-objeto,Motocicleta,-35,-64,2022-06-19
+38556,Vuelco-despistes,Motocicleta,-35,-58,2021-02-06
+38557,Colisión vehículo-objeto,Automóvil,-35,-58,2021-02-14
+38558,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-02-17
+38559,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-02-20
+38560,Colisión vehículo-objeto,Motocicleta,-35,-58,2021-02-21
+38561,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-02-21
+38562,Colisión vehículo-objeto,Motocicleta,-35,-58,2021-02-26
+38563,Colisión vehículo-vehículo,Colectivo,-35,-58,2021-02-28
+38570,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-04-03
+38571,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-04-07
+38572,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-04-10
+38573,Colisión vehículo-objeto,Automóvil,-35,-58,2021-04-14
+38574,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-04-19
+38577,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-05-03
+38578,Colisión vehículo-objeto,Motocicleta,-35,-59,2021-05-09
+38579,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-05-11
+38580,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-05-14
+38581,Colisión vehículo-vehículo,Bicicleta,-35,-59,2021-05-15
+38583,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-05-21
+38584,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-05-20
+38585,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-05-22
+38586,Colisión vehículo-objeto,Motocicleta,-35,-58,2021-05-25
+38587,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-05-26
+38588,Colisión vehículo-objeto,Camioneta,-35,-58,2021-05-31
+38592,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-06-02
+38594,Colisión vehículo-vehículo,Bicicleta,-35,-58,2021-06-03
+38596,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-06-15
+38597,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-06-20
+38598,Colisión vehículo-objeto,Motocicleta,-35,-58,2021-06-20
+38599,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-06-22
+38600,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-06-29
+38607,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-09-01
+38608,Colisión vehículo-vehículo,Bicicleta,-35,-58,2021-09-18
+38609,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-09-20
+38610,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-09-21
+38615,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-10-18
+38616,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-10-23
+38617,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-10-25
+38618,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-10-28
+38621,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-11-02
+38622,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-11-09
+38623,Colisión vehículo-objeto,Automóvil,-35,-58,2021-11-11
+38624,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-11-25
+38625,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-11-06
+38626,Colisión vehículo-objeto,Motocicleta,-35,-59,2021-11-20
+38627,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-11-27
+38637,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-01-07
+38639,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-01-11
+38640,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-01-11
+38642,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-01-18
+38643,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-01-22
+38644,Colisión vehículo-objeto,Motocicleta,-35,-58,2021-01-23
+38646,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-01-27
+38647,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-01-29
+38648,Colisión vehículo-objeto,Motocicleta,-35,-58,2021-01-31
+38651,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-03-01
+38652,Colisión vehículo-vehículo,Bicicleta,-35,-58,2021-03-03
+38653,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-03-11
+38655,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-03-16
+38656,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-03-29
+38657,Colisión vehículo-vehículo,Automóvil,-35,-58,2021-03-31
+38658,Colisión vehículo-vehículo,Bicicleta,-35,-58,2021-07-09
+38659,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-07-21
+38660,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-07-22
+38661,Colisión vehículo-objeto,Automóvil,-35,-58,2021-07-22
+38662,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-07-24
+38663,Colisión vehículo-objeto,Automóvil,-35,-58,2021-07-10
+38664,Colisión vehículo-objeto,Camioneta,-35,-58,2021-07-27
+38665,Colisión vehículo-vehículo,Automóvil,-35,-58,2021-08-02
+38666,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-08-02
+38668,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-08-06
+38670,Colisión vehículo-objeto,Motocicleta,-35,-59,2021-08-15
+38671,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-08-20
+38673,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-08-31
+38680,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-12-01
+38681,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-12-02
+38682,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-12-10
+38683,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-12-11
+38684,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-12-12
+38686,Colisión vehículo-vehículo,Automóvil,-35,-58,2021-12-15
+38688,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-12-30
+38695,Colisión vehículo-objeto,Motocicleta,-27,-61,2021-02-21
+38697,Colisión vehículo-vehículo,Bicicleta,-26,-58,2022-06-08
+38700,Colisión vehículo-vehículo,Motocicleta,-26,-58,2022-06-14
+38711,Colisión vehículo-vehículo,Motocicleta,-33,-60,2021-03-07
+38712,Sin determinar,Motocicleta,-35,-62,2021-03-08
+38713,Colisión vehículo-vehículo,Motocicleta,-35,-61,2021-03-29
+38714,Vuelco-despistes,Automóvil,-34,-61,2021-03-28
+38715,Colisión vehículo-vehículo,Automóvil,-34,-59,2021-03-08
+38715,Colisión vehículo-vehículo,Sin determinar,-34,-59,2021-03-08
+38715,Colisión vehículo-vehículo,Sin determinar,-34,-59,2021-03-08
+38716,Vuelco-despistes,Automóvil,-34,-59,2021-03-15
+38717,Colisión vehículo-vehículo,Automóvil,-34,-59,2021-03-17
+38718,Colisión vehículo-vehículo,Camión,-34,-59,2021-03-17
+38719,Colisión vehículo-persona,Camión,-34,-59,2021-03-29
+38721,Colisión vehículo-vehículo,Bicicleta,-35,-59,2021-03-11
+38722,Colisión vehículo-persona,Sin vehiculo,-35,-60,2021-03-21
+38723,Sin determinar,Sin determinar,-35,-59,2021-03-22
+38724,Sin determinar,Automóvil,-35,-59,2021-03-24
+38727,Sin determinar,Automóvil,-35,-58,2021-03-11
+38728,Colisión vehículo-vehículo,Automóvil,-35,-60,2021-03-22
+38728,Colisión vehículo-vehículo,Camioneta,-35,-60,2021-03-22
+38728,Colisión vehículo-vehículo,Automóvil,-35,-60,2021-03-22
+38729,Vuelco-despistes,Automóvil,-36,-58,2021-03-20
+38730,Colisión vehículo-vehículo,Camión,-36,-59,2021-03-05
+38731,Sin determinar,Automóvil,-36,-59,2021-03-09
+38731,Sin determinar,Sin determinar,-36,-59,2021-03-09
+38732,Colisión vehículo-persona,Sin vehiculo,-36,-60,2021-03-11
+38733,Vuelco-despistes,Automóvil,-37,-60,2021-03-22
+38734,Sin determinar,Sin determinar,-37,-63,2021-03-20
+38735,Colisión vehículo-persona,Sin vehiculo,-37,-57,2021-03-01
+38736,Colisión vehículo-persona,Sin vehiculo,-38,-58,2021-03-04
+38737,Sin determinar,Tren,-38,-58,2021-03-30
+38739,Colisión vehículo-vehículo,Motocicleta,-39,-62,2021-03-13
+38740,Colisión vehículo-vehículo,Motocicleta,-39,-62,2021-03-29
+38741,Sin determinar,Sin determinar,-34,-60,2021-03-15
+38741,Sin determinar,Sin determinar,-34,-60,2021-03-15
+38742,Colisión vehículo-vehículo,Sin determinar,-34,-59,2021-03-20
+38742,Colisión vehículo-vehículo,Automóvil,-34,-59,2021-03-20
+38743,Sin determinar,Sin determinar,-34,-59,2021-03-03
+38744,Sin determinar,Sin determinar,-34,-59,2021-03-03
+38746,Colisión vehículo-vehículo,Motocicleta,-34,-59,2021-03-20
+38747,Sin determinar,Automóvil,-34,-59,2021-03-28
+38748,Sin determinar,Automóvil,-34,-59,2021-03-05
+38749,Sin determinar,Sin determinar,-34,-59,2021-03-01
+38750,Sin determinar,Sin determinar,-34,-59,2021-03-03
+38751,Sin determinar,Sin determinar,-34,-59,2021-03-14
+38752,Colisión vehículo-vehículo,Sin determinar,-35,-59,2021-03-15
+38753,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-03-23
+38755,Sin determinar,Automóvil,-34,-59,2021-03-21
+38756,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-03-03
+38757,Sin determinar,Motocicleta,-35,-59,2021-03-14
+38758,Sin determinar,Sin determinar,-35,-59,2021-03-12
+38759,Colisión vehículo-vehículo,Bicicleta,-35,-59,2021-03-13
+38760,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-03-18
+38761,Colisión vehículo-vehículo,Bicicleta,-35,-59,2021-03-23
+38762,Sin determinar,Motocicleta,-35,-59,2021-03-24
+38763,Sin determinar,Sin determinar,-35,-59,2021-03-28
+38765,Colisión vehículo-vehículo,Camioneta,-35,-58,2021-03-25
+38766,Colisión vehículo-vehículo,Colectivo,-35,-58,2021-03-10
+38767,Sin determinar,Motocicleta,-35,-58,2021-03-08
+38768,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-03-13
+38770,Sin determinar,Sin determinar,-35,-58,2021-03-22
+38771,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-03-23
+38772,Colisión vehículo-vehículo,Automóvil,-35,-58,2021-03-26
+38773,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-03-29
+38774,Sin determinar,Sin determinar,-35,-58,2021-03-31
+38776,Sin determinar,Sin determinar,-35,-58,2021-03-12
+38777,Sin determinar,Sin determinar,-35,-58,2021-03-15
+38779,Sin determinar,Sin determinar,-35,-58,2021-03-18
+38780,Sin determinar,Automóvil,-35,-58,2021-03-31
+38781,Sin determinar,Automóvil,-35,-59,2021-03-07
+38782,Sin determinar,Sin determinar,-35,-58,2021-03-26
+38783,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-03-21
+38785,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-03-31
+38786,Sin determinar,Automóvil,-35,-58,2021-03-10
+38787,Colisión vehículo-vehículo,Motocicleta,-38,-60,2021-03-07
+38787,Colisión vehículo-vehículo,Sin determinar,-38,-60,2021-03-07
+38788,Sin determinar,Sin determinar,-39,-63,2021-03-08
+38790,Sin determinar,Tren,-35,-58,2021-03-02
+38791,Sin determinar,Sin determinar,-35,-59,2021-03-06
+38792,Colisión vehículo-vehículo,Motocicleta,-36,-59,2021-03-08
+38793,Sin determinar,Automóvil,-37,-57,2021-03-03
+38794,Colisión vehículo-vehículo,Camión,-34,-59,2021-03-02
+38795,Colisión vehículo-vehículo,Automóvil,-34,-59,2021-03-08
+38796,Colisión vehículo-vehículo,Camión,-36,-59,2021-03-05
+38797,Sin determinar,Sin determinar,-36,-59,2021-03-09
+38798,Sin determinar,Automóvil,-34,-62,2021-03-10
+38799,Colisión vehículo-vehículo,Sin determinar,-34,-59,2021-03-17
+38800,Colisión vehículo-vehículo,Automóvil,-35,-60,2021-03-22
+38801,Colisión vehículo-vehículo,Automóvil,-34,-59,2021-03-21
+38802,Colisión vehículo-vehículo,Sin determinar,-36,-57,2021-03-26
+38802,Colisión vehículo-vehículo,Sin determinar,-36,-57,2021-03-26
+38838,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-04-26
+38839,Sin determinar,Camioneta,-39,-62,2021-04-15
+38840,Sin determinar,Sin determinar,-39,-62,2021-04-17
+38841,Colisión vehículo-vehículo,Camioneta,-39,-62,2021-04-15
+38842,Sin determinar,Sin determinar,-35,-58,2021-04-14
+38843,Colisión vehículo-vehículo,Camioneta,-34,-60,2021-04-26
+38844,Sin determinar,Sin determinar,-38,-60,2021-04-01
+38844,Sin determinar,Camioneta,-38,-60,2021-04-01
+38845,Colisión vehículo-vehículo,Motocicleta,-35,-60,2021-04-30
+38845,Colisión vehículo-vehículo,Motocicleta,-35,-60,2021-04-30
+38846,Colisión vehículo-vehículo,Camioneta,-35,-58,2021-04-24
+38846,Colisión vehículo-vehículo,Camioneta,-35,-58,2021-04-24
+38847,Colisión vehículo-vehículo,Automóvil,-34,-59,2021-04-02
+38848,Sin determinar,Sin determinar,-35,-59,2021-04-14
+38849,Colisión vehículo-vehículo,Automóvil,-35,-59,2021-04-21
+38851,Colisión vehículo-vehículo,Automóvil,-37,-62,2021-04-04
+38852,Sin determinar,Camioneta,-35,-60,2021-04-05
+38853,Colisión vehículo-vehículo,Automóvil,-35,-60,2021-04-19
+38854,Sin determinar,Automóvil,-35,-59,2021-04-25
+38855,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-04-17
+38856,Colisión vehículo-vehículo,Automóvil,-36,-60,2021-04-11
+38858,Sin determinar,Automóvil,-35,-59,2021-04-17
+38860,Colisión vehículo-vehículo,Camión,-38,-58,2021-04-07
+38862,Colisión vehículo-vehículo,Bicicleta,-35,-59,2021-04-05
+38863,Sin determinar,Sin determinar,-35,-59,2021-04-07
+38864,Colisión vehículo-vehículo,Bicicleta,-35,-59,2021-04-20
+38865,Sin determinar,Sin determinar,-34,-59,2021-04-28
+38866,Colisión vehículo-vehículo,Motocicleta,-35,-61,2021-04-28
+38867,Colisión vehículo-vehículo,Tren,-35,-59,2021-04-03
+38868,Sin determinar,Sin determinar,-35,-59,2021-04-06
+38869,Sin determinar,Tren,-35,-59,2021-04-12
+38870,Sin determinar,Tren,-35,-59,2021-04-25
+38871,Colisión vehículo-vehículo,Automóvil,-35,-59,2021-04-25
+38872,Colisión vehículo-vehículo,Automóvil,-35,-59,2021-04-25
+38873,Colisión vehículo-objeto,Sin determinar,-35,-58,2021-04-02
+38873,Colisión vehículo-objeto,Automóvil,-35,-58,2021-04-02
+38874,Sin determinar,Bicicleta,-35,-58,2021-04-01
+38876,Sin determinar,Sin determinar,-35,-58,2021-04-19
+38877,Colisión vehículo-vehículo,Sin determinar,-35,-58,2021-04-29
+38878,Colisión vehículo-vehículo,Automóvil,-38,-61,2021-04-18
+38879,Sin determinar,Motocicleta,-35,-59,2021-04-18
+38880,Sin determinar,Sin determinar,-35,-59,2021-04-07
+38881,Sin determinar,Tren,-34,-59,2021-04-03
+38882,Colisión vehículo-persona,Sin vehiculo,-34,-59,2021-04-20
+38884,Sin determinar,Automóvil,-35,-59,2021-04-06
+38885,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-04-04
+38886,Vuelco-despistes,Automóvil,-35,-59,2021-04-18
+38887,Colisión vehículo-vehículo,Camión,-39,-59,2021-04-17
+38889,Colisión vehículo-vehículo,Camión,-41,-63,2021-04-14
+38891,Sin determinar,Automóvil,-34,-59,2021-04-23
+38893,Colisión vehículo-vehículo,Automóvil,-35,-57,2021-04-04
+38895,Sin determinar,Automóvil,-38,-62,2021-04-14
+38896,Colisión vehículo-persona,Sin vehiculo,-34,-59,2021-04-30
+38897,Colisión vehículo-vehículo,Sin determinar,-34,-59,2021-04-06
+38898,Sin determinar,Sin determinar,-35,-59,2021-04-13
+38899,Colisión vehículo-vehículo,Motocicleta,-33,-60,2021-04-14
+38900,Colisión vehículo-persona,Sin vehiculo,-33,-60,2021-04-19
+38901,Colisión vehículo-persona,Sin vehiculo,-33,-60,2021-04-19
+38903,Sin determinar,Sin determinar,-35,-58,2021-04-16
+38904,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-04-20
+38905,Sin determinar,Tren,-35,-59,2021-04-30
+38906,Colisión vehículo-vehículo,Automóvil,-39,-63,2021-04-17
+38907,Sin determinar,Sin determinar,-34,-59,2021-04-01
+38965,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-07-26
+38966,Sin determinar,Automóvil,-37,-60,2021-07-29
+38971,Colisión vehículo-vehículo,Motocicleta,-35,-60,2021-07-31
+38972,Sin determinar,Sin determinar,-35,-58,2021-07-29
+38973,Sin determinar,Sin determinar,-35,-58,2021-07-29
+38975,Sin determinar,Motocicleta,-35,-58,2021-07-11
+38976,Sin determinar,Tren,-35,-58,2021-07-16
+38977,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-07-18
+38980,Colisión vehículo-persona,Sin vehiculo,-38,-58,2021-07-14
+38981,Sin determinar,Sin determinar,-38,-58,2021-07-22
+38982,Colisión vehículo-vehículo,Ciclomotor,-35,-59,2021-07-29
+38983,Colisión vehículo-vehículo,Camioneta,-35,-59,2021-07-10
+38983,Colisión vehículo-vehículo,Camioneta,-35,-59,2021-07-10
+38984,Sin determinar,Sin determinar,-34,-59,2021-07-01
+38985,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-07-07
+38986,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-07-24
+38987,Colisión vehículo-vehículo,Camión,-35,-59,2021-07-02
+38988,Sin determinar,Camioneta,-35,-59,2021-07-11
+38989,Sin determinar,Sin determinar,-35,-59,2021-07-12
+38990,Sin determinar,Motocicleta,-35,-59,2021-07-10
+38991,Colisión vehículo-vehículo,Automóvil,-35,-59,2021-07-23
+38992,Colisión vehículo-vehículo,Sin determinar,-35,-59,2021-07-28
+38993,Sin determinar,Tren,-35,-59,2021-07-26
+38993,Sin determinar,Sin determinar,-35,-59,2021-07-26
+38993,Sin determinar,Sin determinar,-35,-59,2021-07-26
+38994,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-07-20
+38995,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-07-06
+38996,Colisión vehículo-vehículo,Bicicleta,-35,-58,2021-07-15
+38998,Sin determinar,Automóvil,-35,-58,2021-07-31
+38999,Sin determinar,Sin determinar,-35,-59,2021-07-09
+39000,Sin determinar,Sin determinar,-35,-59,2021-07-05
+39001,Sin determinar,Sin determinar,-35,-59,2021-07-20
+39002,Sin determinar,Sin determinar,-35,-59,2021-07-22
+39003,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-07-04
+39004,Colisión vehículo-vehículo,Motocicleta,-39,-59,2021-07-04
+39005,Sin determinar,Automóvil,-39,-59,2021-07-21
+39006,Colisión vehículo-persona,Sin vehiculo,-34,-59,2021-07-24
+39007,Sin determinar,Automóvil,-36,-60,2021-07-20
+39008,Sin determinar,Motocicleta,-34,-60,2021-07-08
+39009,Sin determinar,Sin determinar,-34,-59,2021-07-06
+39010,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-07-02
+39011,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-07-08
+39012,Colisión vehículo-persona,Sin vehiculo,-38,-60,2021-07-07
+39013,Colisión vehículo-persona,Sin vehiculo,-38,-60,2021-07-19
+39014,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-07-16
+39029,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-08-15
+39030,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-08-16
+39031,Sin determinar,Automóvil,-35,-58,2021-08-18
+39032,Sin determinar,Automóvil,-34,-60,2021-08-08
+39033,Sin determinar,Automóvil,-35,-58,2021-08-01
+39035,Sin determinar,Sin determinar,-35,-58,2021-08-29
+39036,Sin determinar,Motocicleta,-35,-60,2021-08-07
+39038,Colisión vehículo-objeto,Automóvil,-35,-59,2021-08-08
+39038,Colisión vehículo-objeto,Automóvil,-35,-59,2021-08-08
+39038,Colisión vehículo-objeto,Automóvil,-35,-59,2021-08-08
+39039,Sin determinar,Sin determinar,-35,-59,2021-08-15
+39039,Sin determinar,Sin determinar,-35,-59,2021-08-15
+39039,Sin determinar,Automóvil,-35,-59,2021-08-15
+39040,Colisión vehículo-vehículo,Automóvil,-36,-58,2021-08-14
+39041,Sin determinar,Sin determinar,-35,-60,2021-08-05
+39042,Colisión vehículo-vehículo,Motocicleta,-37,-62,2021-08-08
+39044,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-08-26
+39046,Colisión vehículo-vehículo,Motocicleta,-38,-58,2021-08-02
+39047,Sin determinar,Camioneta,-38,-58,2021-08-15
+39048,Colisión vehículo-vehículo,Motocicleta,-38,-58,2021-08-15
+39050,Colisión vehículo-persona,Sin vehiculo,-38,-58,2021-08-24
+39051,Colisión vehículo-persona,Sin determinar,-35,-59,2021-08-09
+39052,Colisión vehículo-objeto,Motocicleta,-35,-59,2021-08-27
+39053,Sin determinar,Automóvil,-35,-63,2021-08-28
+39054,Sin determinar,Automóvil,-35,-63,2021-08-28
+39055,Sin determinar,Sin determinar,-35,-59,2021-08-01
+39056,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-08-12
+39057,Sin determinar,Sin determinar,-35,-59,2021-08-23
+39058,Sin determinar,Automóvil,-35,-58,2021-08-10
+39059,Sin determinar,Camioneta,-35,-58,2021-08-14
+39060,Sin determinar,Sin determinar,-35,-58,2021-08-01
+39062,Colisión vehículo-vehículo,Automóvil,-34,-59,2021-08-24
+39065,Sin determinar,Automóvil,-35,-59,2021-08-30
+39066,Sin determinar,Camioneta,-35,-59,2021-08-01
+39067,Sin determinar,Automóvil,-41,-63,2021-08-19
+39069,Colisión vehículo-persona,Sin vehiculo,-34,-61,2021-08-09
+39071,Sin determinar,Sin determinar,-34,-59,2021-08-09
+39072,Colisión vehículo-vehículo,Automóvil,-35,-57,2021-08-02
+39073,Colisión vehículo-vehículo,Bicicleta,-35,-58,2021-08-06
+39074,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-08-08
+39075,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-08-15
+39078,Colisión vehículo-vehículo,Automóvil,-34,-59,2021-08-08
+39079,Colisión vehículo-vehículo,Camión,-34,-59,2021-08-06
+39081,Sin determinar,Sin determinar,-35,-59,2021-08-28
+39082,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-08-30
+39083,Sin determinar,Motocicleta,-33,-60,2021-08-08
+39084,Sin determinar,Automóvil,-33,-60,2021-08-29
+39085,Sin determinar,Automóvil,-34,-60,2021-08-08
+39088,Sin determinar,Sin determinar,-34,-59,2021-08-10
+39089,Colisión vehículo-vehículo,Automóvil,-38,-60,2021-08-20
+39089,Colisión vehículo-vehículo,Automóvil,-38,-60,2021-08-20
+39090,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-08-16
+39091,Colisión vehículo-vehículo,Automóvil,-35,-58,2021-08-01
+39092,Sin determinar,Sin determinar,-35,-58,2021-08-04
+39093,Colisión vehículo-persona,Sin determinar,-34,-59,2021-08-20
+39094,Colisión vehículo-vehículo,Motocicleta,-34,-59,2021-08-24
+39156,Vuelco-despistes,Automóvil,-32,-58,2022-06-19
+39157,Colisión vehículo-vehículo,Bicicleta,-31,-58,2022-06-16
+39158,Colisión vehículo-vehículo,Motocicleta,-32,-60,2022-06-11
+39159,Colisión vehículo-vehículo,Automóvil,-31,-60,2022-06-17
+39159,Colisión vehículo-vehículo,Automóvil,-31,-60,2022-06-17
+39159,Colisión vehículo-vehículo,Automóvil,-31,-60,2022-06-17
+39160,Vuelco-despistes,Motocicleta,-32,-60,2022-06-12
+39161,Vuelco-despistes,Automóvil,-32,-59,2022-06-12
+39164,Sin determinar,Sin determinar,-37,-63,2021-11-02
+39164,Sin determinar,Sin determinar,-37,-63,2021-11-02
+39166,Colisión vehículo-vehículo,Automóvil,-35,-58,2021-11-06
+39167,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-11-07
+39168,Vuelco-despistes,Automóvil,-36,-59,2021-11-28
+39169,Colisión vehículo-vehículo,Motocicleta,-39,-62,2021-11-01
+39170,Sin determinar,Motocicleta,-35,-58,2021-11-07
+39171,Colisión vehículo-vehículo,Sin determinar,-35,-58,2021-11-07
+39173,Sin determinar,Sin vehiculo,-35,-58,2021-11-03
+39174,Sin determinar,Sin determinar,-35,-58,2021-11-09
+39175,Sin determinar,Sin determinar,-35,-58,2021-11-12
+39176,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-11-19
+39177,Sin determinar,Automóvil,-35,-58,2021-11-27
+39178,Sin determinar,Camión,-34,-59,2021-11-11
+39180,Colisión vehículo-vehículo,Motocicleta,-34,-61,2021-11-08
+39181,Colisión vehículo-vehículo,Motocicleta,-39,-62,2021-11-07
+39183,Colisión vehículo-vehículo,Bicicleta,-37,-62,2021-11-09
+39184,Sin determinar,Automóvil,-36,-58,2021-11-22
+39184,Sin determinar,Automóvil,-36,-58,2021-11-22
+39184,Sin determinar,Automóvil,-36,-58,2021-11-22
+39184,Sin determinar,Automóvil,-36,-58,2021-11-22
+39185,Colisión vehículo-vehículo,Automóvil,-37,-62,2021-11-20
+39187,Vuelco-despistes,Camión,-34,-59,2021-11-10
+39188,Sin determinar,Sin determinar,-35,-58,2021-11-08
+39189,Sin determinar,Sin determinar,-35,-59,2021-11-19
+39190,Colisión vehículo-vehículo,Camión,-35,-58,2021-11-25
+39191,Colisión vehículo-vehículo,Automóvil,-34,-59,2021-11-20
+39192,Sin determinar,Sin determinar,-35,-59,2021-11-09
+39196,Colisión vehículo-vehículo,Motocicleta,-38,-58,2021-11-03
+39197,Colisión vehículo-vehículo,Motocicleta,-38,-58,2021-11-06
+39198,Colisión vehículo-vehículo,Motocicleta,-38,-58,2021-11-07
+39199,Colisión vehículo-persona,Sin vehiculo,-38,-58,2021-11-20
+39201,Sin determinar,Sin determinar,-35,-59,2021-11-11
+39202,Sin determinar,Tren,-35,-59,2021-11-15
+39203,Sin determinar,Sin determinar,-35,-59,2021-11-16
+39206,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-11-09
+39207,Sin determinar,Automóvil,-35,-59,2021-11-08
+39209,Colisión vehículo-vehículo,Automóvil,-35,-59,2021-11-20
+39210,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-11-21
+39211,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-11-21
+39212,Sin determinar,Bicicleta,-35,-58,2021-11-01
+39213,Colisión vehículo-vehículo,Sin vehiculo,-35,-58,2021-11-12
+39215,Sin determinar,Sin determinar,-35,-58,2021-11-23
+39216,Colisión vehículo-vehículo,Automóvil,-36,-59,2021-11-13
+39217,Colisión vehículo-vehículo,Automóvil,-34,-62,2021-11-22
+39218,Colisión vehículo-vehículo,Camioneta,-34,-62,2021-11-22
+39219,Colisión vehículo-vehículo,Motocicleta,-35,-62,2021-11-07
+39220,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-11-27
+39221,Sin determinar,Automóvil,-35,-59,2021-11-20
+39222,Colisión vehículo-vehículo,Colectivo,-35,-59,2021-11-24
+39224,Sin determinar,Sin determinar,-34,-59,2021-11-18
+39226,Sin determinar,Sin determinar,-35,-59,2021-11-06
+39227,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-11-13
+39228,Sin determinar,Sin determinar,-35,-59,2021-11-23
+39229,Sin determinar,Sin determinar,-35,-59,2021-11-19
+39229,Sin determinar,Sin determinar,-35,-59,2021-11-19
+39230,Colisión vehículo-vehículo,Motocicleta,-39,-59,2021-11-24
+39231,Sin determinar,Automóvil,-37,-60,2021-11-01
+39232,Sin determinar,Sin determinar,-37,-60,2021-11-03
+39233,Sin determinar,Automóvil,-36,-62,2021-11-23
+39234,Colisión vehículo-vehículo,Automóvil,-36,-62,2021-11-23
+39234,Colisión vehículo-vehículo,Automóvil,-36,-62,2021-11-23
+39234,Colisión vehículo-vehículo,Automóvil,-36,-62,2021-11-23
+39234,Colisión vehículo-vehículo,Automóvil,-36,-62,2021-11-23
+39235,Colisión vehículo-vehículo,Automóvil,-36,-63,2021-11-13
+39235,Colisión vehículo-vehículo,Automóvil,-36,-63,2021-11-13
+39236,Colisión vehículo-vehículo,Automóvil,-36,-63,2021-11-13
+39237,Sin determinar,Sin determinar,-34,-59,2021-11-21
+39238,Sin determinar,Sin determinar,-34,-59,2021-11-30
+39240,Colisión vehículo-vehículo,Ciclomotor,-34,-59,2021-11-26
+39241,Colisión vehículo-persona,Sin vehiculo,-34,-59,2021-11-04
+39243,Colisión vehículo-vehículo,Automóvil,-34,-59,2021-11-23
+39243,Colisión vehículo-vehículo,Automóvil,-34,-59,2021-11-23
+39244,Sin determinar,Sin determinar,-35,-59,2021-11-03
+39246,Colisión vehículo-persona,Sin vehiculo,-34,-59,2021-11-10
+39248,Sin determinar,Sin determinar,-35,-59,2021-11-12
+39249,Sin determinar,Sin determinar,-35,-59,2021-11-26
+39250,Colisión vehículo-vehículo,Motocicleta,-37,-57,2021-11-21
+39291,Sin determinar,Sin determinar,-35,-58,2021-12-02
+39292,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-12-11
+39293,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-12-15
+39295,Colisión vehículo-vehículo,Automóvil,-35,-58,2021-12-02
+39296,Sin determinar,Motocicleta,-35,-58,2021-12-17
+39297,Colisión vehículo-vehículo,Tren,-35,-58,2021-12-19
+39297,Colisión vehículo-vehículo,Tren,-35,-58,2021-12-19
+39297,Colisión vehículo-vehículo,Tren,-35,-58,2021-12-19
+39297,Colisión vehículo-vehículo,Tren,-35,-58,2021-12-19
+39299,Colisión vehículo-persona,Automóvil,-35,-58,2021-12-06
+39300,Colisión vehículo-objeto,Motocicleta,-35,-58,2021-12-21
+39301,Colisión vehículo-vehículo,Camión,-34,-59,2021-12-18
+39302,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-12-11
+39303,Colisión vehículo-vehículo,Ciclomotor,-35,-59,2021-12-13
+39304,Colisión vehículo-vehículo,Camión,-35,-59,2021-12-13
+39305,Vuelco-despistes,Automóvil,-35,-59,2021-12-25
+39306,Vuelco-despistes,Camioneta,-35,-59,2021-12-25
+39306,Vuelco-despistes,Camioneta,-35,-59,2021-12-25
+39307,Colisión vehículo-vehículo,Bicicleta,-39,-62,2021-12-23
+39308,Colisión vehículo-vehículo,Automóvil,-35,-60,2021-12-14
+39308,Colisión vehículo-vehículo,Automóvil,-35,-60,2021-12-14
+39309,Colisión vehículo-vehículo,Automóvil,-35,-60,2021-12-14
+39309,Colisión vehículo-vehículo,Automóvil,-35,-60,2021-12-14
+39309,Colisión vehículo-vehículo,Automóvil,-35,-60,2021-12-14
+39309,Colisión vehículo-vehículo,Automóvil,-35,-60,2021-12-14
+39310,Sin determinar,Sin determinar,-36,-58,2021-12-15
+39311,Vuelco-despistes,Automóvil,-35,-60,2021-12-02
+39312,Colisión vehículo-vehículo,Automóvil,-35,-60,2021-12-02
+39314,Colisión vehículo-vehículo,Ciclomotor,-34,-59,2021-12-22
+39315,Sin determinar,Automóvil,-34,-59,2021-12-26
+39316,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-12-30
+39317,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-12-12
+39320,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-12-09
+39321,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-12-12
+39322,Colisión vehículo-vehículo,Camioneta,-35,-59,2021-12-03
+39324,Colisión vehículo-vehículo,Automóvil,-37,-62,2021-12-13
+39326,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-12-11
+39328,Colisión vehículo-vehículo,Ciclomotor,-36,-57,2021-12-08
+39329,Sin determinar,Sin determinar,-35,-59,2021-12-07
+39330,Colisión vehículo-objeto,Automóvil,-35,-59,2021-12-08
+39331,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-12-28
+39332,Colisión vehículo-vehículo,Camioneta,-35,-58,2021-12-08
+39333,Colisión vehículo-objeto,Automóvil,-35,-58,2021-12-04
+39334,Colisión vehículo-vehículo,Motocicleta,-35,-58,2021-12-08
+39335,Vuelco-despistes,Motocicleta,-35,-58,2021-12-28
+39336,Sin determinar,Sin determinar,-35,-58,2021-12-29
+39337,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-12-29
+39339,Colisión vehículo-vehículo,Micro larga distancia,-35,-59,2021-12-04
+39340,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-12-22
+39341,Colisión vehículo-vehículo,Sin determinar,-35,-59,2021-12-05
+39342,Colisión vehículo-vehículo,Automóvil,-35,-59,2021-12-18
+39343,Colisión vehículo-vehículo,Sin determinar,-35,-59,2021-12-19
+39344,Vuelco-despistes,Camioneta,-35,-58,2021-12-26
+39345,Colisión vehículo-vehículo,Sin determinar,-35,-59,2021-12-06
+39346,Colisión vehículo-vehículo,Sin determinar,-35,-59,2021-12-23
+39347,Vuelco-despistes,Sin determinar,-35,-59,2021-12-07
+39348,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-12-22
+39349,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-12-19
+39350,Colisión vehículo-vehículo,Motocicleta,-35,-61,2021-12-18
+39351,Colisión vehículo-persona,Sin vehiculo,-37,-60,2021-12-05
+39352,Colisión vehículo-vehículo,Motocicleta,-36,-62,2021-12-05
+39352,Colisión vehículo-vehículo,Sin determinar,-36,-62,2021-12-05
+39354,Colisión vehículo-vehículo,Motocicleta,-34,-60,2021-12-13
+39355,Colisión vehículo-vehículo,Motocicleta,-34,-61,2021-12-27
+39356,Colisión vehículo-vehículo,Sin determinar,-34,-59,2021-12-01
+39357,Colisión vehículo-persona,Sin vehiculo,-35,-59,2021-12-06
+39359,Colisión vehículo-persona,Sin vehiculo,-35,-58,2021-12-22
+39360,Colisión vehículo-vehículo,Motocicleta,-35,-57,2021-12-26
+39361,Colisión vehículo-vehículo,Sin determinar,-35,-57,2021-12-26
+39362,Colisión vehículo-persona,Sin vehiculo,-33,-60,2021-12-21
+39363,Vuelco-despistes,Ciclomotor,-34,-61,2021-12-27
+39364,Colisión vehículo-vehículo,Motocicleta,-34,-59,2021-12-01
+39365,Colisión vehículo-vehículo,Motocicleta,-35,-59,2021-12-19
+39366,Sin determinar,Automóvil,-35,-59,2021-12-28
+39367,Colisión vehículo-vehículo,Sin determinar,-35,-58,2021-12-26
+39368,Vuelco-despistes,Camioneta,-35,-58,2021-12-31
+39369,Colisión vehículo-vehículo,Sin determinar,-37,-59,2021-12-05
+39370,Colisión vehículo-vehículo,Sin determinar,-37,-59,2021-12-17
+39372,Colisión vehículo-vehículo,Motocicleta,-34,-59,2021-12-08
+39373,Colisión vehículo-persona,Sin vehiculo,-34,-59,2021-12-16
+39376,Colisión vehículo-persona,Sin determinar,-34,-59,2021-12-06
+39424,Colisión vehículo-vehículo,Motocicleta,-25,-65,2022-05-14
+39427,Colisión vehículo-objeto,Motocicleta,-25,-65,2022-05-18
+39430,Colisión vehículo-vehículo,Motocicleta,-25,-65,2022-05-13
+39432,Vuelco-despistes,Automóvil,-39,-69,2022-03-27
+39434,Vuelco-despistes,Motocicleta,-39,-71,2022-03-13
+39435,Colisión vehículo-vehículo,Automóvil,-40,-69,2022-03-27
+39435,Colisión vehículo-vehículo,Automóvil,-40,-69,2022-03-27
+39436,Colisión vehículo-objeto,Automóvil,-39,-68,2022-03-03
+39439,Colisión vehículo-vehículo,Motocicleta,-27,-55,2022-06-11
+39440,Colisión vehículo-persona,Sin vehiculo,-27,-55,2022-06-13
+39441,Colisión vehículo-vehículo,Motocicleta,-45,-69,2022-05-31
+39442,Vuelco-despistes,Camioneta,-46,-68,2022-05-31
+39445,Colisión vehículo-persona,Sin vehiculo,-31,-69,2022-04-03
+39446,Colisión vehículo-vehículo,Ciclomotor,-32,-69,2022-04-04
+39448,Colisión vehículo-vehículo,Bicicleta,-32,-68,2022-04-26
+39449,Colisión vehículo-vehículo,Motocicleta,-32,-68,2022-04-16
+39451,Vuelco-despistes,Automóvil,-39,-68,2022-04-03
+39452,Vuelco-despistes,Camioneta,-39,-68,2022-04-03
+39453,Colisión vehículo-vehículo,Automóvil,-39,-68,2022-04-07
+39454,Colisión vehículo-persona,Bicicleta,-39,-68,2022-04-17
+39455,Colisión vehículo-vehículo,Motocicleta,-39,-69,2022-04-09
+39456,Colisión vehículo-vehículo,Camioneta,-39,-70,2022-05-07
+39456,Colisión vehículo-vehículo,Automóvil,-39,-70,2022-05-07
+39456,Colisión vehículo-vehículo,Automóvil,-39,-70,2022-05-07
+39457,Colisión vehículo-objeto,Motocicleta,-37,-70,2022-04-22
+39457,Colisión vehículo-objeto,Motocicleta,-37,-70,2022-04-22
+39460,Vuelco-despistes,Ciclomotor,-50,-72,2022-06-21
+39461,Vuelco-despistes,Camioneta,-50,-69,2022-06-18
+39464,Caída del ocupante,Motocicleta,-30,-67,2022-04-15
+39465,Colisión vehículo-animal,Camioneta,-29,-67,2022-04-16
+39466,Colisión vehículo-vehículo,Motocicleta,-29,-67,2022-04-19
+39467,Colisión vehículo-vehículo,Motocicleta,-31,-67,2022-04-23
+39469,Colisión vehículo-vehículo,Motocicleta,-29,-67,2022-05-03
+39471,Vuelco-despistes,Automóvil,-29,-67,2022-05-25
+39472,Caída del ocupante,Motocicleta,-29,-68,2022-05-14
+39474,Colisión vehículo-vehículo,Motocicleta,-23,-64,2022-06-08
+39476,Colisión vehículo-vehículo,Automóvil,-26,-55,2022-07-20
+39477,Colisión vehículo-vehículo,Motocicleta,-26,-55,2022-07-21
+39479,Colisión vehículo-vehículo,Motocicleta,-33,-61,2022-06-01
+39480,Colisión vehículo-objeto,Motocicleta,-33,-61,2022-06-02
+39481,Colisión vehículo-vehículo,Bicicleta,-33,-61,2022-06-04
+39482,Colisión vehículo-vehículo,Bicicleta,-33,-61,2022-06-07
+39483,Colisión vehículo-vehículo,Motocicleta,-33,-61,2022-06-08
+39484,Colisión vehículo-vehículo,Motocicleta,-33,-61,2022-06-19
+39492,Colisión vehículo-objeto,Motocicleta,-34,-62,2022-06-20
+39494,Vuelco-despistes,Motocicleta,-29,-60,2022-06-10
+39495,Colisión vehículo-objeto,Motocicleta,-29,-60,2022-06-12
+39496,Colisión vehículo-objeto,Motocicleta,-32,-61,2022-06-04
+39500,Colisión vehículo-objeto,Ambulancia,-30,-60,2022-06-19
+39501,Colisión vehículo-persona,Sin vehiculo,-33,-61,2022-06-21
+39501,Colisión vehículo-persona,Sin vehiculo,-33,-61,2022-06-21
+39515,Colisión vehículo-vehículo,Automóvil,-38,-69,2022-07-22
+39517,Colisión vehículo-vehículo,Automóvil,-39,-69,2022-07-29
+39517,Colisión vehículo-vehículo,Automóvil,-39,-69,2022-07-29
+39518,Colisión vehículo-objeto,Automóvil,-37,-65,2022-07-10
+39519,Colisión vehículo-vehículo,Automóvil,-36,-64,2022-07-07
+39520,Colisión vehículo-vehículo,Motocicleta,-37,-64,2022-07-19
+39521,Vuelco-despistes,Camioneta,-37,-64,2022-07-21
+39522,Vuelco-despistes,Camioneta,-36,-64,2022-07-23
+39522,Vuelco-despistes,Camioneta,-36,-64,2022-07-23
+39526,Colisión vehículo-vehículo,Motocicleta,-26,-58,2022-07-07
+39531,Vuelco-despistes,Motocicleta,-26,-58,2022-07-31
+39533,Colisión vehículo-vehículo,Automóvil,-50,-69,2022-07-28
+39534,Vuelco-despistes,Camioneta,-47,-68,2022-05-14
+39537,Colisión vehículo-vehículo,Motocicleta,-27,-55,2022-07-31
+39539,Colisión vehículo-vehículo,Automóvil,-32,-58,2022-07-02
+39540,Vuelco-despistes,Automóvil,-31,-58,2022-07-10
+39540,Vuelco-despistes,Automóvil,-31,-58,2022-07-10
+39541,Colisión vehículo-vehículo,Motocicleta,-33,-59,2022-07-10
+39543,Colisión vehículo-objeto,Automóvil,-33,-60,2022-07-30
+39561,Colisión vehículo-vehículo,Motocicleta,-32,-61,2022-07-30
+39562,Colisión vehículo-vehículo,Motocicleta,-32,-61,2022-07-31
+39564,Colisión vehículo-persona,Sin vehiculo,-33,-61,2022-07-02
+39566,Colisión vehículo-vehículo,Automóvil,-33,-61,2022-07-09
+39567,Colisión vehículo-persona,Sin vehiculo,-33,-61,2022-07-11
+39568,Colisión vehículo-objeto,Motocicleta,-33,-61,2022-07-14
+39569,Colisión vehículo-vehículo,Motocicleta,-33,-61,2022-07-19
+39570,Colisión vehículo-vehículo,Automóvil,-33,-61,2022-07-20
+39570,Colisión vehículo-vehículo,Automóvil,-33,-61,2022-07-20
+39570,Colisión vehículo-vehículo,Automóvil,-33,-61,2022-07-20
+39571,Colisión vehículo-vehículo,Motocicleta,-33,-61,2022-07-31
+39572,Colisión vehículo-vehículo,Motocicleta,-29,-60,2022-07-25
+39574,Colisión vehículo-persona,Sin vehiculo,-30,-60,2022-07-09
+39578,Colisión vehículo-vehículo,Motocicleta,-28,-66,2022-04-08
+39580,Vuelco-despistes,Motocicleta,-31,-68,2022-05-09
+39582,Colisión vehículo-vehículo,Automóvil,-32,-69,2022-05-19
+39583,Vuelco-despistes,Automóvil,-32,-69,2022-05-20
+39584,Colisión vehículo-objeto,Motocicleta,-32,-69,2022-05-02
+39585,Colisión vehículo-vehículo,Bicicleta,-32,-69,2022-05-12
+39586,Colisión vehículo-objeto,Bicicleta,-32,-69,2022-05-27
+39588,Vuelco-despistes,Bicicleta,-31,-67,2022-05-10
+39595,Colisión vehículo-vehículo,Motocicleta,-29,-67,2022-06-05
+39596,Colisión vehículo-persona,Sin vehiculo,-29,-67,2022-06-17
+39597,Colisión vehículo-vehículo,Motocicleta,-29,-67,2022-06-19
+39599,Vuelco-despistes,Camioneta,-29,-68,2022-06-27
+39602,Colisión vehículo-vehículo,Automóvil,-24,-65,2022-03-19
+39605,Colisión vehículo-vehículo,Motocicleta,-24,-64,2022-03-06
+39605,Colisión vehículo-vehículo,Motocicleta,-24,-64,2022-03-06
+39606,Colisión vehículo-persona,Sin vehiculo,-26,-55,2022-07-15
+39610,Colisión vehículo-vehículo,Motocicleta,-27,-55,2022-07-03
+39613,Colisión vehículo-vehículo,Motocicleta,-28,-56,2022-08-27
+39614,Colisión vehículo-vehículo,Motocicleta,-28,-55,2022-08-04
+39617,Colisión vehículo-persona,Automóvil,-43,-65,2022-06-04
+39618,Colisión vehículo-vehículo,Motocicleta,-22,-64,2022-06-17
+39619,Colisión vehículo-vehículo,Bicicleta,-23,-64,2022-06-21
+39623,Colisión vehículo-objeto,Motocicleta,-25,-66,2022-06-27
+39627,Caída del ocupante,Motocicleta,-23,-64,2022-07-10
+39629,Colisión vehículo-objeto,Motocicleta,-25,-65,2022-07-15
+39630,Colisión vehículo-vehículo,Motocicleta,-23,-64,2022-07-15
+39632,Colisión vehículo-persona,Sin vehiculo,-23,-64,2022-07-18
+39633,Vuelco-despistes,Automóvil,-26,-65,2022-07-23
+39634,Colisión vehículo-vehículo,Motocicleta,-25,-65,2022-07-24
+39636,Colisión vehículo-persona,Sin vehiculo,-23,-64,2022-08-03
+39637,Colisión vehículo-vehículo,Camioneta,-25,-64,2022-08-05
+39640,Vuelco-despistes,Tractor,-31,-67,2022-06-23
+39641,Vuelco-despistes,Motocicleta,-32,-69,2022-06-01
+39642,Vuelco-despistes,Motocicleta,-32,-69,2022-06-30
+39643,Colisión vehículo-vehículo,Motocicleta,-32,-69,2022-06-24
+39644,Colisión vehículo-persona,Sin vehiculo,-32,-69,2022-06-30
+39645,Colisión vehículo-vehículo,Motocicleta,-32,-69,2022-06-24
+39645,Colisión vehículo-vehículo,Motocicleta,-32,-69,2022-06-24
+39647,Colisión vehículo-vehículo,Motocicleta,-32,-68,2022-06-25
+39649,Colisión vehículo-vehículo,Motocicleta,-32,-69,2022-06-20
+39659,Colisión vehículo-vehículo,Motocicleta,-25,-58,2022-08-27
+39660,Colisión vehículo-vehículo,Motocicleta,-26,-58,2022-08-28
+39668,Vuelco-despistes,Motocicleta,-28,-68,2022-07-01
+39671,Colisión vehículo-vehículo,Motocicleta,-36,-64,2022-08-31
+39672,Colisión vehículo-vehículo,Automóvil,-36,-64,2022-08-09
+39673,Colisión vehículo-vehículo,Automóvil,-35,-64,2022-08-29
+39673,Colisión vehículo-vehículo,Automóvil,-35,-64,2022-08-29
+39674,Colisión vehículo-vehículo,Camioneta,-36,-64,2022-08-08
+39675,Colisión vehículo-persona,Sin vehiculo,-39,-68,2022-01-05
+39676,Colisión vehículo-vehículo,Motocicleta,-39,-68,2022-01-18
+39677,Vuelco-despistes,Camión,-39,-68,2022-01-24
+39678,Colisión vehículo-persona,Sin vehiculo,-39,-68,2022-01-25
+39679,Colisión vehículo-vehículo,Motocicleta,-39,-68,2022-01-31
+39682,Colisión vehículo-persona,Sin vehiculo,-39,-70,2022-02-02
+39684,Colisión vehículo-vehículo,Automóvil,-40,-71,2022-02-21
+39686,Vuelco-despistes,Automóvil,-37,-71,2022-05-02
+39688,Colisión vehículo-vehículo,Automóvil,-39,-68,2022-05-20
+39689,Colisión vehículo-vehículo,Motocicleta,-39,-68,2022-05-20
+39690,Colisión vehículo-persona,Sin vehiculo,-39,-69,2022-05-01
+39694,Colisión vehículo-vehículo,Camioneta,-47,-68,2022-07-06
+39695,Colisión vehículo-vehículo,Automóvil,-23,-64,2022-08-08
+39696,Colisión vehículo-persona,Sin vehiculo,-22,-64,2022-08-14
+39698,Colisión vehículo-objeto,Motocicleta,-25,-65,2022-08-20
+39702,Colisión vehículo-vehículo,Motocicleta,-25,-65,2022-08-22
+39705,Colisión vehículo-vehículo,Bicicleta,-25,-65,2022-08-24
+39708,Colisión vehículo-persona,Otro,-27,-56,2022-08-20
+39711,Colisión vehículo-vehículo,Motocicleta,-26,-55,2022-09-15
+39712,Sin determinar,Sin determinar,-26,-55,2022-09-26
+39714,Colisión vehículo-persona,Sin vehiculo,-24,-65,2022-03-03
+39727,Colisión vehículo-vehículo,Motocicleta,-32,-61,2022-08-10
+39729,Colisión vehículo-vehículo,Motocicleta,-32,-61,2022-08-22
+39731,Colisión vehículo-persona,Sin vehiculo,-33,-61,2022-08-11
+39732,Vuelco-despistes,Motocicleta,-33,-61,2022-08-14
+39735,Colisión vehículo-vehículo,Bicicleta,-30,-60,2022-08-21
+39736,Colisión vehículo-vehículo,Motocicleta,-30,-60,2022-08-24
+39738,Colisión vehículo-vehículo,Motocicleta,-32,-62,2022-08-07
+39747,Colisión vehículo-persona,Sin vehiculo,-23,-65,2022-04-03
+39748,Colisión vehículo-vehículo,Micro larga distancia,-24,-65,2022-04-26
+39754,Vuelco-despistes,Automóvil,-49,-68,2022-09-17
+39754,Vuelco-despistes,Automóvil,-49,-68,2022-09-17
+39758,Colisión vehículo-persona,Sin determinar,-35,-58,2020-12-08
+39759,Colisión vehículo-vehículo,Sin determinar,-35,-58,2020-12-19
+39760,Colisión vehículo-objeto,Automóvil,-35,-58,2020-12-26
+39761,Colisión vehículo-vehículo,Camioneta,-35,-58,2020-12-30
+39771,Colisión vehículo-vehículo,Motocicleta,-26,-58,2022-09-04
+39773,Vuelco-despistes,Motocicleta,-26,-58,2022-09-11
+39774,Vuelco-despistes,Motocicleta,-26,-58,2022-09-11
+39775,Vuelco-despistes,Motocicleta,-25,-58,2022-09-11
+39778,Colisión vehículo-vehículo,Motocicleta,-26,-58,2022-09-16
+39783,Colisión vehículo-vehículo,Motocicleta,-25,-58,2022-09-25
+39789,Vuelco-despistes,Motocicleta,-39,-68,2022-09-17
+39790,Colisión vehículo-persona,Motocicleta,-39,-68,2022-09-04
+39792,Colisión vehículo-vehículo,Camioneta,-40,-71,2022-09-25
+39793,Vuelco-despistes,Automóvil,-37,-69,2022-09-07
+39795,Colisión vehículo-vehículo,Camioneta,-32,-58,2022-08-05
+39800,Vuelco-despistes,Automóvil,-32,-60,2022-08-06
+39802,Vuelco-despistes,Automóvil,-32,-59,2022-08-28
+39802,Vuelco-despistes,Automóvil,-32,-59,2022-08-28
+39803,Colisión vehículo-vehículo,Camión,-33,-60,2022-08-19
+39803,Colisión vehículo-vehículo,Camión,-33,-60,2022-08-19
+39811,Colisión vehículo-objeto,Motocicleta,-24,-65,2022-06-05
+39813,Colisión vehículo-vehículo,Bicicleta,-24,-65,2022-04-19
+39814,Colisión vehículo-vehículo,Automóvil,-24,-65,2022-04-10
+39814,Colisión vehículo-vehículo,Automóvil,-24,-65,2022-04-10
+39817,Vuelco-despistes,Camioneta,-30,-69,2022-07-03
+39820,Colisión vehículo-vehículo,Camión,-37,-64,2022-09-27
+39823,Vuelco-despistes,Automóvil,-24,-65,2022-05-24
+39825,Colisión vehículo-vehículo,Motocicleta,-32,-61,2022-09-11
+39829,Colisión vehículo-vehículo,Motocicleta,-31,-61,2022-09-26
+39830,Colisión vehículo-persona,Sin vehiculo,-33,-61,2022-09-03
+39833,Colisión vehículo-vehículo,Motocicleta,-33,-62,2022-09-28
+39838,Colisión vehículo-vehículo,Camioneta,-30,-62,2022-09-25
+39848,Colisión vehículo-vehículo,Motocicleta,-33,-61,2022-09-22
+39855,Colisión vehículo-persona,Sin vehiculo,-27,-56,2022-09-21
+39858,Colisión vehículo-objeto,Camioneta,-28,-67,2022-07-25
+39859,Colisión vehículo-vehículo,Motocicleta,-39,-69,2022-08-18
+39860,Colisión vehículo-persona,Sin vehiculo,-46,-68,2022-09-07
+39863,Vuelco-despistes,Automóvil,-32,-60,2022-09-11
+39863,Vuelco-despistes,Automóvil,-32,-60,2022-09-11
+39865,Colisión vehículo-vehículo,Motocicleta,-31,-58,2022-09-02
+39866,Colisión vehículo-vehículo,Bicicleta,-33,-59,2022-09-02
+39867,Colisión vehículo-vehículo,Motocicleta,-32,-60,2022-09-02
+39868,Vuelco-despistes,Camioneta,-31,-60,2022-09-10
+39869,Colisión vehículo-vehículo,Camioneta,-32,-61,2022-09-10
+39872,Colisión vehículo-vehículo,Camioneta,-33,-60,2022-09-08
+39878,Colisión vehículo-vehículo,Motocicleta,-26,-54,2022-09-12
+39880,Colisión vehículo-persona,Sin vehiculo,-33,-66,2022-02-06
+39882,Vuelco-despistes,Automóvil,-33,-65,2022-02-22
+39882,Vuelco-despistes,Automóvil,-33,-65,2022-02-22
+39882,Vuelco-despistes,Automóvil,-33,-65,2022-02-22
+39883,Colisión vehículo-persona,Sin vehiculo,-34,-65,2022-02-27
+39887,Colisión vehículo-persona,Sin vehiculo,-27,-55,2022-10-24
+39888,Vuelco-despistes,Motocicleta,-34,-65,2022-01-09
+39891,Vuelco-despistes,Camioneta,-33,-66,2022-01-29
+39897,Vuelco-despistes,Automóvil,-27,-54,2022-01-03
+39899,Colisión vehículo-persona,Sin vehiculo,-27,-55,2022-10-03
+39900,Colisión vehículo-vehículo,Motocicleta,-27,-54,2022-06-11
